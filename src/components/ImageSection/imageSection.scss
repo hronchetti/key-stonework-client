@@ -1,0 +1,151 @@
+.imageSection__image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 75%;
+}
+
+.imageSection__content {
+  padding: 2.5rem 1.5rem;
+  width: 100%;
+
+  .illustration {
+    margin: 0 0 1.125rem 0;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    opacity: 0;
+    top: 24px;
+  }
+
+  h2 {
+    position: relative;
+    opacity: 0;
+    top: 24px;
+  }
+
+  p {
+    position: relative;
+    opacity: 0;
+    top: 24px;
+  }
+
+  .listBulleted {
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 0 0 0 1.25rem;
+
+    li {
+      list-style-type: disc;
+      margin: 0 0 0.5rem 0;
+    }
+  }
+
+  .listBulleted {
+    position: relative;
+    opacity: 0;
+    top: 24px;
+  }
+
+  .listBulletedTicks {
+    font: 700 1.125rem/2rem 'Source Sans Pro', Arial, sans-serif;
+    color: $core--dark;
+    margin: 0;
+    position: relative;
+    opacity: 0;
+    top: 24px;
+
+    li {
+      line-height: 1.5rem;
+      margin: 0 0 1rem 0;
+      position: relative;
+    }
+
+    li:before {
+      content: '';
+      width: 1.5rem;
+      height: 1.5rem;
+      background: $green;
+      border-radius: 100%;
+      left: -2.5rem;
+      top: 0;
+      position: absolute;
+    }
+
+    li:after {
+      content: '';
+      width: 0.25rem;
+      height: 0.6rem;
+      border-style: solid;
+      border-width: 0 2.25px 2.25px 0;
+      border-color: $green $white $white $green;
+      transform: rotate(45deg);
+      left: -1.9rem;
+      top: 0.3rem;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+
+  .textLink {
+    position: relative;
+    opacity: 0;
+    top: 24px;
+  }
+
+  &.active {
+    .illustration,
+    h2,
+    p,
+    .textLink,
+    .listBulletedTicks,
+    .listBulleted {
+      animation: fadeInFly 0.2s forwards ease-in;
+    }
+
+    h2 {
+      animation-delay: 0.15s;
+    }
+    p {
+      animation-delay: 0.3s;
+    }
+    .textLink,
+    .listBulletedTicks,
+    .listBulleted {
+      animation-delay: 0.45s;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .imageSection__image {
+    width: 50%;
+    padding-bottom: 0;
+  }
+  .imageSection__content {
+    width: 50%;
+    padding: 4rem 3rem;
+  }
+  .imageSection__image--imageRight {
+    order: 2;
+  }
+  .imageSection__content--imageRight {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .imageSection__content {
+    padding: 6rem 4rem;
+
+    .illustration {
+      margin: 0 0 1.5rem 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .imageSection__content {
+    padding: 8rem 6rem;
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustrations/ball-collard-base</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations/ball-collard-base" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(2.000000, 2.000000)" stroke="#CBD8F2" stroke-width="1.5">
+            <circle id="Oval-5" cx="16.0714286" cy="13.9285714" r="13.9285714"></circle>
+            <g id="Group" transform="translate(0.000000, 27.857143)">
+                <rect id="Rectangle-5" x="7.5" y="0" width="17.1428571" height="4.28571429" rx="2.14285714"></rect>
+                <rect id="Rectangle-12" x="0" y="25.7142857" width="32.1428571" height="6.42857143"></rect>
+                <path d="M9.99521635,4.28571429 L22.1476408,4.28571429 C22.1148623,4.79161778 22.0982143,5.30199712 22.0982143,5.81632653 C22.0982143,13.7765717 26.0860091,20.7906333 32.1428571,24.9093137 L32.1428571,25.7142857 L0,25.7142857 L0,24.9093137 C6.05684804,20.7906333 10.0446429,13.7765717 10.0446429,5.81632653 C10.0446429,5.30199712 10.0279948,4.79161778 9.99521635,4.28571429 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

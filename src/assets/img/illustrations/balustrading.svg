@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Illustrations/balustrading</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Illustrations/balustrading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-8" stroke="#CBD8F2" stroke-width="1.5" x="4" y="3" width="56" height="6"></rect>
+        <rect id="Rectangle-8-Copy" stroke="#CBD8F2" stroke-width="1.5" x="4" y="55" width="56" height="6"></rect>
+        <g id="Illustrations/balustrade" transform="translate(6.000000, 9.000000)" stroke="#CBD8F2" stroke-width="1.5">
+            <rect id="Rectangle-9" x="0" y="0" width="14" height="4"></rect>
+            <rect id="Rectangle-9-Copy" x="0" y="42" width="14" height="4"></rect>
+            <path d="M2,4 L12,4 C12,7.3137085 9.76142375,9 7,9 C4.23857625,9 2,7.3137085 2,4 Z" id="Combined-Shape"></path>
+            <path d="M3,9 L11,9 L11,10 C11,11.6568542 9.65685425,13 8,13 L6,13 C4.34314575,13 3,11.6568542 3,10 L3,9 Z" id="Rectangle-10" transform="translate(7.000000, 11.000000) rotate(-180.000000) translate(-7.000000, -11.000000) "></path>
+            <path d="M2,38 L12,38 L12,39 C12,40.6568542 10.6568542,42 9,42 L5,42 C3.34314575,42 2,40.6568542 2,39 L2,38 Z" id="Rectangle-10-Copy" transform="translate(7.000000, 40.000000) rotate(-180.000000) translate(-7.000000, -40.000000) "></path>
+            <path d="M7,37.9697266 C9.76142375,37.9697266 12,36.2834351 12,32.9697266 C12,30.9514184 9.8962981,25.9469401 9.8962981,21.1460206 C9.8962981,20.1670145 9.8962981,17.4536478 9.8962981,13.0059204 L4.11252275,13.0059204 C4.11252275,17.3628153 4.11252275,20.0656503 4.11252275,21.1144253 C4.11252275,25.9275716 2,30.9467613 2,32.9697266 C2,36.2834351 4.23857625,37.9697266 7,37.9697266 Z" id="Oval-4"></path>
+        </g>
+        <g id="Illustrations/balustrade" transform="translate(25.000000, 9.000000)" stroke="#CBD8F2" stroke-width="1.5">
+            <rect id="Rectangle-9" x="0" y="0" width="14" height="4"></rect>
+            <rect id="Rectangle-9-Copy" x="0" y="42" width="14" height="4"></rect>
+            <path d="M2,4 L12,4 C12,7.3137085 9.76142375,9 7,9 C4.23857625,9 2,7.3137085 2,4 Z" id="Combined-Shape"></path>
+            <path d="M3,9 L11,9 L11,10 C11,11.6568542 9.65685425,13 8,13 L6,13 C4.34314575,13 3,11.6568542 3,10 L3,9 Z" id="Rectangle-10" transform="translate(7.000000, 11.000000) rotate(-180.000000) translate(-7.000000, -11.000000) "></path>
+            <path d="M2,38 L12,38 L12,39 C12,40.6568542 10.6568542,42 9,42 L5,42 C3.34314575,42 2,40.6568542 2,39 L2,38 Z" id="Rectangle-10-Copy" transform="translate(7.000000, 40.000000) rotate(-180.000000) translate(-7.000000, -40.000000) "></path>
+            <path d="M7,37.9697266 C9.76142375,37.9697266 12,36.2834351 12,32.9697266 C12,30.9514184 9.8962981,25.9469401 9.8962981,21.1460206 C9.8962981,20.1670145 9.8962981,17.4536478 9.8962981,13.0059204 L4.11252275,13.0059204 C4.11252275,17.3628153 4.11252275,20.0656503 4.11252275,21.1144253 C4.11252275,25.9275716 2,30.9467613 2,32.9697266 C2,36.2834351 4.23857625,37.9697266 7,37.9697266 Z" id="Oval-4"></path>
+        </g>
+        <g id="Illustrations/balustrade" transform="translate(44.000000, 9.000000)" stroke="#CBD8F2" stroke-width="1.5">
+            <rect id="Rectangle-9" x="0" y="0" width="14" height="4"></rect>
+            <rect id="Rectangle-9-Copy" x="0" y="42" width="14" height="4"></rect>
+            <path d="M2,4 L12,4 C12,7.3137085 9.76142375,9 7,9 C4.23857625,9 2,7.3137085 2,4 Z" id="Combined-Shape"></path>
+            <path d="M3,9 L11,9 L11,10 C11,11.6568542 9.65685425,13 8,13 L6,13 C4.34314575,13 3,11.6568542 3,10 L3,9 Z" id="Rectangle-10" transform="translate(7.000000, 11.000000) rotate(-180.000000) translate(-7.000000, -11.000000) "></path>
+            <path d="M2,38 L12,38 L12,39 C12,40.6568542 10.6568542,42 9,42 L5,42 C3.34314575,42 2,40.6568542 2,39 L2,38 Z" id="Rectangle-10-Copy" transform="translate(7.000000, 40.000000) rotate(-180.000000) translate(-7.000000, -40.000000) "></path>
+            <path d="M7,37.9697266 C9.76142375,37.9697266 12,36.2834351 12,32.9697266 C12,30.9514184 9.8962981,25.9469401 9.8962981,21.1460206 C9.8962981,20.1670145 9.8962981,17.4536478 9.8962981,13.0059204 L4.11252275,13.0059204 C4.11252275,17.3628153 4.11252275,20.0656503 4.11252275,21.1144253 C4.11252275,25.9275716 2,30.9467613 2,32.9697266 C2,36.2834351 4.23857625,37.9697266 7,37.9697266 Z" id="Oval-4"></path>
+        </g>
+    </g>
+</svg>

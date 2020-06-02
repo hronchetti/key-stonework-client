@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="535px" viewBox="0 0 600 535" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>quions/Q300-plan</title>
+    <desc>Created with Sketch.</desc>
+    <g id="quions/Q300-plan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F9FF" x="0" y="0" width="600" height="535"></rect>
+        <g id="Group-2" transform="translate(113.000000, 142.000000)">
+            <polygon id="Stroke-1" stroke="#CBD8F2" fill="#FFFFFF" points="67.5 185.06 307.02 185.06 307.02 68 251.52 68 251.52 129.5 67.5 129.5"></polygon>
+            <g id="Group" transform="translate(250.000000, 0.000000)">
+                <text id="102mm" transform="translate(28.500000, 11.000000) rotate(-360.000000) translate(-28.500000, -11.000000) " font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" fill="#093169">
+                    <tspan x="0.467" y="17">102mm</tspan>
+                </text>
+                <polyline id="Rectangle-Copy-3" stroke="#CBD8F2" transform="translate(28.500000, 44.500000) rotate(-360.000000) translate(-28.500000, -44.500000) " points="1.09166667 52 1 37 56 37 56 52"></polyline>
+            </g>
+            <text id="440mm" transform="translate(187.500000, 241.000000) rotate(-360.000000) translate(-187.500000, -241.000000) " font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" fill="#093169">
+                <tspan x="159.467" y="247">440mm</tspan>
+            </text>
+            <polyline id="Rectangle-Copy-3" stroke="#CBD8F2" transform="translate(187.500000, 207.500000) rotate(-540.000000) translate(-187.500000, -207.500000) " points="68.3983333 215 68 200 307 200 307 215"></polyline>
+            <text id="102mm" transform="translate(11.500000, 156.500000) rotate(-450.000000) translate(-11.500000, -156.500000) " font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" fill="#093169">
+                <tspan x="-16.533" y="162.5">102mm</tspan>
+            </text>
+            <polyline id="Rectangle-Copy-3" stroke="#CBD8F2" transform="translate(45.000000, 156.500000) rotate(-450.000000) translate(-45.000000, -156.500000) " points="17.5916667 164 17.5 149 72.5 149 72.5 164"></polyline>
+            <text id="215mm" transform="translate(362.520000, 126.000000) rotate(-630.000000) translate(-362.520000, -126.000000) " font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" fill="#093169">
+                <tspan x="334.487" y="132">215mm</tspan>
+            </text>
+            <polyline id="Rectangle-Copy-3" stroke="#CBD8F2" transform="translate(329.020000, 126.500000) rotate(-630.000000) translate(-329.020000, -126.500000) " points="270.715 134 270.52 119 387.52 119 387.52 134"></polyline>
+        </g>
+    </g>
+</svg>

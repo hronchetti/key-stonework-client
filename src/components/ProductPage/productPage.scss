@@ -1,0 +1,35 @@
+.product {
+  padding: 2rem 0;
+}
+.product__features {
+  width: 100%;
+  order: 1;
+
+  .inner {
+    position: relative;
+    opacity: 0;
+    top: 24px;
+
+    &.active {
+      animation: fadeInFly 0.2s forwards ease-in;
+      animation-delay: 0.15s;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .product__features {
+    padding: 0 0 0 2rem;
+    width: calc(100% - 14rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .product {
+    padding: 3rem 0;
+  }
+  .product__features {
+    padding: 0 0 0 3rem;
+    width: calc(100% - 20rem);
+  }
+}

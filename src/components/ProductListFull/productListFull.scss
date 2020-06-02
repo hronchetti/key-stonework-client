@@ -1,0 +1,110 @@
+.productList--full {
+  padding: 2rem 0;
+
+  .inner {
+    width: 100%;
+    @include flexJustifyLeft;
+
+    .productCard {
+      background: $white;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      width: 100%;
+      margin: 1.5rem 0 0 0;
+      position: relative;
+      opacity: 0;
+      @include softShadow;
+
+      .illustration {
+        margin: 0 0 1.125rem 0;
+        width: 4.5rem;
+        height: 4.5rem;
+      }
+    }
+  }
+
+  &.active {
+    .inner {
+      @for $i from 1 to 13 {
+        .productCard:nth-child(#{$i}) {
+          animation: fadeIn 0.15s forwards ease-in;
+          animation-delay: $i * 0.15s;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .productList--full {
+    padding: 3rem 0;
+
+    .inner {
+      .productCard {
+        width: calc((100% - 1.5rem) / 2);
+        margin: 1.5rem 1.5rem 0 0;
+        padding-bottom: 4rem;
+
+        &:hover,
+        &:active,
+        &:focus {
+          @include hardShadow;
+          transition: box-shadow 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+          .productLink {
+            text-decoration: none;
+          }
+        }
+
+        &:nth-child(2n) {
+          margin: 1.5rem 0 0 0;
+        }
+
+        .productLink {
+          position: absolute;
+          bottom: 2rem;
+          left: 2rem;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .productList--full {
+    .inner {
+      .productCard {
+        width: calc((100% - 3rem) / 3);
+
+        &:nth-child(2n) {
+          margin: 1.5rem 1.5rem 0 0;
+        }
+        &:nth-child(3n) {
+          margin: 1.5rem 0 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .productList--full {
+    padding: 5rem 0;
+
+    .inner {
+      padding: 1rem 0 0 0;
+
+      .productCard {
+        width: calc((100% - 4.5rem) / 4);
+
+        &:nth-child(3n) {
+          margin: 1.5rem 1.5rem 0 0;
+        }
+        &:nth-child(4n) {
+          margin: 1.5rem 0 0 0;
+        }
+      }
+    }
+  }
+}

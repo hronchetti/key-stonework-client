@@ -1,0 +1,10 @@
+.textLink {
+  color: $blue;
+  font-size: 1.125rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.textLink:hover {
+  text-decoration: none;
+}

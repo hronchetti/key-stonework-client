@@ -1,0 +1,63 @@
+.uploadedFile {
+  width: 100%;
+  background-color: $core--superLight;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin: 0 0 1rem 0;
+  @include flexSpaceBetween;
+
+  span {
+    padding: 0.25rem 0;
+    color: $core--dark;
+    font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+  }
+
+  button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    transition: background-color 0.2s ease-in;
+    cursor: pointer;
+    position: relative;
+
+    &:focus,
+    &:hover {
+      outline: none;
+      background-color: $core__12;
+
+      &:before,
+      &:after {
+        background-color: #becbdd;
+      }
+    }
+
+    &:before {
+      content: '';
+      width: 1rem;
+      display: block;
+      background-color: $core--light;
+      height: 0.125rem;
+      transform: rotate(45deg);
+      position: absolute;
+      top: 1rem;
+      left: 0.5rem;
+      transition: background-color 0.2s ease-in;
+    }
+    &:after {
+      content: '';
+      width: 1rem;
+      display: block;
+      background-color: $core--light;
+      height: 0.125rem;
+      transform: rotate(-45deg);
+      position: absolute;
+      top: 1rem;
+      left: 0.5rem;
+      transition: background-color 0.2s ease-in;
+    }
+  }
+}

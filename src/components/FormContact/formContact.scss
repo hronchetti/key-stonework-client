@@ -1,0 +1,20 @@
+.formContact {
+  background: $white;
+  @include softShadow;
+  border-radius: 0.5rem;
+  padding: 1.75rem 2rem 2rem 2rem;
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: 1fr;
+  margin: 0 0 2rem 0;
+}
+
+@media screen and (min-width: 960px) {
+  .formContact {
+    grid-template-columns: 1fr 1fr;
+    .input:first-of-type {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+}

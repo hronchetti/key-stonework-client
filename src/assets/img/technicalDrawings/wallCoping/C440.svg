@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="282px" viewBox="0 0 600 282" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>wallCoping/C440</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,19.0561206 L204.208696,0 L412,19.0561206 L412,35 L412,35 C398.694376,36.7985046 391.421022,41.4651712 391.421022,51 C391.421022,59.9403166 384.460916,67.2381741 372.624266,69.5961091 L372.623025,78 L361.623025,78 C361.623025,75.790861 359.832164,74 357.623025,74 C355.413886,74 353.623025,75.790861 353.623025,78 L59.6230249,78 C59.6230249,75.790861 57.8321639,74 55.6230249,74 C53.4138859,74 51.6230249,75.790861 51.6230249,78 L40.6230249,78 L40.6230305,69.6217309 C28.5893347,67.2914266 20.5759287,59.9729487 20.5759287,51 C20.5759287,41.574767 13.4717967,36.9064274 0.45642062,35.0631572 L-9.09494702e-13,35 L0,19.0561206 Z" id="path-1"></path>
+    </defs>
+    <g id="wallCoping/C440" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F9FF" x="0" y="0" width="600" height="282"></rect>
+        <g id="Group" transform="translate(94.000000, 102.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)">
+                <g transform="translate(-44.000000, -128.000000)">
+                    <g id="Group-10-Copy">
+                        <g id="Group-9-Copy-6" transform="translate(0.000000, 150.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy" transform="translate(0.000000, 25.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-7" transform="translate(0.000000, 175.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-2" transform="translate(0.000000, 50.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-8" transform="translate(0.000000, 200.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-3" transform="translate(0.000000, 75.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-9" transform="translate(0.000000, 225.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-4" transform="translate(0.000000, 100.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-5" transform="translate(0.000000, 125.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-10-Copy-2" transform="translate(250.000000, 0.000000)">
+                        <g id="Group-9-Copy-6" transform="translate(0.000000, 150.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy" transform="translate(0.000000, 25.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-7" transform="translate(0.000000, 175.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-2" transform="translate(0.000000, 50.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-8" transform="translate(0.000000, 200.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-3" transform="translate(0.000000, 75.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-9" transform="translate(0.000000, 225.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-4" transform="translate(0.000000, 100.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                        <g id="Group-9-Copy-5" transform="translate(0.000000, 125.000000)" stroke="#CBD8F2">
+                            <g id="Slice-Pattern/1">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(25.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(50.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(75.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(100.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(125.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(150.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(175.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(200.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                            <g id="Slice-Pattern/1" transform="translate(225.000000, 0.000000)">
+                                <path d="M0,25 L25,0" id="Line-6" stroke-dasharray="6"></path>
+                                <path d="M-12.5,25 L12.5,0" id="Line-6-Copy-2"></path>
+                                <path d="M12.5,25 L37.5,0" id="Line-6-Copy-3"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path d="M94,121.056121 L298.208696,102 L506,121.056121 L506,137 L506,137 C492.694376,138.798505 485.421022,143.465171 485.421022,153 C485.421022,161.940317 478.460916,169.238174 466.624266,171.596109 L466.623025,180 L455.623025,180 C455.623025,177.790861 453.832164,176 451.623025,176 C449.413886,176 447.623025,177.790861 447.623025,180 L153.623025,180 C153.623025,177.790861 151.832164,176 149.623025,176 C147.413886,176 145.623025,177.790861 145.623025,180 L134.623025,180 L134.623031,171.621731 C122.589335,169.291427 114.575929,161.972949 114.575929,153 C114.575929,143.574767 107.471797,138.906427 94.4564206,137.063157 L94,137 L94,121.056121 Z" id="Combined-Shape-Copy" stroke="#CBD8F2"></path>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(529.000000, 141.500000) rotate(-270.000000) translate(-529.000000, -141.500000) " points="490.13 149 490 134 568 134 568 149"></polyline>
+        <path d="M542.739,141.186 C543.022335,141.186 543.308499,141.103834 543.5975,140.9395 C543.886501,140.775166 544.138666,140.500335 544.354,140.115 C544.240666,139.264996 544.028168,138.678502 543.7165,138.3555 C543.404832,138.032498 543.056335,137.871 542.671,137.871 C542.308332,137.871 541.991001,138.009832 541.719,138.2875 C541.446999,138.565168 541.311,139.009997 541.311,139.622 C541.311,140.200003 541.446999,140.605166 541.719,140.8375 C541.991001,141.069834 542.330998,141.186 542.739,141.186 Z M542.348,147.204 C541.633996,147.204 541.013503,147.073668 540.4865,146.813 C539.959497,146.552332 539.526002,146.252002 539.186,145.912 L540.512,144.416 C540.693334,144.620001 540.936998,144.798499 541.243,144.9515 C541.549002,145.104501 541.860665,145.181 542.178,145.181 C542.484002,145.181 542.767332,145.124334 543.028,145.011 C543.288668,144.897666 543.518166,144.707835 543.7165,144.4415 C543.914834,144.175165 544.073499,143.829502 544.1925,143.4045 C544.311501,142.979498 544.382333,142.44967 544.405,141.815 C544.268999,141.996334 544.110334,142.157833 543.929,142.2995 C543.747666,142.441167 543.560668,142.560166 543.368,142.6565 C543.175332,142.752834 542.982668,142.8265 542.79,142.8775 C542.597332,142.9285 542.416001,142.954 542.246,142.954 C541.781331,142.954 541.353502,142.886001 540.9625,142.75 C540.571498,142.613999 540.234335,142.410001 539.951,142.138 C539.667665,141.865999 539.443834,141.520335 539.2795,141.101 C539.115166,140.681665 539.033,140.18867 539.033,139.622 C539.033,139.066664 539.129332,138.565169 539.322,138.1175 C539.514668,137.669831 539.772498,137.287335 540.0955,136.97 C540.418502,136.652665 540.798164,136.411834 541.2345,136.2475 C541.670836,136.083166 542.132664,136.001 542.62,136.001 C543.141336,136.001 543.648498,136.102999 544.1415,136.307 C544.634502,136.511001 545.070831,136.828331 545.4505,137.259 C545.830169,137.689669 546.136166,138.242163 546.3685,138.9165 C546.600834,139.590837 546.717,140.403995 546.717,141.356 C546.717,142.364672 546.595168,143.23733 546.3515,143.974 C546.107832,144.71067 545.784835,145.316998 545.3825,145.793 C544.980165,146.269002 544.515503,146.623166 543.9885,146.8555 C543.461497,147.087834 542.914669,147.204 542.348,147.204 Z M552.208,147.204 C551.686664,147.204 551.179502,147.102001 550.6865,146.898 C550.193498,146.693999 549.757169,146.376669 549.3775,145.946 C548.997831,145.515331 548.694668,144.962837 548.468,144.2885 C548.241332,143.614163 548.128,142.801005 548.128,141.849 C548.128,140.840328 548.249832,139.96767 548.4935,139.231 C548.737168,138.49433 549.060165,137.888002 549.4625,137.412 C549.864835,136.935998 550.329497,136.581834 550.8565,136.3495 C551.383503,136.117166 551.93033,136.001 552.497,136.001 C553.211004,136.001 553.828664,136.128499 554.35,136.3835 C554.871336,136.638501 555.301998,136.941665 555.642,137.293 L554.333,138.789 C554.140332,138.584999 553.891002,138.406501 553.585,138.2535 C553.278998,138.100499 552.967335,138.024 552.65,138.024 C552.355332,138.024 552.077668,138.080666 551.817,138.194 C551.556332,138.307334 551.326834,138.497165 551.1285,138.7635 C550.930166,139.029835 550.768667,139.378331 550.644,139.809 C550.519333,140.239669 550.445667,140.766664 550.423,141.39 C550.559001,141.208666 550.717666,141.047167 550.899,140.9055 C551.080334,140.763833 551.267332,140.644834 551.46,140.5485 C551.652668,140.452166 551.845332,140.3785 552.038,140.3275 C552.230668,140.2765 552.411999,140.251 552.582,140.251 C553.046669,140.251 553.474498,140.318999 553.8655,140.455 C554.256502,140.591001 554.596499,140.794999 554.8855,141.067 C555.174501,141.339001 555.398333,141.684665 555.557,142.104 C555.715667,142.523335 555.795,143.016331 555.795,143.583 C555.795,144.149669 555.698668,144.653998 555.506,145.096 C555.313332,145.538002 555.055502,145.917665 554.7325,146.235 C554.409498,146.552335 554.029836,146.793166 553.5935,146.9575 C553.157164,147.121834 552.695336,147.204 552.208,147.204 Z M552.157,145.334 C552.531002,145.334 552.851165,145.195168 553.1175,144.9175 C553.383835,144.639832 553.517,144.195003 553.517,143.583 C553.517,143.004997 553.383835,142.599834 553.1175,142.3675 C552.851165,142.135166 552.514002,142.019 552.106,142.019 C551.822665,142.019 551.536501,142.101166 551.2475,142.2655 C550.958499,142.429834 550.700668,142.704665 550.474,143.09 C550.530667,143.520669 550.615666,143.877665 550.729,144.161 C550.842334,144.444335 550.972666,144.673832 551.12,144.8495 C551.267334,145.025168 551.428832,145.149833 551.6045,145.2235 C551.780168,145.297167 551.964332,145.334 552.157,145.334 Z M557.512,147 L557.512,138.568 L559.552,138.568 L559.722,139.656 L559.79,139.656 C560.141335,139.304665 560.515331,139.001501 560.912,138.7465 C561.308669,138.491499 561.784664,138.364 562.34,138.364 C562.94067,138.364 563.425165,138.485832 563.7935,138.7295 C564.161835,138.973168 564.453666,139.321664 564.669,139.775 C565.043002,139.389665 565.436831,139.058168 565.8505,138.7805 C566.264169,138.502832 566.754331,138.364 567.321,138.364 C568.227671,138.364 568.893498,138.667164 569.3185,139.2735 C569.743502,139.879836 569.956,140.709995 569.956,141.764 L569.956,147 L567.457,147 L567.457,142.087 C567.457,141.474997 567.374834,141.055668 567.2105,140.829 C567.046166,140.602332 566.782668,140.489 566.42,140.489 C566.000665,140.489 565.519003,140.760997 564.975,141.305 L564.975,147 L562.476,147 L562.476,142.087 C562.476,141.474997 562.393834,141.055668 562.2295,140.829 C562.065166,140.602332 561.801668,140.489 561.439,140.489 C561.008331,140.489 560.532336,140.760997 560.011,141.305 L560.011,147 L557.512,147 Z M572.081,147 L572.081,138.568 L574.121,138.568 L574.291,139.656 L574.359,139.656 C574.710335,139.304665 575.084331,139.001501 575.481,138.7465 C575.877669,138.491499 576.353664,138.364 576.909,138.364 C577.50967,138.364 577.994165,138.485832 578.3625,138.7295 C578.730835,138.973168 579.022666,139.321664 579.238,139.775 C579.612002,139.389665 580.005831,139.058168 580.4195,138.7805 C580.833169,138.502832 581.32333,138.364 581.89,138.364 C582.796671,138.364 583.462498,138.667164 583.8875,139.2735 C584.312502,139.879836 584.525,140.709995 584.525,141.764 L584.525,147 L582.026,147 L582.026,142.087 C582.026,141.474997 581.943834,141.055668 581.7795,140.829 C581.615166,140.602332 581.351668,140.489 580.989,140.489 C580.569665,140.489 580.088003,140.760997 579.544,141.305 L579.544,147 L577.045,147 L577.045,142.087 C577.045,141.474997 576.962834,141.055668 576.7985,140.829 C576.634166,140.602332 576.370668,140.489 576.008,140.489 C575.577331,140.489 575.101336,140.760997 574.58,141.305 L574.58,147 L572.081,147 Z" id="96mm" fill="#093169" fill-rule="nonzero" transform="translate(561.779000, 141.602500) rotate(-270.000000) translate(-561.779000, -141.602500) "></path>
+        <polyline id="Rectangle-Copy-4" stroke="#CBD8F2" transform="translate(300.000000, 202.500000) rotate(-180.000000) translate(-300.000000, -202.500000) " points="134.553333 210 134 195 466 195 466 210"></polyline>
+        <polyline id="Rectangle-Copy-5" stroke="#CBD8F2" points="94.6866667 87 94 72 506 72 506 87"></polyline>
+        <path d="M277.465,242 L277.465,239.416 L272.79,239.416 L272.79,237.699 L276.734,231.205 L279.794,231.205 L279.794,237.512 L281.035,237.512 L281.035,239.416 L279.794,239.416 L279.794,242 L277.465,242 Z M275.187,237.512 L277.465,237.512 L277.465,235.761 C277.465,235.479932 277.472253,235.164414 277.48676,234.814441 L277.5398,233.78356 C277.548867,233.62852 277.557933,233.483001 277.567,233.347 L277.499,233.347 L277.074,234.248 L277.074,234.248 C276.926666,234.554002 276.773667,234.859998 276.615,235.166 L275.187,237.512 Z M285.931,242.204 C285.352997,242.204 284.826002,242.082168 284.35,241.8385 C283.873998,241.594832 283.468835,241.235002 283.1345,240.759 C282.800165,240.282998 282.539501,239.69367 282.3525,238.991 C282.165499,238.28833 282.072,237.478005 282.072,236.56 C282.072,235.641995 282.165499,234.837337 282.3525,234.146 C282.539501,233.454663 282.800165,232.873836 283.1345,232.4035 C283.468835,231.933164 283.873998,231.581834 284.35,231.3495 C284.826002,231.117166 285.352997,231.001 285.931,231.001 C286.509003,231.001 287.035998,231.117166 287.512,231.3495 C287.988002,231.581834 288.393165,231.933164 288.7275,232.4035 C289.061835,232.873836 289.322499,233.454663 289.5095,234.146 C289.696501,234.837337 289.79,235.641995 289.79,236.56 C289.79,237.478005 289.696501,238.28833 289.5095,238.991 C289.322499,239.69367 289.061835,240.282998 288.7275,240.759 C288.393165,241.235002 287.988002,241.594832 287.512,241.8385 C287.035998,242.082168 286.509003,242.204 285.931,242.204 Z M285.931,240.266 C286.146334,240.266 286.344666,240.212167 286.526,240.1045 C286.707334,239.996833 286.865999,239.801335 287.002,239.518 C287.138001,239.234665 287.242833,238.855002 287.3165,238.379 C287.390167,237.902998 287.427,237.29667 287.427,236.56 C287.427,235.82333 287.390167,235.219836 287.3165,234.7495 C287.242833,234.279164 287.138001,233.910835 287.002,233.6445 C286.865999,233.378165 286.707334,233.194001 286.526,233.092 C286.344666,232.989999 286.146334,232.939 285.931,232.939 C285.726999,232.939 285.534334,232.989999 285.353,233.092 C285.171666,233.194001 285.013001,233.378165 284.877,233.6445 C284.740999,233.910835 284.633334,234.279164 284.554,234.7495 C284.474666,235.219836 284.435,235.82333 284.435,236.56 C284.435,237.29667 284.474666,237.902998 284.554,238.379 C284.633334,238.855002 284.740999,239.234665 284.877,239.518 C285.013001,239.801335 285.171666,239.996833 285.353,240.1045 C285.534334,240.212167 285.726999,240.266 285.931,240.266 Z M295.417,242 L295.417,239.416 L290.742,239.416 L290.742,237.699 L294.686,231.205 L297.746,231.205 L297.746,237.512 L298.987,237.512 L298.987,239.416 L297.746,239.416 L297.746,242 L295.417,242 Z M293.139,237.512 L295.417,237.512 L295.417,235.761 C295.417,235.479932 295.424253,235.164414 295.43876,234.814441 L295.4918,233.78356 C295.500867,233.62852 295.509933,233.483001 295.519,233.347 L295.451,233.347 L295.026,234.248 L295.026,234.248 C294.878666,234.554002 294.725667,234.859998 294.567,235.166 L293.139,237.512 Z M300.5,242 L300.5,233.568 L302.54,233.568 L302.71,234.656 L302.778,234.656 C303.129335,234.304665 303.503331,234.001501 303.9,233.7465 C304.296669,233.491499 304.772664,233.364 305.328,233.364 C305.92867,233.364 306.413165,233.485832 306.7815,233.7295 C307.149835,233.973168 307.441666,234.321664 307.657,234.775 C308.031002,234.389665 308.424831,234.058168 308.8385,233.7805 C309.252169,233.502832 309.74233,233.364 310.309,233.364 C311.215671,233.364 311.881498,233.667164 312.3065,234.2735 C312.731502,234.879836 312.944,235.709995 312.944,236.764 L312.944,242 L310.445,242 L310.445,237.087 C310.445,236.474997 310.362834,236.055668 310.1985,235.829 C310.034166,235.602332 309.770668,235.489 309.408,235.489 C308.988665,235.489 308.507003,235.760997 307.963,236.305 L307.963,242 L305.464,242 L305.464,237.087 C305.464,236.474997 305.381834,236.055668 305.2175,235.829 C305.053166,235.602332 304.789668,235.489 304.427,235.489 C303.996331,235.489 303.520336,235.760997 302.999,236.305 L302.999,242 L300.5,242 Z M315.069,242 L315.069,233.568 L317.109,233.568 L317.279,234.656 L317.347,234.656 C317.698335,234.304665 318.072331,234.001501 318.469,233.7465 C318.865669,233.491499 319.341664,233.364 319.897,233.364 C320.49767,233.364 320.982165,233.485832 321.3505,233.7295 C321.718835,233.973168 322.010666,234.321664 322.226,234.775 C322.600002,234.389665 322.993831,234.058168 323.4075,233.7805 C323.821169,233.502832 324.31133,233.364 324.878,233.364 C325.784671,233.364 326.450498,233.667164 326.8755,234.2735 C327.300502,234.879836 327.513,235.709995 327.513,236.764 L327.513,242 L325.014,242 L325.014,237.087 C325.014,236.474997 324.931834,236.055668 324.7675,235.829 C324.603166,235.602332 324.339668,235.489 323.977,235.489 C323.557665,235.489 323.076003,235.760997 322.532,236.305 L322.532,242 L320.033,242 L320.033,237.087 C320.033,236.474997 319.950834,236.055668 319.7865,235.829 C319.622166,235.602332 319.358668,235.489 318.996,235.489 C318.565331,235.489 318.089336,235.760997 317.568,236.305 L317.568,242 L315.069,242 Z" id="404mm" fill="#093169" fill-rule="nonzero"></path>
+        <path d="M276.666,52.204 C275.781996,52.204 275.034003,52.0595014 274.422,51.7705 C273.809997,51.4814986 273.288669,51.1216688 272.858,50.691 L273.98,49.11 C274.308668,49.4046681 274.662831,49.6568323 275.0425,49.8665 C275.422169,50.0761677 275.844331,50.181 276.309,50.181 C276.864336,50.181 277.306332,50.0393348 277.635,49.756 C277.963668,49.4726652 278.128,49.0533361 278.128,48.498 C278.128,47.9539973 277.972168,47.5403347 277.6605,47.257 C277.348832,46.9736652 276.938003,46.832 276.428,46.832 C276.269333,46.832 276.127667,46.8404999 276.003,46.8575 C275.878333,46.8745001 275.756501,46.9056664 275.6375,46.951 C275.518499,46.9963336 275.393834,47.0529997 275.2635,47.121 C275.133166,47.1890003 274.988667,47.2739995 274.83,47.376 L273.708,46.662 L274.014,41.205 L280.134,41.205 L280.134,43.313 L276.173,43.313 L275.986,45.336 C276.190001,45.2453329 276.385499,45.1801669 276.5725,45.1405 C276.759501,45.1008331 276.966332,45.081 277.193,45.081 C277.657669,45.081 278.096831,45.1489993 278.5105,45.285 C278.924169,45.4210007 279.289665,45.6249986 279.607,45.897 C279.924335,46.1690014 280.173666,46.5146646 280.355,46.934 C280.536334,47.3533354 280.627,47.8519971 280.627,48.43 C280.627,49.0306697 280.519334,49.563331 280.304,50.028 C280.088666,50.492669 279.799668,50.8864984 279.437,51.2095 C279.074332,51.5325016 278.652169,51.7789992 278.1705,51.949 C277.688831,52.1190008 277.187336,52.204 276.666,52.204 Z M285.931,52.204 C285.352997,52.204 284.826002,52.0821679 284.35,51.8385 C283.873998,51.5948321 283.468835,51.2350024 283.1345,50.759 C282.800165,50.2829976 282.539501,49.6936702 282.3525,48.991 C282.165499,48.2883298 282.072,47.4780046 282.072,46.56 C282.072,45.6419954 282.165499,44.8373368 282.3525,44.146 C282.539501,43.4546632 282.800165,42.8738357 283.1345,42.4035 C283.468835,41.9331643 283.873998,41.5818345 284.35,41.3495 C284.826002,41.1171655 285.352997,41.001 285.931,41.001 C286.509003,41.001 287.035998,41.1171655 287.512,41.3495 C287.988002,41.5818345 288.393165,41.9331643 288.7275,42.4035 C289.061835,42.8738357 289.322499,43.4546632 289.5095,44.146 C289.696501,44.8373368 289.79,45.6419954 289.79,46.56 C289.79,47.4780046 289.696501,48.2883298 289.5095,48.991 C289.322499,49.6936702 289.061835,50.2829976 288.7275,50.759 C288.393165,51.2350024 287.988002,51.5948321 287.512,51.8385 C287.035998,52.0821679 286.509003,52.204 285.931,52.204 Z M285.931,50.266 C286.146334,50.266 286.344666,50.2121672 286.526,50.1045 C286.707334,49.9968328 286.865999,49.8013347 287.002,49.518 C287.138001,49.2346652 287.242833,48.8550024 287.3165,48.379 C287.390167,47.9029976 287.427,47.2966703 287.427,46.56 C287.427,45.8233296 287.390167,45.2198357 287.3165,44.7495 C287.242833,44.2791643 287.138001,43.9108347 287.002,43.6445 C286.865999,43.3781653 286.707334,43.1940005 286.526,43.092 C286.344666,42.9899995 286.146334,42.939 285.931,42.939 C285.726999,42.939 285.534334,42.9899995 285.353,43.092 C285.171666,43.1940005 285.013001,43.3781653 284.877,43.6445 C284.740999,43.9108347 284.633334,44.2791643 284.554,44.7495 C284.474666,45.2198357 284.435,45.8233296 284.435,46.56 C284.435,47.2966703 284.474666,47.9029976 284.554,48.379 C284.633334,48.8550024 284.740999,49.2346652 284.877,49.518 C285.013001,49.8013347 285.171666,49.9968328 285.353,50.1045 C285.534334,50.2121672 285.726999,50.266 285.931,50.266 Z M295.417,52 L295.417,49.416 L290.742,49.416 L290.742,47.699 L294.686,41.205 L297.746,41.205 L297.746,47.512 L298.987,47.512 L298.987,49.416 L297.746,49.416 L297.746,52 L295.417,52 Z M293.139,47.512 L295.417,47.512 L295.417,45.761 C295.417,45.4799319 295.424253,45.1644142 295.43876,44.8144407 L295.4918,43.7835601 C295.500867,43.6285204 295.509933,43.4830007 295.519,43.347 L295.451,43.347 L295.026,44.248 L295.026,44.248 C294.878666,44.5540015 294.725667,44.8599985 294.567,45.166 L293.139,47.512 Z M300.5,52 L300.5,43.568 L302.54,43.568 L302.71,44.656 L302.778,44.656 C303.129335,44.3046649 303.503331,44.0015013 303.9,43.7465 C304.296669,43.4914987 304.772664,43.364 305.328,43.364 C305.92867,43.364 306.413165,43.4858321 306.7815,43.7295 C307.149835,43.9731679 307.441666,44.3216644 307.657,44.775 C308.031002,44.3896647 308.424831,44.0581681 308.8385,43.7805 C309.252169,43.5028319 309.74233,43.364 310.309,43.364 C311.215671,43.364 311.881498,43.6671636 312.3065,44.2735 C312.731502,44.8798364 312.944,45.7099947 312.944,46.764 L312.944,52 L310.445,52 L310.445,47.087 C310.445,46.4749969 310.362834,46.0556678 310.1985,45.829 C310.034166,45.6023322 309.770668,45.489 309.408,45.489 C308.988665,45.489 308.507003,45.7609973 307.963,46.305 L307.963,52 L305.464,52 L305.464,47.087 C305.464,46.4749969 305.381834,46.0556678 305.2175,45.829 C305.053166,45.6023322 304.789668,45.489 304.427,45.489 C303.996331,45.489 303.520336,45.7609973 302.999,46.305 L302.999,52 L300.5,52 Z M315.069,52 L315.069,43.568 L317.109,43.568 L317.279,44.656 L317.347,44.656 C317.698335,44.3046649 318.072331,44.0015013 318.469,43.7465 C318.865669,43.4914987 319.341664,43.364 319.897,43.364 C320.49767,43.364 320.982165,43.4858321 321.3505,43.7295 C321.718835,43.9731679 322.010666,44.3216644 322.226,44.775 C322.600002,44.3896647 322.993831,44.0581681 323.4075,43.7805 C323.821169,43.5028319 324.31133,43.364 324.878,43.364 C325.784671,43.364 326.450498,43.6671636 326.8755,44.2735 C327.300502,44.8798364 327.513,45.7099947 327.513,46.764 L327.513,52 L325.014,52 L325.014,47.087 C325.014,46.4749969 324.931834,46.0556678 324.7675,45.829 C324.603166,45.6023322 324.339668,45.489 323.977,45.489 C323.557665,45.489 323.076003,45.7609973 322.532,46.305 L322.532,52 L320.033,52 L320.033,47.087 C320.033,46.4749969 319.950834,46.0556678 319.7865,45.829 C319.622166,45.6023322 319.358668,45.489 318.996,45.489 C318.565331,45.489 318.089336,45.7609973 317.568,46.305 L317.568,52 L315.069,52 Z" id="504mm" fill="#093169" fill-rule="nonzero"></path>
+    </g>
+</svg>

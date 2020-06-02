@@ -1,0 +1,326 @@
+.nav {
+  width: 100%;
+  @include flexSpaceBetween;
+  font: 400 1.125rem/1.8125rem 'Source Sans Pro', Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1.5rem;
+  color: $white;
+  transition: all 0.3s ease-in-out;
+  z-index: 1001;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav__logo {
+  text-decoration: none;
+  width: calculate-rem(220px);
+  order: 1;
+  display: block;
+}
+
+.nav__logoIcon {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  top: 2px;
+}
+
+.nav__logoText {
+  font: 600 calculate-rem(22px) / calculate-rem(29px) 'Source Sans Pro', Arial,
+    sans-serif;
+  color: $white;
+  text-decoration: none;
+  margin: 0 0 0 1rem;
+  display: inline-block;
+}
+
+.nav__links {
+  width: 100%;
+  order: 3;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+}
+
+.nav__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  color: $white;
+  position: relative;
+  padding: 0 0 1.5rem 0;
+
+  &:last-of-type {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.nav__itemLink {
+  font: 700 1.5rem / 2rem 'Source Sans Pro', Arial, sans-serif;
+  color: $core--dark;
+}
+
+.nav__itemSocialLink {
+  color: $core--light;
+
+  &:nth-of-type(1) {
+    padding: 0 0.75rem 0 0;
+  }
+  &:nth-of-type(2) {
+    padding: 0 0 0 0.75rem;
+  }
+}
+
+// Products
+
+.nav__products {
+  max-height: 0;
+  overflow: hidden;
+  width: 100%;
+  transition: max-height 0.3s ease-in-out;
+  background: $white;
+
+  .nav__itemLink {
+    color: $core;
+    font-weight: 400;
+    padding: 1.5rem 0 0 1.5rem;
+  }
+
+  div {
+    span {
+      display: block;
+    }
+  }
+}
+
+.nav__products--active {
+  max-height: calculate-rem(616px);
+}
+
+.nav__productsControl {
+  cursor: pointer;
+}
+
+.nav__productsControl__icon {
+  display: inline-block;
+  color: $core--light;
+  position: relative;
+  top: calculate-rem(3px);
+  left: calculate-rem(3px);
+  transition: all 0.3s ease-in-out;
+  transform: rotate(0deg);
+  font-size: 1.5rem;
+}
+
+.nav__productsControl__icon--active {
+  transform: rotate(180deg);
+}
+
+.nav__productsHeading {
+  display: none;
+}
+
+// Active / Open nav / Fixed
+
+.nav--fixed {
+  position: fixed;
+  transition: background-color 0.3s ease-in;
+  @include softShadow;
+}
+
+.nav--active,
+.nav--fixed {
+  background-color: rgba(255, 255, 255, 1);
+
+  .nav__logoText,
+  .nav__logoText {
+    color: $core--dark;
+  }
+  .nav__mobileMenu__line {
+    background: $core;
+  }
+}
+
+.nav--active {
+  .nav__links {
+    padding: 1.5rem 0 0 0;
+    max-height: calc(100vh - 102px);
+    overflow: scroll;
+  }
+}
+// Mobile Nav Icons Animation
+
+.nav__mobileMenu {
+  width: 1.25rem;
+  height: 1rem;
+  position: relative;
+  margin: calculate-rem(7px) 0;
+  transform: rotate(0deg);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  order: 2;
+}
+
+.nav__mobileMenu__line {
+  display: block;
+  position: absolute;
+  height: 0.125rem;
+  width: 100%;
+  background: $white;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.nav__mobileMenu__line:nth-child(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.nav__mobileMenu__line:nth-child(2) {
+  top: 7px;
+  transform-origin: left center;
+}
+
+.nav__mobileMenu__line:nth-child(3) {
+  top: 14px;
+  transform-origin: left center;
+}
+
+.nav__mobileMenu--open .nav__mobileMenu__line:nth-child(1) {
+  transform: rotate(45deg);
+  left: 3px; // Positioning animated 'X' in middle of element
+}
+
+.nav__mobileMenu--open .nav__mobileMenu__line:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.nav__mobileMenu--open .nav__mobileMenu__line:nth-child(3) {
+  transform: rotate(-45deg);
+  left: 3px; // Positioning animated 'X' in middle of element
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .nav:hover {
+    background: $white;
+  }
+
+  .nav:hover .nav__itemLink {
+    color: $core;
+  }
+  .nav--active {
+    .nav__logo {
+      padding: 0;
+    }
+  }
+  .nav:hover .nav__logoText {
+    color: $core--dark;
+  }
+
+  .nav__links {
+    padding: 0;
+    max-height: auto;
+    overflow: visible;
+    width: calc(100% - 220px);
+    @include flexJustifyRight;
+    order: 2;
+
+    .nav__productsControl__icon {
+      font-size: 1rem;
+      top: calculate-rem(1px);
+    }
+
+    .nav__products {
+      position: fixed;
+      @include flexJustifyLeft;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: -1;
+
+      .nav__productsHeading {
+        display: block;
+        font: 700 1.5rem / 2rem 'Source Sans Pro', Arial, sans-serif;
+        color: $core--dark;
+        padding: 5.875rem 2rem 0 2rem;
+        width: 100%;
+      }
+
+      div {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 250px 250px 250px auto;
+        padding: 0 0 3rem 0;
+      }
+
+      div span {
+        width: 100%;
+        padding: 0 2rem;
+      }
+      .nav__itemLink {
+        padding: 1.5rem 0 0 0;
+      }
+      .nav__itemSocialLink {
+        &:nth-of-type(1) {
+          padding: 0;
+          margin: 0 0 0 0.5rem;
+        }
+        &:nth-of-type(2) {
+          padding: 0;
+          margin: 0 0 0 2rem;
+        }
+      }
+    }
+  }
+  .nav__products--active {
+    max-height: 400px;
+  }
+
+  .nav__item {
+    width: auto;
+    margin: 0 0 0 1.5rem;
+    padding: 0;
+    opacity: 1;
+
+    &:first-of-type,
+    &:last-of-type {
+      padding: 0;
+    }
+  }
+
+  .nav__itemLink {
+    color: $white;
+    font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+  }
+
+  .nav--active .nav__itemLink,
+  .nav--fixed .nav__itemLink {
+    color: $core;
+  }
+
+  .nav__itemLink--open {
+    color: $core--light;
+  }
+
+  .nav__mobileMenu {
+    order: 3;
+    display: none;
+  }
+}

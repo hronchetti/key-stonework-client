@@ -1,0 +1,135 @@
+.latestProjectItem {
+  background-color: $white;
+  border-radius: 0.5rem;
+  @include softShadow;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  margin: 0 0 2rem 0;
+  width: 100%;
+
+  .projectHeader {
+    @include flexSpaceBetween;
+    margin: 0 0 1rem 0;
+
+    h2 {
+      width: 100%;
+      display: block;
+      max-width: calc(100% - 7rem);
+    }
+    span {
+      line-height: 1.75rem;
+      font-size: 1.125rem;
+      display: block;
+    }
+  }
+
+  .productPhotosPlaceholder {
+    background-color: $core--superLight;
+    width: 100%;
+    padding: 0 0 75% 0;
+    margin: 0 0 0.5rem 0;
+  }
+  .productPhotos {
+    display: grid;
+    grid-gap: 0.5rem;
+
+    &.productPhotos--4 {
+      grid-template-columns: auto auto auto auto;
+
+      .productPhoto:nth-child(1) {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 4;
+        grid-row-end: 4;
+      }
+      .productPhoto:nth-child(2),
+      .productPhoto:nth-child(3),
+      .productPhoto:nth-child(4) {
+        grid-column: 4;
+      }
+      .productPhoto:nth-child(2) {
+        grid-row: 1;
+      }
+      .productPhoto:nth-child(3) {
+        grid-row: 2;
+      }
+      .productPhoto:nth-child(4) {
+        grid-row: 3;
+      }
+    }
+    &.productPhotos--3 {
+      grid-template-columns: auto auto auto;
+
+      .productPhoto:nth-child(1) {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 3;
+        grid-row-end: 3;
+      }
+      .productPhoto:nth-child(2),
+      .productPhoto:nth-child(3) {
+        grid-column: 3;
+      }
+      .productPhoto:nth-child(2) {
+        grid-row: 1;
+      }
+      .productPhoto:nth-child(3) {
+        grid-row: 2;
+      }
+    }
+    &.productPhotos--2 {
+      grid-template-columns: auto auto;
+
+      .productPhoto {
+        grid-row: 1;
+      }
+      .productPhoto:nth-child(1) {
+        grid-column: 1;
+      }
+      .productPhoto:nth-child(2) {
+        grid-column: 2;
+      }
+    }
+    &.productPhotos--1 {
+      grid-template-columns: auto;
+      .productPhoto {
+        grid-row: 1;
+      }
+    }
+
+    .productPhoto {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      width: 100%;
+      padding-bottom: 75%;
+    }
+  }
+  .projectFooter {
+    @include flexJustifyLeft;
+
+    p {
+      width: 100%;
+      font-weight: 700;
+      margin: 1rem 0 0.5rem 0;
+    }
+    .button {
+      margin: 0 0.75rem 0.5rem 0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .latestProjectItem {
+    padding: 2rem 2rem 1.5rem 2rem;
+
+    .projectHeader {
+      span {
+        padding: 0.75rem 0;
+      }
+    }
+    .productPhotos {
+      grid-gap: 1rem;
+    }
+  }
+}

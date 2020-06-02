@@ -1,0 +1,53 @@
+.banner {
+  width: calc(100% - 3rem);
+  margin: 0 auto;
+  text-align: center;
+  padding: 5rem 0;
+
+  &.active {
+    h2,
+    .banner__button {
+      animation: fadeInFly 0.2s forwards ease-in;
+    }
+  }
+
+  h2 {
+    margin: 0 auto;
+    font: 600 1.75rem/2.75rem 'Tiempos Headline', 'Times New Roman', serif;
+    max-width: 720px;
+    position: relative;
+    opacity: 0;
+    top: 24px;
+  }
+  .banner__button {
+    margin: 1.5rem auto 0;
+    position: relative;
+    opacity: 0;
+    top: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    width: calc(100% - 5rem);
+    padding: 8rem 0 7rem;
+
+    h2 {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .banner {
+    width: calc(100% - 8rem);
+
+    h2 {
+      width: 60%;
+      display: block;
+      font-size: 2.5rem;
+      line-height: 3.4rem;
+    }
+  }
+}

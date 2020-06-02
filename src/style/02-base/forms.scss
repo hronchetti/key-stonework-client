@@ -1,0 +1,169 @@
+label {
+  display: block;
+  width: 100%;
+  padding: 0 0 0.5rem 0;
+  font: 600 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+}
+
+.input {
+  margin: 0;
+
+  input {
+    display: block;
+    width: 100%;
+    border: 1px solid $core__24;
+    transition: all 0.2s ease-in;
+    background: $core--superLight;
+    border-radius: 0.25rem;
+    padding: 0.625rem;
+    font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+    color: $core--dark;
+    margin: 0 0 1.5rem 0;
+  }
+}
+
+.labelOptional {
+  font-weight: 400;
+  font-style: italic;
+  color: $core__50;
+}
+
+.checkboxGroup {
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.checkbox:first-of-type {
+  margin: 0.5rem 0 0 0;
+}
+
+.checkbox {
+  display: block;
+  position: relative;
+  margin: 1rem 0 0 0;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 1.25rem;
+    width: 12rem;
+    top: 0;
+    left: 0;
+  }
+
+  .checkmark {
+    transition: all 0.2s ease-in;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 1px solid $core--light;
+    border-radius: 0.125rem;
+    pointer-events: none;
+  }
+
+  input:focus ~ .checkmark {
+    border: 1px solid $blue;
+  }
+
+  input:hover ~ .checkmark {
+    background-color: $core--superLight;
+  }
+
+  input:checked ~ .checkmark {
+    border: none;
+    background: $blue;
+  }
+
+  .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 0.45rem;
+    top: 0.2rem;
+    width: 0.25rem;
+    height: 0.6rem;
+    border: solid $white;
+    border-width: 0 2.25px 2.25px 0;
+    transform: rotate(45deg);
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  label {
+    font-weight: 400;
+    color: $core--dark;
+    padding: 0 0 0 2rem;
+    pointer-events: none;
+    line-height: 1.25rem;
+  }
+}
+
+.selectWrapperContainer {
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.selectWrapper {
+  position: relative;
+}
+
+select {
+  transition: all 0.2s ease-in;
+  width: 100%;
+  border: 1px solid $core__24;
+  background: $core--superLight;
+  border-radius: 0.25rem;
+  padding: 0.625rem;
+  font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+  color: $core--dark;
+  appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select ~ span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  right: 1.25rem;
+  top: 1rem;
+  border: solid $core;
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+}
+
+@-moz-document url-prefix() {
+  select ~ span:after {
+    top: 1.1rem;
+  }
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  transition: all 0.2s ease-in;
+  border: 1px solid $core__24;
+  background: $core--superLight;
+  border-radius: 0.25rem;
+  padding: 0.625rem;
+  font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+  color: $core--dark;
+  appearance: none;
+  resize: none;
+  margin: 0 0 1.5rem 0;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  border: 1px $blue solid;
+  outline: none;
+}

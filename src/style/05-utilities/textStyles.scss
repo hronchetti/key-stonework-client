@@ -1,0 +1,33 @@
+// Font colours
+
+.textCore {
+  color: #093169;
+}
+.textCore--light {
+  color: #7a98bf;
+}
+.textCore--superLight {
+  color: #cbd8f2;
+}
+
+.textWhite{
+  color: $white;
+}
+
+// Font weights
+
+.textBold {
+  font-weight: 700;
+}
+
+// Font decoration
+
+.textUnderline {
+  text-decoration: underline;
+}
+
+// Hidden
+
+.hiddenText{
+  display: none;
+}

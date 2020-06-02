@@ -1,0 +1,112 @@
+.navPlain {
+  background: $white;
+  width: 100%;
+  padding: 2rem;
+  @include softShadow;
+  position: fixed;
+  z-index: 1000;
+
+  .nav__logoText {
+    color: $core--dark;
+  }
+}
+
+.projectBuilder {
+  padding: 8rem 1.5rem 4rem;
+  background: $core--superLight;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  @include flexSpaceBetween;
+
+  .product__features {
+    order: 1;
+  }
+
+  .form {
+    order: 2;
+    background: $white;
+    @include softShadow;
+    border-radius: 0.5rem;
+    padding: 2rem 2rem 2.5rem 2rem;
+    width: 100%;
+
+    .button--file {
+      margin: 0 0 2rem 0;
+
+      input {
+        display: none;
+      }
+    }
+  }
+}
+
+.login {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: $core--superLight;
+  padding: 4rem 1rem;
+  z-index: 1001;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  form {
+    background-color: $white;
+    border-radius: 0.5rem;
+    @include softShadow;
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0 auto;
+
+    .nav__logo {
+      margin: 0 auto 1rem auto;
+
+      .nav__logoText {
+        color: $core--dark;
+        margin-left: 0.75rem;
+      }
+    }
+
+    .button {
+      margin: 0.5rem 0 0 0;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projectBuilder {
+    .product__features {
+      order: 2;
+      width: calc(100% - 16rem);
+    }
+
+    .form {
+      order: 1;
+      width: 16rem;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .projectBuilder {
+    padding: 8rem 4rem 4rem;
+
+    .product__features {
+      order: 2;
+      width: calc(100% - 20rem);
+    }
+
+    .form {
+      width: 20rem;
+    }
+  }
+}

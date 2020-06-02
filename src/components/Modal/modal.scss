@@ -1,0 +1,67 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1002;
+}
+
+.modal {
+  margin: 1rem auto;
+  width: calc(100% - 2rem);
+  background: $white;
+  @include hardShadow;
+  border-radius: 0.5rem;
+
+  .header {
+    width: 100%;
+    background: none;
+    padding: 1rem 1.5rem;
+    @include flexSpaceBetween;
+
+    h3 {
+      width: calc(100% - 4rem);
+    }
+  }
+
+  .body {
+    width: 100%;
+    display: block;
+    max-height: calc(100vh - 15rem);
+    overflow-y: scroll;
+
+    img {
+      width: 100%;
+    }
+  }
+  .footer {
+    width: 100%;
+    @include flexJustifyRight;
+    background: none;
+    padding: 1rem 1.5rem;
+    margin: 0;
+    .button {
+      margin: 0 0 0 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .modal {
+    margin: 1.5rem auto;
+    width: calc(100% - 3rem);
+
+    .header,
+    .footer {
+      padding: 1.5rem 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .modal {
+    max-width: 1140px;
+  }
+}

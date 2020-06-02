@@ -1,0 +1,56 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "eslint-plugin-flowtype": "^4.3.0",
+    "formik": "^1.5.8",
+    "gatsby": "^2.16.4",
+    "gatsby-cli": "^2.8.2",
+    "gatsby-image": "^2.2.29",
+    "gatsby-plugin-express": "^1.1.6",
+    "gatsby-plugin-manifest": "^2.2.23",
+    "gatsby-plugin-offline": "^3.0.16",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-routes": "^1.0.0",
+    "gatsby-plugin-sass": "^2.1.20",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "plugin": "^0.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1",
+    "react-on-screen": "^2.1.1",
+    "react-responsive-carousel": "^3.1.51",
+    "react-scrolllock": "^4.0.1",
+    "sass": "^1.23.0",
+    "uuid": "^3.3.3",
+    "zenscroll": "^4.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

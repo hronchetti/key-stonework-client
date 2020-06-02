@@ -1,0 +1,7 @@
+@mixin softShadow {
+  box-shadow: 0rem 0.25rem 0.5rem rgba(9, 49, 105, 0.06);
+}
+
+@mixin hardShadow {
+  box-shadow: 0rem 0.75rem 1rem rgba(9, 49, 105, 0.12);
+}

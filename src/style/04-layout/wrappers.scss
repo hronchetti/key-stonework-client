@@ -1,0 +1,29 @@
+main {
+  background: $white;
+}
+
+.wrapper {
+  width: calc(100% - 3rem);
+  margin: 0 auto;
+  max-width: 1232px;
+  @include flexJustifyLeft;
+}
+
+.wrapper--noPadding {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1360px;
+  @include flexJustifyLeft;
+}
+
+@media screen and (min-width: 700px) {
+  .wrapper {
+    width: calc(100% - 5rem);
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .wrapper {
+    width: calc(100% - 8rem);
+  }
+}

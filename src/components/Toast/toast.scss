@@ -1,0 +1,102 @@
+.toast {
+  @include flexSpaceBetween;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -5rem;
+  background: $white;
+  border-radius: 0.25rem;
+  @include hardShadow;
+  width: calc(100% - 1.5rem);
+  border-left: $core--light 4px solid;
+  z-index: 1002;
+  max-width: 25rem;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  user-select: none;
+
+  &.open {
+    opacity: 1;
+    bottom: 2rem;
+  }
+
+  .content {
+    @include flexJustifyLeft;
+    width: calc(100% - 3.5rem);
+
+    .icon {
+      padding: 1rem 1rem 1rem 2.25rem;
+      width: 1.5rem;
+      height: 100%;
+      display: block;
+    }
+
+    .icon.success:before,
+    .icon.error:before {
+      position: absolute;
+      left: 0.875rem;
+      font-family: 'icomoon' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      font-size: 1.5rem;
+    }
+    .icon.success:before {
+      content: '\e900';
+      color: $green;
+    }
+    .icon.error:before {
+      content: '\e904';
+      color: $red;
+    }
+    div {
+      width: calc(100% - 3.5rem);
+
+      .heading {
+        width: 100%;
+        display: block;
+        font: 700 1.125rem/1.25rem 'Source Sans Pro', Arial, sans-serif;
+        padding: 0.625rem 0 0 0;
+        color: $core--dark;
+      }
+
+      .message {
+        width: 100%;
+        display: block;
+        font: 400 1rem/1.25rem 'Source Sans Pro', Arial, sans-serif;
+        padding: 0.125rem 0 0.75rem 0;
+      }
+    }
+  }
+
+  .close {
+    cursor: pointer;
+    padding: 1rem 2.5rem 1rem 1rem;
+    position: relative;
+    display: block;
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    .close__line {
+      display: block;
+      position: absolute;
+      height: 0.125rem;
+      width: 1.125rem;
+      transform: rotate(45deg);
+      background: $core--light;
+
+      &:nth-last-of-type(2) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .toast {
+    width: 50%;
+  }
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('../assets/fonts/TiemposHeadline-Semibold.woff2') format('woff2'),
+    url('../assets/fonts/TiemposHeadline-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
+
+h1 {
+  font: 600 calculate-rem(43px) / calculate-rem(56px) 'Tiempos Headline',
+    'Times New Roman', serif;
+  color: $white;
+  margin: 1rem 0 0 0;
+}
+
+h2 {
+  font: 600 2rem/2.5rem 'Tiempos Headline', 'Times New Roman', serif;
+  color: $core--dark;
+  margin: 0;
+}
+
+h3 {
+  font: 700 1.5rem/2rem 'Source Sans Pro', Arial, sans-serif;
+  color: $core--dark;
+  margin: 0;
+}
+
+h4 {
+  font: 600 0.875rem/1.125rem 'Source Sans Pro', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: $white;
+  margin: 0 0 0.875rem 0;
+}
+
+p {
+  font-size: 1.125rem;
+  margin: 0.75rem 0 1.5rem 0;
+  color: $core;
+}
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    margin: 2.5rem 0 0 0;
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+  }
+  h3 {
+    font-size: 1.31rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.75rem;
+  }
+}
