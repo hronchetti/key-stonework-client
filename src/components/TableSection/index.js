@@ -34,13 +34,11 @@ const TableSection = () => (
           </tr>
         </tbody>
       </table>
-      <TrackVisibility partialVisibility once className="tableSection__content">
+      <TrackVisibility partialVisibility once className="tableSection">
         {({ isVisible }) => (
-          <>
-            <h2 className={isVisible ? 'active' : ''}>
-              Manufacturing tolerance
-            </h2>
-            <p className={isVisible ? 'active' : ''}>
+          <div className={`content animateFadeUp${isVisible && ' active'}`}>
+            <h2>Manufacturing tolerance</h2>
+            <p>
               For several years we’ve used precision moulds to create both
               standard and bespoke products that meet dimension requirements
               within millimeters.
@@ -50,7 +48,7 @@ const TableSection = () => (
               dimensional tolerances permitted by the British Standard
               1217:2008.
             </p>
-          </>
+          </div>
         )}
       </TrackVisibility>
     </section>

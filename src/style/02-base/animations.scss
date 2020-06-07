@@ -7,17 +7,6 @@
   }
 }
 
-@keyframes fadeInFly {
-  from {
-    opacity: 0;
-    top: 25px;
-  }
-  to {
-    opacity: 1;
-    top: 0;
-  }
-}
-
 .animateFadeUp {
   opacity: 0;
   transform: translateY(20px);

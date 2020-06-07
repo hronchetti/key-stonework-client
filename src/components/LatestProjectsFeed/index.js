@@ -29,7 +29,7 @@ const LatestProjectsFeed = () => {
   return (
     <TrackVisibility partialVisibility once className="product__features">
       {({ isVisible }) => (
-        <div className={`inner ${isVisible ? 'active' : ''}`}>
+        <div className={`inner animateFadeUp${isVisible && ' active'}`}>
           {projects.length > 0 ? (
             projects.map(project => (
               <LatestProjectItem

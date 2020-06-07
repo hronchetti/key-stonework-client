@@ -1,0 +1,35 @@
+table {
+  width: 100%;
+  background-color: $white;
+  border-radius: 0.5rem;
+  @include softShadow;
+  padding: 0.25rem 1rem 1rem 1rem;
+  text-align: left;
+  margin: 0 0 4rem 0;
+  order: 2;
+
+  tbody tr:nth-of-type(odd) {
+    background-color: $core--superLight;
+  }
+
+  th,
+  td {
+    padding: 0 0.5rem;
+    line-height: 2.5rem;
+    margin: 0;
+    width: 50%;
+  }
+
+  td:nth-of-type(odd) {
+    color: $core--dark;
+    font: 700 1rem/2.5rem 'Source Sans Pro', Arial, sans-serif;
+  }
+
+  td:nth-of-type(even) {
+    color: $blue;
+  }
+
+  th {
+    font: 700 1rem/2.5rem 'Source Sans Pro', Arial, sans-serif;
+  }
+}

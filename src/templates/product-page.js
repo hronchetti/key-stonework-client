@@ -31,7 +31,7 @@ const ProductPage = ({
       <ProductPageList />
       <TrackVisibility partialVisibility once className="product__features">
         {({ isVisible }) => (
-          <div className={`inner ${isVisible ? 'active' : ''}`}>
+          <div className={`inner animateFadeUp${isVisible ? ' active' : ''}`}>
             <Carousel>
               <div>
                 <img

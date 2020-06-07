@@ -1,19 +1,14 @@
 .product {
   padding: 2rem 0;
 }
+
 .product__features {
   width: 100%;
   order: 1;
 
   .inner {
-    position: relative;
     opacity: 0;
-    top: 24px;
-
-    &.active {
-      animation: fadeInFly 0.2s forwards ease-in;
-      animation-delay: 0.15s;
-    }
+    transform: translateY(20px);
   }
 }
 
@@ -28,6 +23,7 @@
   .product {
     padding: 3rem 0;
   }
+
   .product__features {
     padding: 0 0 0 3rem;
     width: calc(100% - 20rem);

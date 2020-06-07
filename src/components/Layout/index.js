@@ -36,15 +36,15 @@ const Layout = ({
 Layout.defaultProps = {
   headerLanding: false,
   lightBackground: true,
-  metaDescription: '',
-  metaTitle: '',
 }
 
 Layout.propTypes = {
   headerLanding: PropTypes.bool,
   lightBackground: PropTypes.bool,
-  metaDescription: PropTypes.string,
-  metaTitle: PropTypes.string,
+  headerLanding: PropTypes.bool,
+  headerButtonURL: PropTypes.string,
+  headerButtonText: PropTypes.string,
+  headerSupportingText: PropTypes.string,
 }
 
 export default Layout

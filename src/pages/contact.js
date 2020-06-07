@@ -22,7 +22,7 @@ const Contact = () => (
       <ProductPageList />
       <TrackVisibility partialVisibility once className="product__features">
         {({ isVisible }) => (
-          <div className={`inner ${isVisible ? 'active' : ''}`}>
+          <div className={`inner animateFadeUp${isVisible ? ' active' : ''}`}>
             <OpeningText
               openingText="At Key Stonework we aim to meet all of your architectural stonework requirements. Whether you’re interested in our standard products or want to ask questions about creating something bespoke - we want to hear about it.<br/><br/>Use the form below to describe your project and we’ll ring you or reply via email within 24 hours."
               openingTitle="Tell us about your project"
