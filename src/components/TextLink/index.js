@@ -13,9 +13,9 @@ const TextLink = ({ external, linkText, linkPath, onClick }) => {
       {linkText}
     </a>
   ) : onClick ? (
-    <span className="textLink" onClick={onClick}>
+    <button className="textLink" onClick={onClick}>
       {linkText}
-    </span>
+    </button>
   ) : (
     <Link className="textLink" to={linkPath}>
       {linkText}

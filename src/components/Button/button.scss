@@ -1,18 +1,22 @@
 .button {
   font: 600 1.125rem/1.25rem 'Source Sans Pro', Arial, sans-serif;
   background: $blue;
-  padding: 0.875rem 1rem;
+  padding: 1rem 1.5rem;
   color: $white;
-  border-radius: 0.5rem;
+  border-radius: 1.625rem;
   cursor: pointer;
   border: 0;
   overflow: hidden;
-  transition: background-color 0.2s;
+  transition: filter 200ms ease-in;
 
-  &:focus,
-  &:hover {
-    outline: 0;
-    background-color: #509be6;
+  &:focus {
+    filter: brightness(90%);
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      filter: brightness(90%);
+    }
   }
 }
 
@@ -27,10 +31,4 @@
   border: 1px solid $core__24;
   color: $core;
   font-weight: 400;
-
-  &:focus,
-  &:hover {
-    outline: 0;
-    background-color: #f2f7fc;
-  }
 }

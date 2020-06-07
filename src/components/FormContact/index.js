@@ -82,146 +82,165 @@ export default class FormContact extends React.Component {
           {({ values }) => (
             <Form className="formContact" autoComplete="off">
               <div className="input">
-                <label>Your name</label>
-                <Field type="text" name="name" required />
+                <label htmlFor="name">Your name</label>
+                <Field type="text" name="name" id="name" required />
               </div>
               <div className="input">
-                <label>
+                <label htmlFor="phone">
                   Phone <span className="labelOptional">(UK only)</span>
                 </label>
                 <Field
                   type="tel"
                   name="phone"
+                  id="phone"
                   minLength="8"
                   maxLength="15"
                   required
                 />
               </div>
               <div className="input">
-                <label>Email</label>
-                <Field type="email" name="email" required />
+                <label htmlFor="email">Email</label>
+                <Field type="email" name="email" id="email" required />
               </div>
               <div className="checkboxGroup">
-                <label>
+                <span className="label">
                   Related products
                   <span className="labelOptional"> (Optional)</span>
-                </label>
+                </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="architecturalPieces"
+                    id="architecturalPieces"
                     checked={values.architecturalPieces ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Architectural pieces</label>
+                  <label htmlFor="architecturalPieces">
+                    Architectural pieces
+                  </label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="ballsCollardBases"
+                    id="ballsCollardBases"
                     checked={values.ballsCollardBases ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Balls &amp; collard bases</label>
+                  <label htmlFor="ballsCollardBases">
+                    Balls &amp; collard bases
+                  </label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="balustrading"
+                    id="balustrading"
                     checked={values.balustrading ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Balustrading</label>
+                  <label htmlFor="balustrading">Balustrading</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="corbels"
+                    id="corbels"
                     checked={values.corbels ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Corbels</label>
+                  <label htmlFor="corbels">Corbels</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="keystones"
+                    id="keystones"
                     checked={values.keystones ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Keystones</label>
+                  <label htmlFor="keystones">Keystones</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="pierCaps"
+                    id="pierCaps"
                     checked={values.pierCaps ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Pier caps</label>
+                  <label htmlFor="pierCaps">Pier caps</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="porticos"
+                    id="porticos"
                     checked={values.porticos ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Porticos</label>
+                  <label htmlFor="porticos">Porticos</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="quions"
+                    id="quions"
                     checked={values.quions ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Quions</label>
+                  <label htmlFor="quions">Quions</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="stringsPlinths"
+                    id="stringsPlinths"
                     checked={values.stringsPlinths ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Strings &amp; plinths</label>
+                  <label htmlFor="stringsPlinths">Strings &amp; plinths</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="wallCoping"
+                    id="wallCoping"
                     checked={values.wallCoping ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Wall Coping</label>
+                  <label htmlFor="wallCoping">Wall Coping</label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="windowCillsHeads"
+                    id="windowCillsHeads"
                     checked={values.windowCillsHeads ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Window cills &amp; heads</label>
+                  <label htmlFor="windowCillsHeads">
+                    Window cills &amp; heads
+                  </label>
                 </span>
                 <span className="checkbox">
                   <Field
                     type="checkbox"
                     name="windowSurrounds"
+                    id="windowSurrounds"
                     checked={values.windowSurrounds ? 'checked' : ''}
                   />
                   <span className="checkmark" />
-                  <label>Window surrounds</label>
+                  <label htmlFor="windowSurrounds">Window surrounds</label>
                 </span>
               </div>
               <div className="selectWrapperContainer">
-                <label>
+                <label htmlFor="stoneColour">
                   Stone colour
                   <span className="labelOptional"> (Optional)</span>
                 </label>
                 <section className="selectWrapper">
-                  <Field component="select" name="stoneColour">
+                  <Field component="select" name="stoneColour" id="stoneColour">
                     <option defaultValue disabled value="">
                       Please select...
                     </option>
@@ -232,8 +251,14 @@ export default class FormContact extends React.Component {
                 </section>
               </div>
               <div>
-                <label>Message</label>
-                <Field component="textarea" name="message" rows="4" required />
+                <label htmlFor="message">Message</label>
+                <Field
+                  component="textarea"
+                  name="message"
+                  id="message"
+                  rows="4"
+                  required
+                />
                 <button className="button" type="submit">
                   Send
                 </button>

@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import TextLink from '../TextLink'
 import TrackVisibility from 'react-on-screen'
+
+import TextLink from '../TextLink'
 
 const ImageSection = ({
   backgroundImageName,
@@ -93,7 +94,7 @@ const ImageSection = ({
           />
 
           <article
-            className={`imageSection__content${
+            className={`imageSection__content animateFadeUp${
               rightToLeft ? ' imageSection__content--imageRight' : ''
             }${isVisible ? ' active' : ''}`}
           >

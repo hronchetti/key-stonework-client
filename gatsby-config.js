@@ -1,7 +1,14 @@
 module.exports = {
+  siteMetadata: {
+    title: `Key Stonework`,
+    description: `Architectural cast stone solutions`,
+    author: `Gary Britten`,
+    siteUrl: `http://keystonework.co.uk/`,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     /* {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,6 +20,18 @@ module.exports = {
       resolve: `gatsby-plugin-routes`,
       options: {
         path: `${__dirname}/src/routes.js`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-htaccess`,
+      options: {
+        redirect: [`RewriteRule ^(.*[^/])$ /$1/ [L,R=301]`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
     {

@@ -17,20 +17,6 @@ const Nav = () => {
     setNavFixed(true)
   }
 
-  const handleTab = e => {
-    /* Capturing Tab */
-    if (e.keyCode === 9 && !e.shiftKey) {
-      toggleProducts()
-    }
-  }
-
-  const handleTabShift = e => {
-    /* Capturing Tab + Shift */
-    if (e.shiftKey && e.keyCode === 9) {
-      toggleProducts()
-    }
-  }
-
   const closeAllNavElements = () => {
     setMobileNavOpen(false)
     setNavFixed(false)
@@ -65,19 +51,18 @@ const Nav = () => {
             </Link>
           </li>
           <li className="nav__item">
-            <Link
-              className="nav__itemLink"
-              to="/latest-projects"
-              onKeyDown={handleTab}
-            >
+            <Link className="nav__itemLink" to="/latest-projects">
               Latest projects
             </Link>
           </li>
           <li className="nav__item">
             <span
+              role="button"
               className="nav__productsControl"
               onClick={toggleProducts}
               aria-label="Toggle product list drop down"
+              onKeyDown={e => e.keyCode === 13 && toggleProducts}
+              tabIndex="0"
             >
               <span className="nav__itemLink">Products</span>
               <span
@@ -97,7 +82,7 @@ const Nav = () => {
                   <Link
                     className="nav__itemLink"
                     to="/products/architectural-pieces"
-                    onKeyDown={handleTabShift}
+                    tabIndex={productsShown ? 0 : -1}
                   >
                     Architectural pieces
                   </Link>
@@ -106,37 +91,62 @@ const Nav = () => {
                   <Link
                     className="nav__itemLink"
                     to="/products/balls-and-bases"
+                    tabIndex={productsShown ? 0 : -1}
                   >
                     Balls &amp; bases
                   </Link>
                 </span>
                 <span style={{ order: 9 }}>
-                  <Link className="nav__itemLink" to="/products/balustrading">
+                  <Link
+                    className="nav__itemLink"
+                    to="/products/balustrading"
+                    tabIndex={productsShown ? 0 : -1}
+                  >
                     Balustrading
                   </Link>
                 </span>
                 <span style={{ order: 2 }}>
-                  <Link className="nav__itemLink" to="/products/corbels">
+                  <Link
+                    className="nav__itemLink"
+                    to="/products/corbels"
+                    tabIndex={productsShown ? 0 : -1}
+                  >
                     Corbels
                   </Link>
                 </span>
                 <span style={{ order: 6 }}>
-                  <Link className="nav__itemLink" to="/products/keystones">
+                  <Link
+                    className="nav__itemLink"
+                    to="/products/keystones"
+                    tabIndex={productsShown ? 0 : -1}
+                  >
                     Keystones
                   </Link>
                 </span>
                 <span style={{ order: 10 }}>
-                  <Link className="nav__itemLink" to="/products/pier-caps">
+                  <Link
+                    className="nav__itemLink"
+                    to="/products/pier-caps"
+                    tabIndex={productsShown ? 0 : -1}
+                  >
                     Pier caps
                   </Link>
                 </span>
                 <span style={{ order: 3 }}>
-                  <Link className="nav__itemLink" to="/products/porticos">
+                  <Link
+                    className="nav__itemLink"
+                    to="/products/porticos"
+                    tabIndex={productsShown ? 0 : -1}
+                  >
                     Porticos
                   </Link>
                 </span>
                 <span style={{ order: 7 }}>
-                  <Link className="nav__itemLink" to="/products/quions">
+                  <Link
+                    className="nav__itemLink"
+                    to="/products/quions"
+                    tabIndex={productsShown ? 0 : -1}
+                  >
                     Quions
                   </Link>
                 </span>
@@ -144,12 +154,17 @@ const Nav = () => {
                   <Link
                     className="nav__itemLink"
                     to="/products/strings-and-plinths"
+                    tabIndex={productsShown ? 0 : -1}
                   >
                     Strings &amp; plinths
                   </Link>
                 </span>
                 <span style={{ order: 4 }}>
-                  <Link className="nav__itemLink" to="/products/wall-coping">
+                  <Link
+                    className="nav__itemLink"
+                    to="/products/wall-coping"
+                    tabIndex={productsShown ? 0 : -1}
+                  >
                     Wall coping
                   </Link>
                 </span>
@@ -157,6 +172,7 @@ const Nav = () => {
                   <Link
                     className="nav__itemLink"
                     to="/products/window-cills-and-heads"
+                    tabIndex={productsShown ? 0 : -1}
                   >
                     Window cills &amp; heads
                   </Link>
@@ -165,7 +181,7 @@ const Nav = () => {
                   <Link
                     className="nav__itemLink"
                     to="/products/window-surrounds"
-                    onKeyDown={handleTab}
+                    tabIndex={productsShown ? 0 : -1}
                   >
                     Window surrounds
                   </Link>
@@ -174,11 +190,7 @@ const Nav = () => {
             </div>
           </li>
           <li className="nav__item">
-            <Link
-              className="nav__itemLink"
-              to="/installation-info"
-              onKeyDown={handleTabShift}
-            >
+            <Link className="nav__itemLink" to="/installation-info">
               Installation info
             </Link>
           </li>
@@ -207,7 +219,7 @@ const Nav = () => {
           </li>
         </ul>
       </nav>
-      <span
+      <button
         className={
           mobileNavOpen
             ? 'nav__mobileMenu nav__mobileMenu--open'
@@ -219,7 +231,7 @@ const Nav = () => {
         <span className="nav__mobileMenu__line" />
         <span className="nav__mobileMenu__line" />
         <span className="nav__mobileMenu__line" />
-      </span>
+      </button>
     </section>
   )
 }

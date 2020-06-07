@@ -251,12 +251,12 @@ const ProjectBuilder = () => {
                 <span className="nav__logoText">Key Stonework Ltd</span>
               </div>
               <div className="input">
-                <label>User</label>
-                <Field type="email" name="user" required />
+                <label htmlFor="user">User</label>
+                <Field type="email" name="user" id="user" required />
               </div>
               <div className="input">
-                <label>Password</label>
-                <Field type="password" name="password" required />
+                <label htmlFor="password">Password</label>
+                <Field type="password" name="password" id="password" required />
               </div>
               <Button buttonText="Login" type="submit" />
             </Form>
@@ -279,39 +279,40 @@ const ProjectBuilder = () => {
             <section className="wrapper">
               <form className="form" encType="multipart/form-data">
                 <div className="input">
-                  <label>Project name</label>
+                  <label htmlFor="projectName">Project name</label>
                   <input
                     type="text"
                     name="projectName"
+                    id="projectName"
                     autoComplete="off"
                     onChange={handleInputChange}
                     required
                   />
                 </div>
                 <div className="input">
-                  <label>Date completed</label>
+                  <label htmlFor="projectDate">Date completed</label>
                   <input
                     type="date"
                     name="projectDate"
+                    id="projectDate"
                     autoComplete="off"
                     onChange={handleInputChange}
                     required
                   />
                 </div>
                 <div className="input">
-                  <label>
+                  <label htmlFor="photos">
                     Photos <span className="labelOptional">(Max 4)</span>
                   </label>
-                  {project.productPhotos.length > 0
-                    ? project.productPhotos.map((photo, index) => (
-                        <UploadedFile
-                          key={photo.path}
-                          filename={photo.nameClean}
-                          removeFn={removePhotoFromList(photo, index)}
-                        />
-                      ))
-                    : null}
-                  {project.productPhotos.length < 4 ? (
+                  {project.productPhotos.length > 0 &&
+                    project.productPhotos.map((photo, index) => (
+                      <UploadedFile
+                        key={photo.path}
+                        filename={photo.nameClean}
+                        removeFn={removePhotoFromList(photo, index)}
+                      />
+                    ))}
+                  {project.productPhotos.length < 4 && (
                     <section className="button--file">
                       <button
                         onClick={e => {
@@ -327,8 +328,8 @@ const ProjectBuilder = () => {
                       >
                         Choose photos
                       </button>
-
                       <input
+                        id="photos"
                         onChange={addPhotoToList}
                         type="file"
                         ref={fileInputButton}
@@ -337,132 +338,152 @@ const ProjectBuilder = () => {
                         multiple
                       />
                     </section>
-                  ) : null}
+                  )}
                 </div>
                 <div className="checkboxGroup">
-                  <label>
+                  <span className="label">
                     Related products
                     <span className="labelOptional"> (Optional)</span>
-                  </label>
+                  </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="architecturalPieces"
+                      id="architecturalPieces"
                       checked={project.products.architecturalPieces}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Architectural pieces</label>
+                    <label htmlFor="architecturalPieces">
+                      Architectural pieces
+                    </label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="ballsCollardBases"
+                      id="ballsCollardBases"
                       checked={project.products.ballsCollardBases}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Balls &amp; collard bases</label>
+                    <label htmlFor="ballsCollardBases">
+                      Balls &amp; collard bases
+                    </label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="balustrading"
+                      id="balustrading"
                       checked={project.products.balustrading}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Balustrading</label>
+                    <label htmlFor="balustrading">Balustrading</label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="corbels"
+                      id="corbels"
                       checked={project.products.corbels}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Corbels</label>
+                    <label htmlFor="corbels">Corbels</label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="keystones"
+                      id="keystones"
                       checked={project.products.keystones}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Keystones</label>
+                    <label htmlFor="keystones">Keystones</label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="pierCaps"
+                      id="pierCaps"
                       checked={project.products.pierCaps}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Pier caps</label>
+                    <label htmlFor="pierCaps">Pier caps</label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="porticos"
+                      id="porticos"
                       checked={project.products.porticos}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Porticos</label>
+                    <label htmlFor="porticos">Porticos</label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="quions"
+                      id="quions"
                       checked={project.products.quions}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Quions</label>
+                    <label htmlFor="quions">Quions</label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="stringsPlinths"
+                      id="stringsPlinths"
                       checked={project.products.stringsPlinths}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Strings &amp; plinths</label>
+                    <label htmlFor="stringsPlinths">
+                      Strings &amp; plinths
+                    </label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="wallCoping"
+                      id="wallCoping"
                       checked={project.products.wallCoping}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Wall Coping</label>
+                    <label htmlFor="wallCoping">Wall Coping</label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="windowCillsHeads"
+                      id="windowCillsHeads"
                       checked={project.products.windowCillsHeads}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Window cills &amp; heads</label>
+                    <label htmlFor="windowCillsHeads">
+                      Window cills &amp; heads
+                    </label>
                   </span>
                   <span className="checkbox">
                     <input
                       type="checkbox"
                       name="windowSurrounds"
+                      id="windowSurrounds"
                       checked={project.products.windowSurrounds}
                       onChange={handleInputChange}
                     />
                     <span className="checkmark" />
-                    <label>Window surrounds</label>
+                    <label htmlFor="windowSurrounds">Window surrounds</label>
                   </span>
                 </div>
                 <Button

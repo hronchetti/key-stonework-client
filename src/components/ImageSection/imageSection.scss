@@ -8,26 +8,13 @@
 .imageSection__content {
   padding: 2.5rem 1.5rem;
   width: 100%;
+  opacity: 0;
+  transform: translateY(20px);
 
   .illustration {
     margin: 0 0 1.125rem 0;
     width: 4rem;
     height: 4rem;
-    position: relative;
-    opacity: 0;
-    top: 24px;
-  }
-
-  h2 {
-    position: relative;
-    opacity: 0;
-    top: 24px;
-  }
-
-  p {
-    position: relative;
-    opacity: 0;
-    top: 24px;
   }
 
   .listBulleted {
@@ -39,12 +26,6 @@
       list-style-type: disc;
       margin: 0 0 0.5rem 0;
     }
-  }
-
-  .listBulleted {
-    position: relative;
-    opacity: 0;
-    top: 24px;
   }
 
   .listBulletedTicks {
@@ -84,35 +65,6 @@
       top: 0.3rem;
       position: absolute;
       z-index: 1;
-    }
-  }
-
-  .textLink {
-    position: relative;
-    opacity: 0;
-    top: 24px;
-  }
-
-  &.active {
-    .illustration,
-    h2,
-    p,
-    .textLink,
-    .listBulletedTicks,
-    .listBulleted {
-      animation: fadeInFly 0.2s forwards ease-in;
-    }
-
-    h2 {
-      animation-delay: 0.15s;
-    }
-    p {
-      animation-delay: 0.3s;
-    }
-    .textLink,
-    .listBulletedTicks,
-    .listBulleted {
-      animation-delay: 0.45s;
     }
   }
 }
