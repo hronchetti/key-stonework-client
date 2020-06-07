@@ -1,14 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { Link } from 'gatsby'
+import { Formik, Field, Form } from 'formik'
+import uuidv1 from 'uuid/v1'
+import axios from 'axios'
+
 import Logo from '../../assets/img/Key-Stonework-logo-x32.svg'
 import LatestProjectItem from '../LatestProjectItem'
 import Button from '../Button'
 import UploadedFile from '../UploadedFile'
-import uuidv1 from 'uuid/v1'
-import SEO from '../SEO'
-import axios from 'axios'
 import Toast from '../Toast'
-import { Formik, Field, Form } from 'formik'
+
 import { apiURL } from '../../apiUrl'
 
 const ProjectBuilder = () => {
@@ -195,11 +196,6 @@ const ProjectBuilder = () => {
 
   return (
     <React.Fragment>
-      <SEO
-        title="Admin login"
-        description="Adding new projects to the Latest Projects feed"
-        follow="noFollow"
-      />
       <section className={`login ${loggedIn ? '' : 'active'}`}>
         <Formik
           initialValues={{ user: '', password: '' }}

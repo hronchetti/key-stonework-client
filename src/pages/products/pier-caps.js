@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function PierCaps() {
   const productOptions = [
@@ -222,6 +222,7 @@ export default function PierCaps() {
       productDecription="19 Standard products that wall piers"
       technicalDrawingsPDF={require('../../assets/pdfs/PierCaps.pdf')}
       productOptions={productOptions}
+      url="/products/pier-caps"
     />
   )
 }

@@ -3,27 +3,17 @@
   margin: 0 auto;
   text-align: center;
   padding: 5rem 0;
-
-  &.active {
-    h2,
-    .banner__button {
-      animation: fadeInFly 0.2s forwards ease-in;
-    }
-  }
+  opacity: 0;
+  transform: translateY(20px);
 
   h2 {
     margin: 0 auto;
     font: 600 1.75rem/2.75rem 'Tiempos Headline', 'Times New Roman', serif;
     max-width: 720px;
-    position: relative;
-    opacity: 0;
-    top: 24px;
   }
-  .banner__button {
+
+  .button {
     margin: 1.5rem auto 0;
-    position: relative;
-    opacity: 0;
-    top: 24px;
   }
 }
 

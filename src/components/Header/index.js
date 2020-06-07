@@ -4,13 +4,13 @@ import PropTypes from 'prop-types'
 const Header = ({ buttonText, buttonURL, supportingText, title }) => (
   <header>
     <section className="wrapper">
-      <div className="header__content">
+      <div className="content">
         <h1>{title}</h1>
         <p
           className="textWhite"
           dangerouslySetInnerHTML={{ __html: supportingText }}
         />
-        {buttonText && buttonURL ? (
+        {buttonText && buttonURL && (
           <a
             href={buttonURL}
             className="button"
@@ -19,7 +19,7 @@ const Header = ({ buttonText, buttonURL, supportingText, title }) => (
           >
             {buttonText}
           </a>
-        ) : null}
+        )}
       </div>
     </section>
   </header>

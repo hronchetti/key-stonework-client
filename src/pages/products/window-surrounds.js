@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function WindowSurrounds() {
   const productOptions = [
@@ -72,6 +72,7 @@ export default function WindowSurrounds() {
       Supporting lintols must be used as these window heads are non-structural members, handling reinforcement is allowed for.<br><br>
       These window heads can be produced in both Dry-Cast and Wet-Cast materials. Bespoke heads to suit existing or an individual design can also be catered for."
       productOptions={productOptions}
+      url="/products/window-surrounds"
     />
   )
 }

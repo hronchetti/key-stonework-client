@@ -19,6 +19,7 @@
     "gatsby-plugin-routes": "^1.0.0",
     "gatsby-plugin-sass": "^2.3.3",
     "gatsby-plugin-sitemap": "^2.4.4",
+    "gatsby-source-filesystem": "^2.3.10",
     "moment": "^2.26.0",
     "node-sass": "^4.14.1",
     "plugin": "^0.3.3",

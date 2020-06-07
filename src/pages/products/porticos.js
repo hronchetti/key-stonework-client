@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function Porticos() {
   const productOptions = [
@@ -61,6 +61,7 @@ export default function Porticos() {
       productDecription="3 Standard products that make an entrance"
       technicalDrawingsPDF={require('../../assets/pdfs/Porticos.pdf')}
       productOptions={productOptions}
+      url="/products/porticos"
     />
   )
 }

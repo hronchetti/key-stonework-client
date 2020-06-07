@@ -3,23 +3,22 @@ module.exports = {
     title: `Key Stonework`,
     description: `Architectural cast stone solutions`,
     author: `Gary Britten`,
-    siteUrl: `http://keystonework.co.uk/`,
+    siteUrl: `https://keystonework.co.uk`,
   },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`,
-    /* {
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/admin`],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/assets`,
-      },
-    }, */
-    {
-      resolve: `gatsby-plugin-routes`,
-      options: {
-        path: `${__dirname}/src/routes.js`,
       },
     },
     {

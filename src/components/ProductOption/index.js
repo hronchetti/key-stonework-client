@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import Button from '../../Button';
-import Modal from '../../Modal';
-import PropTypes from 'prop-types';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+
+import Button from '../Button'
+import Modal from '../Modal'
 
 export default class ProductOption extends Component {
   state = {
@@ -11,7 +12,7 @@ export default class ProductOption extends Component {
     modalVisible: false,
     modalImage: '',
     modalTitle: '',
-  };
+  }
 
   createButtonList = () => {
     const buttons = this.props.productOption.optionTechnicalDrawings.map(
@@ -28,15 +29,15 @@ export default class ProductOption extends Component {
               additionalClasses={`button--small button--secondary`}
               buttonText={drawing.technicalDrawingName}
               onClick={() => {
-                this.handleDrawingChange(drawing);
+                this.handleDrawingChange(drawing)
               }}
             />
           )}
         </React.Fragment>
       )
-    );
-    return buttons;
-  };
+    )
+    return buttons
+  }
 
   /* setState must be called straight away to get first image in array */
   loadInitialDrawing = () => {
@@ -46,36 +47,36 @@ export default class ProductOption extends Component {
         ? this.handleDrawingChange(
             this.props.productOption.optionTechnicalDrawings[0]
           )
-        : null; /* default image */
-    return image;
-  };
+        : null /* default image */
+    return image
+  }
 
   handleDrawingChange = drawingPassed => {
     this.setState({
       currentImageId: drawingPassed.drawingId,
       currentImageName: drawingPassed.technicalDrawingName,
       currentImageUrl: drawingPassed.technicalDrawingSVG,
-    });
-  };
+    })
+  }
 
   handleDrawingClick = (image, imageName) => {
     this.setState({
       modalVisible: true,
       modalImage: image,
       modalTitle: imageName,
-    });
-  };
+    })
+  }
 
   closeDrawingViewer = () => {
     this.setState({
       modalVisible: false,
       modalImage: '',
       modalTitle: '',
-    });
-  };
+    })
+  }
 
   componentDidMount() {
-    this.loadInitialDrawing();
+    this.loadInitialDrawing()
   }
 
   render() {
@@ -89,7 +90,7 @@ export default class ProductOption extends Component {
               className="multiAngle"
               src={
                 this.state.currentImageUrl.length > 0
-                  ? require(`../../../assets/img/technicalDrawings/${this.state.currentImageUrl}`)
+                  ? require(`../../assets/img/technicalDrawings/${this.state.currentImageUrl}`)
                   : null
               }
               alt={this.state.currentImageName}
@@ -99,7 +100,7 @@ export default class ProductOption extends Component {
                   this.props.productOption.optionName +
                     ' - ' +
                     this.state.currentImageName
-                );
+                )
               }}
               aria-label="View this image in a pop up"
             />
@@ -111,14 +112,14 @@ export default class ProductOption extends Component {
           <figure className="productOption__container productOption__container--singleAngle">
             <h2>{this.props.productOption.optionName}</h2>
             <img
-              src={require(`../../../assets/img/technicalDrawings/${this.props.productOption.optionTechnicalDrawings[0].technicalDrawingSVG}`)}
+              src={require(`../../assets/img/technicalDrawings/${this.props.productOption.optionTechnicalDrawings[0].technicalDrawingSVG}`)}
               alt={this.props.productOption.optionName}
               onClick={() => {
                 this.handleDrawingClick(
                   this.props.productOption.optionTechnicalDrawings[0]
                     .technicalDrawingSVG,
                   this.props.productOption.optionName
-                );
+                )
               }}
               aria-label="View this image in a pop up"
             />
@@ -129,15 +130,15 @@ export default class ProductOption extends Component {
             image={this.state.modalImage}
             title={this.state.modalTitle}
             closeFunc={() => {
-              this.closeDrawingViewer();
+              this.closeDrawingViewer()
             }}
           />
         ) : null}
       </React.Fragment>
-    );
+    )
   }
 }
 
 ProductOption.propTypes = {
   productOption: PropTypes.object.isRequired,
-};
+}

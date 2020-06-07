@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function WallCoping() {
   const productOptions = [
@@ -145,6 +145,7 @@ export default function WallCoping() {
       productDecription="12 Standard products that gracefully protects walls from weather damage"
       openingText="Three standard styles of coping, the C1 a plain twice weathered coping. The C2 a plain once weathered coping and the C4 a moulded twice weathered coping. Our standard copings are manufactured in a range of sizes to suit most wall widths. All copings are supplied in a maximum length of 600mm. Copings can be manufactured to individual requirements."
       productOptions={productOptions}
+      url="/products/wall-coping"
     />
   )
 }

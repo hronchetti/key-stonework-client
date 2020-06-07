@@ -12,6 +12,7 @@
 @import '02-base/animations';
 @import '02-base/forms';
 @import '02-base/carousel';
+@import '02-base/wrappers';
 
 // React Components, stored in respective component folders
 @import '../components/Banner/banner';
@@ -27,9 +28,8 @@
 @import '../components/Modal/modal';
 @import '../components/Nav/nav';
 @import '../components/ProductListFull/productListFull';
-@import '../components/ProductPage/OpeningText/openingText';
-@import '../components/ProductPage/ProductOption/productOption';
-@import '../components/ProductPage/productPage';
+@import '../components/OpeningText/openingText';
+@import '../components/ProductOption/productOption';
 @import '../components/ProductPageList/productPageList';
 @import '../components/ProjectBuilder/projectBuilder';
 @import '../components/TableSection/tableSection';
@@ -38,7 +38,7 @@
 @import '../components/UploadedFile/uploadedFile';
 
 // React Layout and Container Components for example 'Home, About, Profile'
-@import '04-layout/wrappers';
+@import '04-pages/productPage.scss';
 
 // Overrides, helper classes and third-party styles for example 'text-center, hide, show, flexboxgrid'
 @import '05-utilities/backgrounds';

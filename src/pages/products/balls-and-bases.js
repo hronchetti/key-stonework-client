@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function BallsAndBases() {
   const productOptions = [
@@ -78,6 +78,7 @@ export default function BallsAndBases() {
       product="Balls &amp; bases"
       productDecription="6 Standard products that give gateways and entrances character"
       productOptions={productOptions}
+      url="/products/balls-and-bases"
     />
   )
 }

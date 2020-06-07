@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function Balustrading() {
   const productOptions = [
@@ -56,6 +56,7 @@ export default function Balustrading() {
       product="Balustrading"
       productDecription="3 Standard products that make an entrance"
       productOptions={productOptions}
+      url="/products/balustrading"
     />
   )
 }

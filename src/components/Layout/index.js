@@ -1,10 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import '../../style/main.scss'
+
 import Footer from '../Footer'
 import HeaderLanding from '../HeaderLanding'
 import HeaderNormal from '../Header'
 import Nav from '../Nav'
-import PropTypes from 'prop-types'
 
 const Layout = ({
   headerLanding,
@@ -15,7 +16,7 @@ const Layout = ({
   lightBackground,
   children,
 }) => (
-  <React.Fragment>
+  <>
     <Nav />
     {headerLanding ? (
       <HeaderLanding />
@@ -29,7 +30,7 @@ const Layout = ({
     )}
     <main className={lightBackground ? 'lightBackground' : ''}>{children}</main>
     <Footer />
-  </React.Fragment>
+  </>
 )
 
 Layout.defaultProps = {

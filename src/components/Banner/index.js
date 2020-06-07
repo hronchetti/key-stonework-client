@@ -5,7 +5,7 @@ import TrackVisibility from 'react-on-screen'
 const Banner = () => (
   <TrackVisibility partialVisibility once className="lightBackground">
     {({ isVisible }) => (
-      <section className={`banner${isVisible ? ' active' : ''}`}>
+      <section className={`banner animateFadeUp${isVisible ? ' active' : ''}`}>
         <h2>
           We have over 15 years experience in producing exceptional cast stone
         </h2>

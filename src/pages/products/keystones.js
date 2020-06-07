@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function Keystones() {
   const productOptions = [
@@ -100,6 +100,7 @@ export default function Keystones() {
       product="Keystones"
       productDecription="8 Standard products that elevate arches"
       productOptions={productOptions}
+      url="/products/keystones"
     />
   )
 }

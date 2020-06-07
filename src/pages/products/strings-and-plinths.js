@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function StringsAndPlinths() {
   const productOptions = [
@@ -90,6 +90,7 @@ export default function StringsAndPlinths() {
       productDecription="7 Standard products that present to roofing and brickwork"
       openingText="Bespoke strings and plinths can be created to individual requirements. Strings are manufactured in 600mm long lengths, plinths are manufactured in 440mm long lengths."
       productOptions={productOptions}
+      url="/products/strings-and-plinths"
     />
   )
 }

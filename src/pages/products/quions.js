@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductPage from '../../components/ProductPage'
+import ProductPage from '../../templates/product-page'
 
 export default function Quions() {
   const productOptions = [
@@ -79,6 +79,7 @@ export default function Quions() {
       productDecription="6 Standard products that accentuate brickwork corners and edges"
       openingText="Six standard designs, other strings and plinths can be manufactured to individual requirements. Strings are manufactured in 600mm long lengths, plinths are manufactured in 440mm long lengths."
       productOptions={productOptions}
+      url="/products/quions"
     />
   )
 }
