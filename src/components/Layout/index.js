@@ -41,7 +41,6 @@ Layout.defaultProps = {
 Layout.propTypes = {
   headerLanding: PropTypes.bool,
   lightBackground: PropTypes.bool,
-  headerLanding: PropTypes.bool,
   headerButtonURL: PropTypes.string,
   headerButtonText: PropTypes.string,
   headerSupportingText: PropTypes.string,

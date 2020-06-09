@@ -7,13 +7,9 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [`/admin`],
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,7 +20,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-htaccess`,
       options: {
-        redirect: [`RewriteRule ^(.*[^/])$ /$1/ [L,R=301]`],
+        redirect: [`RewriteRule ^(.*)/$ /$1 [L,R=301]`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/admin`],
       },
     },
     {
@@ -36,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `key-stonework`,
         short_name: `key-stonework`,
         start_url: `/`,
         background_color: `#093169`,
@@ -45,5 +47,6 @@ module.exports = {
         icon: `src/assets/img/favicon.png`,
       },
     },
+    `gatsby-plugin-offline`,
   ],
 }
