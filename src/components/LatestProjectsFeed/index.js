@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import LatestProjectItem from '../LatestProjectItem'
-import axios from 'axios'
-import Toast from '../Toast'
-import { apiURL } from '../../apiUrl'
 import TrackVisibility from 'react-on-screen'
+import axios from 'axios'
+
+import { apiURL } from '../../apiUrl'
+import LatestProjectItem from '../LatestProjectItem'
 
 const LatestProjectsFeed = () => {
   const [projects, setProjects] = useState([])
-  const [toast, setToast] = useState({
-    type: true,
-    message: '',
-    visible: false,
-  })
 
   useEffect(() => {
     axios({
@@ -23,6 +18,7 @@ const LatestProjectsFeed = () => {
       })
       .catch(error => {
         console.log(error)
+        setProjects([])
       })
   }, [])
 
@@ -43,17 +39,6 @@ const LatestProjectsFeed = () => {
           ) : (
             <span className="placeholder">Latest projects coming soon</span>
           )}
-          <Toast
-            handler={() =>
-              setToast(toast => ({
-                ...toast,
-                visible: false,
-              }))
-            }
-            type={toast.type}
-            message={toast.message}
-            visible={toast.visible}
-          />{' '}
         </div>
       )}
     </TrackVisibility>

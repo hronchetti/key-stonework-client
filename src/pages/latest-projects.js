@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ProductPageList from '../components/ProductPageList'
 import LatestProjectsFeed from '../components/LatestProjectsFeed'
 import Layout from '../components/Layout'

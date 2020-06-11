@@ -69,8 +69,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-.prettierignore
-.prettierrc
 LICENSE
 yarn.lock
 package-lock.json
