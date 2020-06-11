@@ -4,44 +4,68 @@
   font: 400 1.125rem/1.8125rem 'Source Sans Pro', Arial, sans-serif;
   background-color: rgba(255, 255, 255, 0);
   padding: 1.5rem;
-  color: $white;
+  color: white;
   transition: all 0.3s ease-in-out;
   z-index: 1001;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-}
 
-.nav__logo {
-  text-decoration: none;
-  width: calculate-rem(220px);
-  order: 1;
-  display: block;
-}
+  @media (hover: hover) {
+    &:hover {
+      .logo {
+        .logoText {
+          color: $core--dark;
+        }
+      }
 
-.nav__logoIcon {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  top: 2px;
-}
+      .background {
+        background-color: white;
+      }
 
-.nav__logoText {
-  font: 600 calculate-rem(22px) / calculate-rem(29px) 'Source Sans Pro', Arial,
-    sans-serif;
-  color: $white;
-  text-decoration: none;
-  margin: 0 0 0 1rem;
-  display: inline-block;
+      .nav__itemLink {
+        color: $core;
+      }
+    }
+  }
+
+  &.productsShown {
+    .background {
+      height: 100vh;
+    }
+
+    .nav__links {
+      height: auto;
+      overflow-y: scroll;
+    }
+  }
+
+  .background {
+    background-color: transparent;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 5rem;
+    transform: translate3d(0px, 0px, 0px);
+    transition: height cubic-bezier(0.4, 0.1, 0.1, 1) 300ms,
+      background-color 300ms ease-in;
+    z-index: -1;
+  }
 }
 
 .nav__links {
+  position: fixed;
+  top: 5rem;
   width: 100%;
   order: 3;
-  max-height: 0;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: opacity 500ms ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+  padding: 0;
+  max-height: calc(100vh - 6.5rem);
 
   ul {
     padding: 0;
@@ -74,8 +98,26 @@
   &:nth-of-type(1) {
     padding: 0 0.75rem 0 0;
   }
+
   &:nth-of-type(2) {
     padding: 0 0 0 0.75rem;
+  }
+}
+
+.logo {
+  text-decoration: none;
+  width: calculate-rem(220px);
+  order: 1;
+  display: block;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  gap: 0.875rem;
+
+  .logoText {
+    font: 600 calculate-rem(22px) / 2rem 'Source Sans Pro', Arial, sans-serif;
+    color: $white;
+    text-decoration: none;
   }
 }
 
@@ -85,12 +127,22 @@
   max-height: 0;
   overflow: hidden;
   width: 100%;
-  transition: max-height 0.3s ease-in-out;
-  background: $white;
+  transition: max-height 300ms ease-in-out;
+
+  &.active {
+    max-height: calculate-rem(616px);
+
+    .nav__itemLink {
+      transition-delay: 200ms;
+      opacity: 1;
+    }
+  }
 
   .nav__itemLink {
     color: $core;
     font-weight: 400;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
     padding: 1.5rem 0 0 1.5rem;
   }
 
@@ -99,10 +151,6 @@
       display: block;
     }
   }
-}
-
-.nav__products--active {
-  max-height: calculate-rem(616px);
 }
 
 .nav__productsControl {
@@ -124,43 +172,52 @@
   transform: rotate(180deg);
 }
 
-.nav__productsHeading {
+.productsHeading {
   display: none;
 }
 
 // Active / Open nav / Fixed
 
-.nav--fixed {
-  position: fixed;
-  transition: background-color 0.3s ease-in;
-  @include softShadow;
-}
-
 .nav--active,
 .nav--fixed {
-  background-color: rgba(255, 255, 255, 1);
+  .background {
+    @include softShadow;
+    background-color: white;
+  }
 
-  .nav__logoText,
-  .nav__logoText {
-    color: $core--dark;
+  .logo {
+    .logoText {
+      color: $core--dark;
+    }
   }
-  .nav__mobileMenu__line {
-    background: $core;
+
+  .mobileMenu {
+    .line {
+      background: $core;
+    }
   }
+}
+
+.nav--fixed {
+  position: fixed;
 }
 
 .nav--active {
   .nav__links {
-    padding: 1.5rem 0 0 0;
-    max-height: calc(100vh - 102px);
-    overflow: scroll;
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .background {
+    height: 26.5rem;
   }
 }
 // Mobile Nav Icons Animation
 
-.nav__mobileMenu {
+.mobileMenu {
   width: 1.25rem;
   height: 1rem;
+  padding: 0;
   position: relative;
   margin: calculate-rem(7px) 0;
   transform: rotate(0deg);
@@ -170,80 +227,93 @@
   background: none;
   border: none;
   outline: none;
-}
 
-.nav__mobileMenu__line {
-  display: block;
-  position: absolute;
-  height: 0.125rem;
-  width: 100%;
-  background: $white;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: 0.25s ease-in-out;
-}
+  .line {
+    display: block;
+    position: absolute;
+    height: 0.125rem;
+    width: 100%;
+    background: $white;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
 
-.nav__mobileMenu__line:nth-child(1) {
-  top: 0px;
-  transform-origin: left center;
-}
+    &:nth-child(1) {
+      top: 0px;
+      transform-origin: left center;
+    }
 
-.nav__mobileMenu__line:nth-child(2) {
-  top: 7px;
-  transform-origin: left center;
-}
+    &:nth-child(2) {
+      top: 7px;
+      transform-origin: left center;
+    }
 
-.nav__mobileMenu__line:nth-child(3) {
-  top: 14px;
-  transform-origin: left center;
-}
+    &:nth-child(3) {
+      top: 14px;
+      transform-origin: left center;
+    }
+  }
 
-.nav__mobileMenu--open .nav__mobileMenu__line:nth-child(1) {
-  transform: rotate(45deg);
-  left: 3px; // Positioning animated 'X' in middle of element
-}
+  &.open {
+    .line {
+      &:nth-child(1) {
+        transform: rotate(45deg);
+        left: 3px; // Positioning animated 'X' in middle of element
+      }
 
-.nav__mobileMenu--open .nav__mobileMenu__line:nth-child(2) {
-  width: 0%;
-  opacity: 0;
-}
-
-.nav__mobileMenu--open .nav__mobileMenu__line:nth-child(3) {
-  transform: rotate(-45deg);
-  left: 3px; // Positioning animated 'X' in middle of element
+      &:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+        left: 3px; // Positioning animated 'X' in middle of element
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
   .nav {
-    padding: 2rem;
+    padding: 1.5rem 2rem;
   }
 }
 
-@media screen and (min-width: 960px) {
-  .nav:hover {
-    background: $white;
-  }
+@media screen and (min-width: 1024px) {
+  .nav {
+    padding: 2rem;
 
-  .nav:hover .nav__itemLink {
-    color: $core;
-  }
-  .nav--active {
-    .nav__logo {
-      padding: 0;
+    .background {
+      height: 6rem;
+    }
+
+    &.productsShown {
+      .background {
+        height: 20rem;
+      }
     }
   }
-  .nav:hover .nav__logoText {
-    color: $core--dark;
+
+  .logo {
+    gap: 1rem;
+    width: 235px;
+
+    .logoText {
+      font: 600 1.5rem / 2rem 'Source Sans Pro', Arial, sans-serif;
+    }
   }
 
   .nav__links {
-    padding: 0;
-    max-height: auto;
+    position: static;
+    top: 0;
+    margin: 0;
     overflow: visible;
-    width: calc(100% - 220px);
+    width: calc(100% - 235px);
     @include flexJustifyRight;
     order: 2;
+    opacity: 1;
+    pointer-events: all;
 
     .nav__productsControl__icon {
       font-size: 1rem;
@@ -251,18 +321,31 @@
     }
 
     .nav__products {
+      opacity: 0;
+      pointer-events: none;
       position: fixed;
+      max-height: auto;
+      overflow: visible;
       @include flexJustifyLeft;
-      top: 0;
+      top: 5.875rem;
       left: 0;
       width: 100%;
-      z-index: -1;
+      transition: opacity 200ms ease-in-out;
+      transition-delay: 0;
 
-      .nav__productsHeading {
+      &.active {
+        max-height: auto;
+        opacity: 1;
+        pointer-events: all;
+        transition: opacity 600ms ease-in-out;
+        transition-delay: 200ms;
+      }
+
+      .productsHeading {
         display: block;
         font: 700 1.5rem / 2rem 'Source Sans Pro', Arial, sans-serif;
         color: $core--dark;
-        padding: 5.875rem 2rem 0 2rem;
+        padding: 0 2rem;
         width: 100%;
       }
 
@@ -277,9 +360,12 @@
         width: 100%;
         padding: 0 2rem;
       }
+
       .nav__itemLink {
-        padding: 1.5rem 0 0 0;
+        margin: 1.5rem 0 0 0;
+        padding: 0;
       }
+
       .nav__itemSocialLink {
         &:nth-of-type(1) {
           padding: 0;
@@ -291,9 +377,6 @@
         }
       }
     }
-  }
-  .nav__products--active {
-    max-height: 400px;
   }
 
   .nav__item {
@@ -322,7 +405,7 @@
     color: $core--light;
   }
 
-  .nav__mobileMenu {
+  .mobileMenu {
     order: 3;
     display: none;
   }

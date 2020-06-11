@@ -12,11 +12,11 @@ label,
   input {
     display: block;
     width: 100%;
-    border: 1px solid $core__24;
+    border: 1px solid transparent;
     transition: all 0.2s ease-in;
     background: $core--superLight;
     border-radius: 0.25rem;
-    padding: 0.625rem;
+    padding: 0.75rem 1rem;
     font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
     color: $core--dark;
     margin: 0 0 1.5rem 0;
@@ -114,10 +114,10 @@ label,
 select {
   transition: all 0.2s ease-in;
   width: 100%;
-  border: 1px solid $core__24;
+  border: 1px solid transparent;
   background: $core--superLight;
   border-radius: 0.25rem;
-  padding: 0.625rem;
+  padding: 0.75rem 1rem;
   font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
   color: $core--dark;
   appearance: none;
@@ -134,9 +134,9 @@ select ~ span:after {
   width: 0.5rem;
   height: 0.5rem;
   right: 1.25rem;
-  top: 1rem;
-  border: solid $core;
-  border-width: 0 1px 1px 0;
+  top: 1.125rem;
+  border: solid $core__50;
+  border-width: 0 1.5px 1.5px 0;
   transform: rotate(45deg);
 }
 
@@ -151,10 +151,10 @@ textarea {
   width: 100%;
   max-width: 100%;
   transition: all 0.2s ease-in;
-  border: 1px solid $core__24;
+  border: 1px solid transparent;
   background: $core--superLight;
   border-radius: 0.25rem;
-  padding: 0.625rem;
+  padding: 0.75rem 1rem;
   font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
   color: $core--dark;
   appearance: none;

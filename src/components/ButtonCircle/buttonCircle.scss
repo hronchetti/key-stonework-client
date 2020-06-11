@@ -2,12 +2,13 @@
   width: 2rem;
   height: 2rem;
   background: $white;
-  border: 1px solid $core__24;
   border-radius: 100%;
-  transition: background-color 0.2s;
+  border: none;
+  transition: background-color 200ms;
   cursor: pointer;
   display: block;
   position: relative;
+  padding: 0;
 
   &:focus,
   &:hover {
@@ -23,10 +24,10 @@
     position: absolute;
     display: block;
     height: 0.125rem;
-    width: 0.75rem;
+    width: 1.125rem;
     background: $core--light;
-    left: calc(0.625rem - 1px); // ((2rem button width - 0.75rem line width) /2) - 1px border width
-    top: calc(0.9375rem - 1px); //((2rem button width - 0.125rem line width) /2) - 1px border width
+    left: 7px;
+    top: 15px;
 
     // Rotating 45deg each way to make 'x' for close
     &:first-of-type {

@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import ButtonCircle from '../ButtonCircle'
+
 const Toast = ({ handler, type, message, visible }) => (
   <div className={visible ? 'toast open' : 'toast'}>
     <div className="content">
@@ -10,10 +12,7 @@ const Toast = ({ handler, type, message, visible }) => (
         <span className="message">{message}</span>
       </div>
     </div>
-    <button className="close" onClick={handler} aria-label="Close pop up">
-      <span className="close__line" />
-      <span className="close__line" />
-    </button>
+    <ButtonCircle onClick={handler} />
   </div>
 )
 

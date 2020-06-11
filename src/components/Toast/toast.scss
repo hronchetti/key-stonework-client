@@ -1,5 +1,4 @@
 .toast {
-  @include flexSpaceBetween;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -14,6 +13,8 @@
   transition: all 0.3s ease-in-out;
   opacity: 0;
   user-select: none;
+  display: grid;
+  grid-template-columns: 1fr 3rem;
 
   &.open {
     opacity: 1;
@@ -22,12 +23,10 @@
 
   .content {
     @include flexJustifyLeft;
-    width: calc(100% - 3.5rem);
 
     .icon {
       padding: 1rem 1rem 1rem 2.25rem;
       width: 1.5rem;
-      height: 100%;
       display: block;
     }
 
@@ -43,14 +42,17 @@
       text-transform: none;
       font-size: 1.5rem;
     }
+
     .icon.success:before {
       content: '\e900';
       color: $green;
     }
+
     .icon.error:before {
       content: '\e904';
       color: $red;
     }
+
     div {
       width: calc(100% - 3.5rem);
 
@@ -71,27 +73,8 @@
     }
   }
 
-  .close {
-    cursor: pointer;
-    padding: 1rem 2.5rem 1rem 1rem;
-    position: relative;
-    display: block;
-    border: none;
-    background-color: transparent;
-    outline: none;
-
-    .close__line {
-      display: block;
-      position: absolute;
-      height: 0.125rem;
-      width: 1.125rem;
-      transform: rotate(45deg);
-      background: $core--light;
-
-      &:nth-last-of-type(2) {
-        transform: rotate(-45deg);
-      }
-    }
+  .buttonCircle {
+    margin: 1rem 1rem 1rem 0;
   }
 }
 

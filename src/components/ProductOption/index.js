@@ -41,6 +41,7 @@ const ProductOption = ({ productOption }) => {
               title: currentImage.name,
             })
           }
+          tabIndex="0"
           onKeyDown={e =>
             e.keyCode === 13 &&
             setModal({

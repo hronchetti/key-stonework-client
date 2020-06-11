@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'gatsby'
+import ScrollLock from 'react-scrolllock'
+
 import Logo from '../../assets/img/Key-Stonework-logo-x32.svg'
 
 const Nav = () => {
@@ -37,11 +39,11 @@ const Nav = () => {
     <section
       className={`nav${mobileNavOpen ? ' nav--active' : ''}${
         navFixed ? ' nav--fixed' : ''
-      }`}
+      }${productsShown ? ' productsShown' : ''}`}
     >
-      <Link className="nav__logo" to="/">
-        <img className="nav__logoIcon" src={Logo} alt="Key Stonework Logo" />
-        <span className="nav__logoText">Key Stonework Ltd</span>
+      <Link className="logo" to="/">
+        <img className="logoIcon" src={Logo} alt="Key Stonework Logo" />
+        <span className="logoText">Key Stonework Ltd</span>
       </Link>
       <nav className="nav__links">
         <ul>
@@ -61,7 +63,7 @@ const Nav = () => {
               className="nav__productsControl"
               onClick={toggleProducts}
               aria-label="Toggle product list drop down"
-              onKeyDown={e => e.keyCode === 13 && toggleProducts}
+              onKeyDown={e => e.keyCode === 13 && toggleProducts()}
               tabIndex="0"
             >
               <span className="nav__itemLink">Products</span>
@@ -71,12 +73,8 @@ const Nav = () => {
                 }`}
               />
             </span>
-            <div
-              className={`nav__products${
-                productsShown ? ' nav__products--active' : ''
-              }`}
-            >
-              <span className="nav__productsHeading">Our products</span>
+            <div className={`nav__products${productsShown ? ' active' : ''}`}>
+              <span className="productsHeading">Our products</span>
               <div>
                 <span style={{ order: 1 }}>
                   <Link
@@ -220,18 +218,15 @@ const Nav = () => {
         </ul>
       </nav>
       <button
-        className={
-          mobileNavOpen
-            ? 'nav__mobileMenu nav__mobileMenu--open'
-            : 'nav__mobileMenu'
-        }
+        className={mobileNavOpen ? 'mobileMenu open' : 'mobileMenu'}
         onClick={toggleMobileNav}
         aria-label="Toggle mobile navigation menu"
       >
-        <span className="nav__mobileMenu__line" />
-        <span className="nav__mobileMenu__line" />
-        <span className="nav__mobileMenu__line" />
+        <span className="line" />
+        <span className="line" />
+        <span className="line" />
       </button>
+      <div className={`background`}></div>
     </section>
   )
 }
