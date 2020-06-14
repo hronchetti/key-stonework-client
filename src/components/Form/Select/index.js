@@ -25,7 +25,10 @@ export const Select = ({ name, optionalText, label, options }) => {
             </option>
           ))}
         </select>
-        <span />
+        <span className="chevron" />
+        <span
+          className={`selector${meta.touched && meta.error ? ' error' : ''}`}
+        ></span>
       </section>
       <span className="errorText">{meta.touched ? meta.error : ''}</span>
     </div>
