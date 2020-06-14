@@ -4,7 +4,10 @@ import axios from 'axios'
 import * as Yup from 'yup'
 import qs from 'qs'
 
+import { Input, Select, TextArea, Checkbox } from '../Form'
 import Toast from '../Toast'
+
+import { phoneRegex } from '../../constants'
 
 const FormContact = () => {
   const [toast, setToast] = useState({
@@ -48,6 +51,7 @@ const FormContact = () => {
           phone: '',
           email: '',
           architecturalStone: false,
+          architecturalPieces: false,
           ballsCollardBases: false,
           balustrading: false,
           corbels: false,
@@ -67,15 +71,13 @@ const FormContact = () => {
         validationSchema={Yup.object().shape({
           name: Yup.string().required('Required'),
           phone: Yup.string()
-            .matches(
-              /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/,
-              'Must be a valid phone number'
-            )
+            .matches(phoneRegex, 'Must be a valid phone number')
             .required('Required'),
           email: Yup.string()
             .email('Must be a valid email address')
             .required('Required'),
           architecturalStone: Yup.boolean(),
+          architecturalPieces: Yup.boolean(),
           ballsCollardBases: Yup.boolean(),
           balustrading: Yup.boolean(),
           corbels: Yup.boolean(),
@@ -92,7 +94,7 @@ const FormContact = () => {
         })}
         onSubmit={handleSubmit}
       >
-        {({ values, setFieldValue }) => (
+        {() => (
           <Form
             className="formContact"
             autoComplete="off"
@@ -103,183 +105,47 @@ const FormContact = () => {
           >
             <Field type="hidden" name="bot-field" />
             <Field type="hidden" name="form-name" />
-            <div className="input">
-              <label htmlFor="name">Your name</label>
-              <Field type="text" name="name" id="name" />
-            </div>
-            <div className="input">
-              <label htmlFor="phone">
-                Phone <span className="labelOptional">(UK only)</span>
-              </label>
-              <Field type="tel" name="phone" id="phone" />
-            </div>
-            <div className="input">
-              <label htmlFor="email">Email</label>
-              <Field type="email" name="email" id="email" />
-            </div>
+            <Input name="name" label="Your name" />
+            <Input name="phone" label="Phone" optionalText="(UK only)" />
+            <Input name="email" label="Email" />
             <div className="checkboxGroup">
               <span className="label">
                 Related products
                 <span className="labelOptional"> (Optional)</span>
               </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="architecturalPieces"
-                  id="architecturalPieces"
-                  onKeyDown={e =>
-                    e.keyCode === 13 &&
-                    setFieldValue(
-                      values.architecturalPieces,
-                      !values.architecturalPieces
-                    )
-                  }
-                  checked={values.architecturalPieces}
-                />
-                <span className="checkmark" />
-                <label htmlFor="architecturalPieces">
-                  Architectural pieces
-                </label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="ballsCollardBases"
-                  id="ballsCollardBases"
-                  checked={values.ballsCollardBases ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="ballsCollardBases">
-                  Balls &amp; collard bases
-                </label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="balustrading"
-                  id="balustrading"
-                  checked={values.balustrading ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="balustrading">Balustrading</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="corbels"
-                  id="corbels"
-                  checked={values.corbels ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="corbels">Corbels</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="keystones"
-                  id="keystones"
-                  checked={values.keystones ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="keystones">Keystones</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="pierCaps"
-                  id="pierCaps"
-                  checked={values.pierCaps ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="pierCaps">Pier caps</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="porticos"
-                  id="porticos"
-                  checked={values.porticos ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="porticos">Porticos</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="quions"
-                  id="quions"
-                  checked={values.quions ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="quions">Quions</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="stringsPlinths"
-                  id="stringsPlinths"
-                  checked={values.stringsPlinths ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="stringsPlinths">Strings &amp; plinths</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="wallCoping"
-                  id="wallCoping"
-                  checked={values.wallCoping ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="wallCoping">Wall Coping</label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="windowCillsHeads"
-                  id="windowCillsHeads"
-                  checked={values.windowCillsHeads ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="windowCillsHeads">
-                  Window cills &amp; heads
-                </label>
-              </span>
-              <span className="checkbox">
-                <Field
-                  type="checkbox"
-                  name="windowSurrounds"
-                  id="windowSurrounds"
-                  checked={values.windowSurrounds ? 'checked' : ''}
-                />
-                <span className="checkmark" />
-                <label htmlFor="windowSurrounds">Window surrounds</label>
-              </span>
-            </div>
-            <div className="selectWrapperContainer">
-              <label htmlFor="stoneColour">
-                Stone colour
-                <span className="labelOptional"> (Optional)</span>
-              </label>
-              <section className="selectWrapper">
-                <Field component="select" name="stoneColour" id="stoneColour">
-                  <option defaultValue disabled value="">
-                    Please select...
-                  </option>
-                  <option value="Bath">Bath</option>
-                  <option value="Portland">Portland</option>
-                </Field>
-                <span />
-              </section>
-            </div>
-            <div>
-              <label htmlFor="message">Message</label>
-              <Field
-                component="textarea"
-                name="message"
-                id="message"
-                rows="4"
+              <Checkbox
+                name="architecturalPieces"
+                label="Architectural pieces"
               />
+              <Checkbox
+                name="ballsCollardBases"
+                label="Balls &amp; collard bases"
+              />
+              <Checkbox name="balustrading" label="Balustrading" />
+              <Checkbox name="corbels" label="Corbels" />
+              <Checkbox name="keystones" label="Keystones" />
+              <Checkbox name="pierCaps" label="Pier caps" />
+              <Checkbox name="porticos" label="Porticos" />
+              <Checkbox name="quions" label="Quions" />
+              <Checkbox name="stringsPlinths" label="Strings &amp; plinths" />
+              <Checkbox name="wallCoping" label="Wall Coping" />
+              <Checkbox
+                name="windowCillsHeads"
+                label="Window cills &amp; heads"
+              />
+              <Checkbox name="windowSurrounds" label="Window surrounds" />
+            </div>
+            <Select
+              label="Stone colour"
+              name="stoneColour"
+              optionalText="(Optional)"
+              options={[
+                { id: 1, value: 'Bath' },
+                { id: 2, value: 'Portland' },
+              ]}
+            />
+            <div>
+              <TextArea name="message" label="Message" />
               <button className="button" type="submit">
                 Send
               </button>
@@ -289,7 +155,7 @@ const FormContact = () => {
       </Formik>
       <Toast
         handler={() =>
-          setToast(toast => ({
+          setToast((toast) => ({
             ...toast,
             visible: false,
           }))

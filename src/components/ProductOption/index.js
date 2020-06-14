@@ -41,7 +41,7 @@ const ProductOption = ({ productOption }) => {
               title: currentImage.name,
             })
           }
-          tabIndex="0"
+          tabIndex="0" // eslint-disable-line
           onKeyDown={e =>
             e.keyCode === 13 &&
             setModal({

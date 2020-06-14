@@ -107,7 +107,7 @@ const Product = ({
     />
     <h3>{productName}</h3>
     <p dangerouslySetInnerHTML={{ __html: productPageSummary }} />
-    <span className="textLink productLink">Go to product page</span>
+    <span className="textLink productLink">View product options</span>
   </Link>
 )
 

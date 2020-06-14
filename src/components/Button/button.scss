@@ -8,6 +8,7 @@
   border: 0;
   overflow: hidden;
   transition: filter 200ms ease-in;
+  outline: none;
 
   &:focus {
     filter: brightness(90%);

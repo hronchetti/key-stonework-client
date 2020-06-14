@@ -1,0 +1,27 @@
+.textareaWrapper {
+  .textarea {
+    position: relative;
+
+    textarea {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      transition: all 0.2s ease-in;
+      border: 1px solid transparent;
+      background: $core--superLight;
+      border-radius: 0.25rem;
+      padding: 0.75rem 1rem;
+      font: 400 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+      color: $core--dark;
+      appearance: none;
+      resize: none;
+      outline: none;
+
+      &:focus {
+        + .selector {
+          right: 0;
+        }
+      }
+    }
+  }
+}

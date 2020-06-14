@@ -1,14 +1,12 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "key-stonework",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Key Stonework Website",
   "version": "0.1.0",
   "author": "Harry Ronchetti <harryronchetti@gmail.com>",
   "dependencies": {
-    "eslint-plugin-flowtype": "^4.7.0",
-    "formik": "^1.5.8",
-    "gatsby": "^2.23.1",
-    "gatsby-cli": "^2.12.44",
+    "formik": "^2.1.4",
+    "gatsby": "^2.23.3",
     "gatsby-image": "^2.4.6",
     "gatsby-plugin-express": "^1.1.6",
     "gatsby-plugin-htaccess": "^1.4.0",
@@ -16,7 +14,6 @@
     "gatsby-plugin-offline": "^3.2.9",
     "gatsby-plugin-react-helmet": "^3.3.3",
     "gatsby-plugin-robots-txt": "^1.5.1",
-    "gatsby-plugin-routes": "^1.0.0",
     "gatsby-plugin-sass": "^2.3.3",
     "gatsby-plugin-sharp": "^2.6.11",
     "gatsby-plugin-sitemap": "^2.4.4",
@@ -40,7 +37,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   },
   "keywords": [
     "gatsby"

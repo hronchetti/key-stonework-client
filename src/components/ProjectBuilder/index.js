@@ -1,15 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { Link } from 'gatsby'
-import { Formik, Field, Form } from 'formik'
 import uuidv1 from 'uuid/v1'
 import axios from 'axios'
+import Moment from 'moment'
 
 import Logo from '../../assets/img/Key-Stonework-logo-x32.svg'
 import LatestProjectItem from '../LatestProjectItem'
 import Button from '../Button'
 import UploadedFile from '../UploadedFile'
 import Toast from '../Toast'
-
+import { AdminLogin } from './AdminLogin'
 import { apiURL } from '../../apiUrl'
 
 const ProjectBuilder = () => {
@@ -17,7 +17,7 @@ const ProjectBuilder = () => {
   const [project, updateProjectDetails] = useState({
     projectID: uuidv1(),
     projectName: '',
-    projectDate: new Date(),
+    projectDate: Moment(new Date()).format('DD/MM/YYYY'),
     products: {
       architecturalPieces: false,
       ballsCollardBases: false,
@@ -44,7 +44,7 @@ const ProjectBuilder = () => {
   const fileInputButton = useRef()
   const fileInputTrigger = useRef()
 
-  const openFileInput = e => {
+  const openFileInput = (e) => {
     if (
       e.keyCode === 13 &&
       document.activeElement === fileInputTrigger.current
@@ -53,11 +53,11 @@ const ProjectBuilder = () => {
     }
   }
 
-  const addPhotoToList = e => {
+  const addPhotoToList = (e) => {
     e.persist()
     const formData = new FormData()
 
-    Array.from(e.target.files).forEach(photo => {
+    Array.from(e.target.files).forEach((photo) => {
       formData.append('photos', photo, photo.name)
     })
 
@@ -67,10 +67,10 @@ const ProjectBuilder = () => {
       data: formData,
       config: { headers: { 'Content-Type': 'multipart/form-data' } },
     })
-      .then(response => {
+      .then((response) => {
         if (response.data.message === 'Success') {
-          response.data.files.map(file =>
-            updateProjectDetails(project => ({
+          response.data.files.map((file) =>
+            updateProjectDetails((project) => ({
               ...project,
               productPhotos: [
                 ...project.productPhotos,
@@ -84,9 +84,9 @@ const ProjectBuilder = () => {
           )
         }
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error)
-        setToast(toast => ({
+        setToast((toast) => ({
           ...toast,
           visible: true,
           message: 'Network error, contact site administrator',
@@ -95,7 +95,7 @@ const ProjectBuilder = () => {
       })
   }
 
-  const removePhotoFromList = (photo, index) => e => {
+  const removePhotoFromList = (photo, index) => (e) => {
     e.preventDefault()
     const photoToRemove = photo.name
     axios({
@@ -104,16 +104,16 @@ const ProjectBuilder = () => {
       data: { photo: photoToRemove },
       config: { headers: { 'Content-Type': 'application/json' } },
     })
-      .then(response => {
+      .then((response) => {
         if (response.data.message === 'Success') {
-          updateProjectDetails(project => {
+          updateProjectDetails((project) => {
             const start = project.productPhotos.slice(0, index)
             const end = project.productPhotos.slice(index + 1)
             const newAreas = [...start, ...end]
             return { ...project, productPhotos: newAreas }
           })
         } else {
-          setToast(toast => ({
+          setToast((toast) => ({
             ...toast,
             visible: true,
             message: 'Error removing file',
@@ -121,8 +121,8 @@ const ProjectBuilder = () => {
           }))
         }
       })
-      .catch(error => {
-        setToast(toast => ({
+      .catch((error) => {
+        setToast((toast) => ({
           ...toast,
           visible: true,
           message: 'Network error, contact site administrator',
@@ -132,26 +132,26 @@ const ProjectBuilder = () => {
       })
   }
 
-  const handleInputChange = e => {
+  const handleInputChange = (e) => {
     const target = e.target
     const value = target.type === 'checkbox' ? target.checked : target.value
     const name = target.name
 
     target.type === 'checkbox'
-      ? updateProjectDetails(project => ({
+      ? updateProjectDetails((project) => ({
           ...project,
           products: {
             ...project.products,
             [name]: value,
           },
         }))
-      : updateProjectDetails(project => ({
+      : updateProjectDetails((project) => ({
           ...project,
           [name]: value,
         }))
   }
 
-  const saveNewProject = e => {
+  const saveNewProject = (e) => {
     e.preventDefault()
 
     if (project.productPhotos.length > 0 && project.projectName !== '') {
@@ -161,16 +161,16 @@ const ProjectBuilder = () => {
         data: project,
         config: { headers: { 'Content-Type': 'application/json' } },
       })
-        .then(response => {
-          setToast(toast => ({
+        .then((response) => {
+          setToast((toast) => ({
             ...toast,
             visible: true,
             message: 'New project add to latest projects page',
             type: true,
           }))
         })
-        .catch(error => {
-          setToast(toast => ({
+        .catch((error) => {
+          setToast((toast) => ({
             ...toast,
             visible: true,
             message: 'Network error, contact site administrator',
@@ -179,7 +179,7 @@ const ProjectBuilder = () => {
           console.log(error)
         })
     } else {
-      setToast(toast => ({
+      setToast((toast) => ({
         ...toast,
         visible: true,
         message: 'No project name or photos',
@@ -196,80 +196,19 @@ const ProjectBuilder = () => {
 
   return (
     <React.Fragment>
-      <section className={`login ${loggedIn ? '' : 'active'}`}>
-        <Formik
-          initialValues={{ user: '', password: '' }}
-          onSubmit={(values, { resetForm }) => {
-            axios({
-              method: 'post',
-              url: `${apiURL}login`,
-              data: values,
-              config: { headers: { 'Content-Type': 'application/json' } },
-            })
-              .then(response => {
-                if (response.data.message === 'Success') {
-                  sessionStorage.setItem('loggedIn', true)
-                  setLoggedIn(true)
-                  setToast(toast => ({
-                    ...toast,
-                    visible: true,
-                    message: 'Signed in as Gary',
-                    type: true,
-                  }))
-                  resetForm()
-                } else {
-                  setToast(toast => ({
-                    ...toast,
-                    visible: true,
-                    message: 'User or password incorrect',
-                    type: false,
-                  }))
-                }
-              })
-              .catch(() => {
-                setToast(toast => ({
-                  ...toast,
-                  visible: true,
-                  message: 'Network error, contact site administrator',
-                  type: false,
-                }))
-              })
-          }}
-        >
-          {() => (
-            <Form autoComplete="off">
-              <div className="nav__logo">
-                <img
-                  className="nav__logoIcon"
-                  src={Logo}
-                  alt="Key Stonework Logo"
-                />
-                <span className="nav__logoText">Key Stonework Ltd</span>
-              </div>
-              <div className="input">
-                <label htmlFor="user">User</label>
-                <Field type="email" name="user" id="user" required />
-              </div>
-              <div className="input">
-                <label htmlFor="password">Password</label>
-                <Field type="password" name="password" id="password" required />
-              </div>
-              <Button buttonText="Login" type="submit" />
-            </Form>
-          )}
-        </Formik>
-      </section>
-      {loggedIn ? (
-        <React.Fragment>
+      <AdminLogin
+        loggedIn={loggedIn}
+        setLoggedIn={setLoggedIn}
+        setToast={setToast}
+      />
+      {loggedIn && (
+        <>
           <nav className="navPlain">
-            <Link to="/" className="nav__logo">
-              <img
-                className="nav__logoIcon"
-                src={Logo}
-                alt="Key Stonework Logo"
-              />
-              <span className="nav__logoText">New project</span>
+            <Link to="/" className="logo">
+              <img className="logoIcon" src={Logo} alt="Key Stonework Logo" />
+              <span className="logoText">New project</span>
             </Link>
+            <button>Log out</button>
           </nav>
           <main className="projectBuilder">
             <section className="wrapper">
@@ -311,11 +250,11 @@ const ProjectBuilder = () => {
                   {project.productPhotos.length < 4 && (
                     <section className="button--file">
                       <button
-                        onClick={e => {
+                        onClick={(e) => {
                           e.preventDefault()
                           fileInputButton.current.click()
                         }}
-                        onMouseUp={e => {
+                        onMouseUp={(e) => {
                           e.preventDefault()
                           openFileInput(e)
                         }}
@@ -498,11 +437,11 @@ const ProjectBuilder = () => {
               </section>
             </section>
           </main>
-        </React.Fragment>
-      ) : null}
+        </>
+      )}
       <Toast
         handler={() =>
-          setToast(toast => ({
+          setToast((toast) => ({
             ...toast,
             visible: false,
           }))

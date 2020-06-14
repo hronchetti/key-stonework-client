@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from '../Button'
-import Moment from 'moment'
 
 const LatestProjectItem = ({
   projectName,
@@ -11,7 +10,7 @@ const LatestProjectItem = ({
   <article className="latestProjectItem">
     <section className="projectHeader">
       <h2>{projectName === '' ? 'Project name' : projectName}</h2>
-      <span>{Moment(projectDate).format('DD/MM/YYYY')}</span>
+      <span>{projectDate}</span>
     </section>
     {productPhotos && productPhotos.length > 0 ? (
       <section

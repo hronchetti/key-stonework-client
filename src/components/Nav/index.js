@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'gatsby'
-import ScrollLock from 'react-scrolllock'
 
 import Logo from '../../assets/img/Key-Stonework-logo-x32.svg'
 

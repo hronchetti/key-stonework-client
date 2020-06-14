@@ -16,6 +16,7 @@ const SEO = ({ title, description, url }) => (
     `}
     render={({ site }) => (
       <Helmet defer={false}>
+        <html lang="en" />
         <title>{title} | Key Stonework</title>
         <meta property="og:title" content={title} />
         <meta name="twitter:title" content={title} />
@@ -23,6 +24,7 @@ const SEO = ({ title, description, url }) => (
         <meta property="og:description" content={description} />
         <meta name="twitter:description" content={description} />
         <meta property="og:image" content="" />
+        <meta property="og:type" content="article" />
         <meta property="og:url" content={site.siteMetadata.siteUrl + url} />
         <link rel="canonical" href={site.siteMetadata.siteUrl + url} />
         <meta

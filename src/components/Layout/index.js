@@ -4,7 +4,7 @@ import '../../style/main.scss'
 
 import Footer from '../Footer'
 import HeaderLanding from '../HeaderLanding'
-import HeaderNormal from '../Header'
+import Header from '../Header'
 import Nav from '../Nav'
 
 const Layout = ({
@@ -21,7 +21,7 @@ const Layout = ({
     {headerLanding ? (
       <HeaderLanding />
     ) : (
-      <HeaderNormal
+      <Header
         buttonText={headerButtonText}
         supportingText={headerSupportingText}
         title={headerTitle}
