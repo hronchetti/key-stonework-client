@@ -188,6 +188,11 @@ const ProjectBuilder = () => {
     }
   }
 
+  const logout = () => {
+    sessionStorage.setItem('loggedIn', false)
+    setLoggedIn(false)
+  }
+
   useEffect(() => {
     if (sessionStorage.getItem('loggedIn')) {
       setLoggedIn(true)
@@ -208,7 +213,11 @@ const ProjectBuilder = () => {
               <img className="logoIcon" src={Logo} alt="Key Stonework Logo" />
               <span className="logoText">New project</span>
             </Link>
-            <button>Log out</button>
+            <div className="logoutButtonWrapper">
+              <button className="logoutButton" onClick={logout}>
+                Log out
+              </button>
+            </div>
           </nav>
           <main className="projectBuilder">
             <section className="wrapper">
