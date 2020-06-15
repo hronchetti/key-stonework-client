@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import Button from '../Button'
 
 const LatestProjectItem = ({
@@ -9,19 +11,19 @@ const LatestProjectItem = ({
 }) => (
   <article className="latestProjectItem">
     <section className="projectHeader">
-      <h2>{projectName === '' ? 'Project name' : projectName}</h2>
+      <h2>{projectName}</h2>
       <span>{projectDate}</span>
     </section>
     {productPhotos && productPhotos.length > 0 ? (
       <section
         className={`productPhotos productPhotos--${productPhotos.length}`}
       >
-        {productPhotos.map((productPhoto, index) => (
+        {productPhotos.map((productPhoto) => (
           <div
             className="productPhoto"
-            key={index}
+            key={productPhoto.name}
             style={{
-              backgroundImage: `url(${productPhoto.path})`,
+              backgroundImage: `url('${productPhoto.path}')`,
             }}
           />
         ))}
@@ -131,5 +133,12 @@ const LatestProjectItem = ({
     ) : null}
   </article>
 )
+
+LatestProjectItem.propTypes = {
+  projectName: PropTypes.string.isRequired,
+  projectDate: PropTypes.string.isRequired,
+  products: PropTypes.object.isRequired,
+  productPhotos: PropTypes.array.isRequired,
+}
 
 export default LatestProjectItem

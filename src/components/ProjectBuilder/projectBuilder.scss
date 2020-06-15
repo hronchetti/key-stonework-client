@@ -61,7 +61,7 @@
     background: $white;
     @include softShadow;
     border-radius: 0.5rem;
-    padding: 2rem 2rem 2.5rem 2rem;
+    padding: 1.5rem 1rem;
     width: 100%;
 
     .button--file {
@@ -83,6 +83,7 @@
 
     .form {
       order: 1;
+      padding: 2rem 2rem 2.5rem 2rem;
       width: 16rem;
     }
   }

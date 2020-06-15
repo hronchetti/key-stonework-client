@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import uuidv1 from 'uuid/v1'
 import axios from 'axios'
 import Moment from 'moment'
+import { Formik, Field, Form } from 'formik'
+import * as Yup from 'yup'
 
 import Logo from '../../assets/img/Key-Stonework-logo-x32.svg'
 import LatestProjectItem from '../LatestProjectItem'
@@ -11,29 +13,12 @@ import UploadedFile from '../UploadedFile'
 import Toast from '../Toast'
 import { AdminLogin } from './AdminLogin'
 import { apiURL } from '../../apiUrl'
+import { Input, Checkbox } from '../Form'
+import { dateRegex } from '../../constants'
 
 const ProjectBuilder = () => {
   const [loggedIn, setLoggedIn] = useState(false)
-  const [project, updateProjectDetails] = useState({
-    projectID: uuidv1(),
-    projectName: '',
-    projectDate: Moment(new Date()).format('DD/MM/YYYY'),
-    products: {
-      architecturalPieces: false,
-      ballsCollardBases: false,
-      balustrading: false,
-      corbels: false,
-      keystones: false,
-      pierCaps: false,
-      porticos: false,
-      quions: false,
-      stringsPlinths: false,
-      wallCoping: false,
-      windowCillsHeads: false,
-      windowSurrounds: false,
-    },
-    productPhotos: [],
-  })
+  const [productPhotos, setProductPhotos] = useState([])
 
   const [toast, setToast] = useState({
     type: true,
@@ -43,6 +28,12 @@ const ProjectBuilder = () => {
 
   const fileInputButton = useRef()
   const fileInputTrigger = useRef()
+
+  useEffect(() => {
+    if (sessionStorage.getItem('loggedIn')) {
+      setLoggedIn(true)
+    }
+  }, [])
 
   const openFileInput = (e) => {
     if (
@@ -70,18 +61,22 @@ const ProjectBuilder = () => {
       .then((response) => {
         if (response.data.message === 'Success') {
           response.data.files.map((file) =>
-            updateProjectDetails((project) => ({
-              ...project,
-              productPhotos: [
-                ...project.productPhotos,
-                {
-                  nameClean: file.originalname,
-                  path: apiURL + file.path,
-                  name: file.filename,
-                },
-              ],
-            }))
+            setProductPhotos([
+              ...productPhotos,
+              {
+                nameClean: file.originalname,
+                path: apiURL + file.path,
+                name: file.filename,
+              },
+            ])
           )
+        } else {
+          setToast((toast) => ({
+            ...toast,
+            visible: true,
+            message: response.data.message,
+            type: false,
+          }))
         }
       })
       .catch((error) => {
@@ -106,12 +101,9 @@ const ProjectBuilder = () => {
     })
       .then((response) => {
         if (response.data.message === 'Success') {
-          updateProjectDetails((project) => {
-            const start = project.productPhotos.slice(0, index)
-            const end = project.productPhotos.slice(index + 1)
-            const newAreas = [...start, ...end]
-            return { ...project, productPhotos: newAreas }
-          })
+          setProductPhotos((productPhotos) =>
+            productPhotos.filter((removedPhoto) => removedPhoto !== photo)
+          )
         } else {
           setToast((toast) => ({
             ...toast,
@@ -132,42 +124,34 @@ const ProjectBuilder = () => {
       })
   }
 
-  const handleInputChange = (e) => {
-    const target = e.target
-    const value = target.type === 'checkbox' ? target.checked : target.value
-    const name = target.name
-
-    target.type === 'checkbox'
-      ? updateProjectDetails((project) => ({
-          ...project,
-          products: {
-            ...project.products,
-            [name]: value,
-          },
-        }))
-      : updateProjectDetails((project) => ({
-          ...project,
-          [name]: value,
-        }))
-  }
-
-  const saveNewProject = (e) => {
-    e.preventDefault()
-
-    if (project.productPhotos.length > 0 && project.projectName !== '') {
+  const saveNewProject = (values, { setSubmitting, resetForm }) => {
+    if (productPhotos.length > 0) {
+      values.productPhotos = productPhotos
       axios({
         method: 'post',
         url: `${apiURL}saveProject`,
-        data: project,
+        data: values,
         config: { headers: { 'Content-Type': 'application/json' } },
       })
         .then((response) => {
-          setToast((toast) => ({
-            ...toast,
-            visible: true,
-            message: 'New project add to latest projects page',
-            type: true,
-          }))
+          if (response.data.message === 'Success') {
+            setToast((toast) => ({
+              ...toast,
+              visible: true,
+              message: 'New project add to latest projects page',
+              type: true,
+            }))
+            resetForm({})
+            setSubmitting(false)
+            setProductPhotos([])
+          } else {
+            setToast((toast) => ({
+              ...toast,
+              visible: true,
+              message: response.data.message,
+              type: false,
+            }))
+          }
         })
         .catch((error) => {
           setToast((toast) => ({
@@ -182,7 +166,7 @@ const ProjectBuilder = () => {
       setToast((toast) => ({
         ...toast,
         visible: true,
-        message: 'No project name or photos',
+        message: 'No project photos added',
         type: false,
       }))
     }
@@ -192,12 +176,6 @@ const ProjectBuilder = () => {
     sessionStorage.setItem('loggedIn', false)
     setLoggedIn(false)
   }
-
-  useEffect(() => {
-    if (sessionStorage.getItem('loggedIn')) {
-      setLoggedIn(true)
-    }
-  }, [])
 
   return (
     <React.Fragment>
@@ -221,229 +199,155 @@ const ProjectBuilder = () => {
           </nav>
           <main className="projectBuilder">
             <section className="wrapper">
-              <form className="form" encType="multipart/form-data">
-                <div className="input">
-                  <label htmlFor="projectName">Project name</label>
-                  <input
-                    type="text"
-                    name="projectName"
-                    id="projectName"
-                    autoComplete="off"
-                    onChange={handleInputChange}
-                    required
-                  />
-                </div>
-                <div className="input">
-                  <label htmlFor="projectDate">Date completed</label>
-                  <input
-                    type="date"
-                    name="projectDate"
-                    id="projectDate"
-                    autoComplete="off"
-                    onChange={handleInputChange}
-                    required
-                  />
-                </div>
-                <div className="input">
-                  <label htmlFor="photos">
-                    Photos <span className="labelOptional">(Max 4)</span>
-                  </label>
-                  {project.productPhotos.length > 0 &&
-                    project.productPhotos.map((photo, index) => (
-                      <UploadedFile
-                        key={photo.path}
-                        filename={photo.nameClean}
-                        removeFn={removePhotoFromList(photo, index)}
+              <Formik
+                initialValues={{
+                  projectID: uuidv1(),
+                  projectName: '',
+                  projectDate: Moment(new Date()).format('DD/MM/YYYY'),
+                  products: {
+                    architecturalPieces: false,
+                    ballsCollardBases: false,
+                    balustrading: false,
+                    corbels: false,
+                    keystones: false,
+                    pierCaps: false,
+                    porticos: false,
+                    quions: false,
+                    stringsPlinths: false,
+                    wallCoping: false,
+                    windowCillsHeads: false,
+                    windowSurrounds: false,
+                  },
+                }}
+                validationSchema={Yup.object().shape({
+                  projectID: Yup.string(),
+                  projectName: Yup.string().required('Required'),
+                  projectDate: Yup.string()
+                    .matches(dateRegex, 'Must be a valid date')
+                    .required('Required'),
+                  products: Yup.object().shape({
+                    architecturalStone: Yup.boolean(),
+                    architecturalPieces: Yup.boolean(),
+                    ballsCollardBases: Yup.boolean(),
+                    balustrading: Yup.boolean(),
+                    corbels: Yup.boolean(),
+                    keystones: Yup.boolean(),
+                    pierCaps: Yup.boolean(),
+                    porticos: Yup.boolean(),
+                    quions: Yup.boolean(),
+                    stringsPlinths: Yup.boolean(),
+                    wallCoping: Yup.boolean(),
+                    windowCillsHeads: Yup.boolean(),
+                    windowSurrounds: Yup.boolean(),
+                  }),
+                })}
+                onSubmit={saveNewProject}
+              >
+                {({ values }) => (
+                  <>
+                    <Form className="form">
+                      <Field type="hidden" name="projectID" />
+                      <Input name="projectName" label="Project name" />
+                      <Input name="projectDate" label="Date completed" />
+                      <div className="input">
+                        <label htmlFor="photos">
+                          Photos <span className="labelOptional">(Max 4)</span>
+                        </label>
+                        {productPhotos.length > 0 &&
+                          productPhotos.map((photo, index) => (
+                            <UploadedFile
+                              key={photo.path}
+                              filename={photo.nameClean}
+                              removeFn={removePhotoFromList(photo, index)}
+                            />
+                          ))}
+                        {productPhotos.length < 4 && (
+                          <section className="button--file">
+                            <button
+                              onClick={(e) => {
+                                e.preventDefault()
+                                fileInputButton.current.click()
+                              }}
+                              onMouseUp={(e) => {
+                                e.preventDefault()
+                                openFileInput(e)
+                              }}
+                              className="button button--secondary"
+                              ref={fileInputTrigger}
+                            >
+                              Choose photos
+                            </button>
+                            <input // eslint-disable-line
+                              id="photos"
+                              onChange={addPhotoToList}
+                              type="file"
+                              ref={fileInputButton}
+                              accept="image/jpeg"
+                              name="photos"
+                              multiple
+                            />
+                          </section>
+                        )}
+                      </div>
+                      <div className="checkboxGroup">
+                        <span className="label">
+                          Related products
+                          <span className="labelOptional"> (Optional)</span>
+                        </span>
+                        <Checkbox
+                          name="products.architecturalPieces"
+                          label="Architectural pieces"
+                        />
+                        <Checkbox
+                          name="products.ballsCollardBases"
+                          label="Balls &amp; collard bases"
+                        />
+                        <Checkbox
+                          name="products.balustrading"
+                          label="Balustrading"
+                        />
+                        <Checkbox name="products.corbels" label="Corbels" />
+                        <Checkbox name="products.keystones" label="Keystones" />
+                        <Checkbox name="products.pierCaps" label="Pier caps" />
+                        <Checkbox name="products.porticos" label="Porticos" />
+                        <Checkbox name="products.quions" label="Quions" />
+                        <Checkbox
+                          name="products.stringsPlinths"
+                          label="Strings &amp; plinths"
+                        />
+                        <Checkbox
+                          name="products.wallCoping"
+                          label="Wall Coping"
+                        />
+                        <Checkbox
+                          name="products.windowCillsHeads"
+                          label="Window cills &amp; heads"
+                        />
+                        <Checkbox
+                          name="products.windowSurrounds"
+                          label="Window surrounds"
+                        />
+                      </div>
+                      <Button
+                        buttonText="Add to latest projects page"
+                        type="submit"
                       />
-                    ))}
-                  {project.productPhotos.length < 4 && (
-                    <section className="button--file">
-                      <button
-                        onClick={(e) => {
-                          e.preventDefault()
-                          fileInputButton.current.click()
-                        }}
-                        onMouseUp={(e) => {
-                          e.preventDefault()
-                          openFileInput(e)
-                        }}
-                        className="button button--secondary"
-                        ref={fileInputTrigger}
-                      >
-                        Choose photos
-                      </button>
-                      <input
-                        id="photos"
-                        onChange={addPhotoToList}
-                        type="file"
-                        ref={fileInputButton}
-                        accept="image/jpeg"
-                        name="photos"
-                        multiple
+                    </Form>
+                    <section className="product__features">
+                      <LatestProjectItem
+                        projectName={
+                          values.projectName
+                            ? values.projectName
+                            : 'Project name'
+                        }
+                        projectDate={values.projectDate}
+                        productPhotos={productPhotos}
+                        products={values.products ? values.products : ''}
                       />
                     </section>
-                  )}
-                </div>
-                <div className="checkboxGroup">
-                  <span className="label">
-                    Related products
-                    <span className="labelOptional"> (Optional)</span>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="architecturalPieces"
-                      id="architecturalPieces"
-                      checked={project.products.architecturalPieces}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="architecturalPieces">
-                      Architectural pieces
-                    </label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="ballsCollardBases"
-                      id="ballsCollardBases"
-                      checked={project.products.ballsCollardBases}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="ballsCollardBases">
-                      Balls &amp; collard bases
-                    </label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="balustrading"
-                      id="balustrading"
-                      checked={project.products.balustrading}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="balustrading">Balustrading</label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="corbels"
-                      id="corbels"
-                      checked={project.products.corbels}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="corbels">Corbels</label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="keystones"
-                      id="keystones"
-                      checked={project.products.keystones}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="keystones">Keystones</label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="pierCaps"
-                      id="pierCaps"
-                      checked={project.products.pierCaps}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="pierCaps">Pier caps</label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="porticos"
-                      id="porticos"
-                      checked={project.products.porticos}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="porticos">Porticos</label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="quions"
-                      id="quions"
-                      checked={project.products.quions}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="quions">Quions</label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="stringsPlinths"
-                      id="stringsPlinths"
-                      checked={project.products.stringsPlinths}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="stringsPlinths">
-                      Strings &amp; plinths
-                    </label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="wallCoping"
-                      id="wallCoping"
-                      checked={project.products.wallCoping}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="wallCoping">Wall Coping</label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="windowCillsHeads"
-                      id="windowCillsHeads"
-                      checked={project.products.windowCillsHeads}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="windowCillsHeads">
-                      Window cills &amp; heads
-                    </label>
-                  </span>
-                  <span className="checkbox">
-                    <input
-                      type="checkbox"
-                      name="windowSurrounds"
-                      id="windowSurrounds"
-                      checked={project.products.windowSurrounds}
-                      onChange={handleInputChange}
-                    />
-                    <span className="checkmark" />
-                    <label htmlFor="windowSurrounds">Window surrounds</label>
-                  </span>
-                </div>
-                <Button
-                  buttonText="Add to latest projects page"
-                  type="submit"
-                  onClick={saveNewProject}
-                />
-              </form>
-              <section className="product__features">
-                <LatestProjectItem
-                  projectName={project.projectName}
-                  projectDate={project.projectDate}
-                  productPhotos={project.productPhotos}
-                  products={project.products}
-                />
-              </section>
+                  </>
+                )}
+              </Formik>
             </section>
           </main>
         </>

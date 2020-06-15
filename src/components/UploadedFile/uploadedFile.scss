@@ -4,7 +4,9 @@
   border-radius: 0.5rem;
   padding: 0.5rem 0.5rem 0.5rem 1rem;
   margin: 0 0 1rem 0;
-  @include flexSpaceBetween;
+  display: grid;
+  grid-template-columns: 1fr 2rem;
+  gap: 1rem;
 
   span {
     padding: 0.25rem 0;
@@ -47,6 +49,7 @@
       left: 0.5rem;
       transition: background-color 0.2s ease-in;
     }
+
     &:after {
       content: '';
       width: 1rem;
