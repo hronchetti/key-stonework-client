@@ -27,6 +27,12 @@
       .nav__itemLink {
         color: $core;
       }
+
+      .mobileMenu {
+        .line {
+          background: $core;
+        }
+      }
     }
   }
 
@@ -49,8 +55,9 @@
     top: 0;
     height: 5rem;
     transform: translate3d(0px, 0px, 0px);
-    transition: height cubic-bezier(0.4, 0.1, 0.1, 1) 300ms,
-      background-color 300ms ease-in;
+    transition: height cubic-bezier(0.4, 0.1, 0.1, 1) 500ms,
+      background-color 500ms ease-in;
+    transition-delay: 300ms;
     z-index: -1;
   }
 }
@@ -61,7 +68,8 @@
   width: 100%;
   order: 3;
   overflow: hidden;
-  transition: opacity 500ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+  transition-delay: 0ms;
   opacity: 0;
   pointer-events: none;
   padding: 0;
@@ -127,12 +135,20 @@
   max-height: 0;
   overflow: hidden;
   width: 100%;
-  transition: max-height 300ms ease-in-out;
+  transition: max-height 150ms ease-in-out;
+  transition-delay: 0ms;
+
+  .nav__itemLink {
+    transition: opacity 300ms ease-in-out;
+    transition-delay: 0ms;
+  }
 
   &.active {
     max-height: calculate-rem(616px);
+    transition: max-height 500ms ease-in-out;
 
     .nav__itemLink {
+      transition: opacity 500ms ease-in-out;
       transition-delay: 200ms;
       opacity: 1;
     }
@@ -206,10 +222,14 @@
   .nav__links {
     opacity: 1;
     pointer-events: all;
+    transition: opacity 500ms ease-in-out;
+    transition-delay: 200ms;
   }
 
   .background {
     height: 26.5rem;
+    transition: height cubic-bezier(0.4, 0.1, 0.1, 1) 300ms,
+      background-color 300ms ease-in;
   }
 }
 // Mobile Nav Icons Animation
@@ -286,6 +306,8 @@
 
     .background {
       height: 6rem;
+      transition: height cubic-bezier(0.4, 0.1, 0.1, 1) 300ms,
+        background-color 300ms ease-in;
     }
 
     &.productsShown {
@@ -330,7 +352,7 @@
       top: 5.875rem;
       left: 0;
       width: 100%;
-      transition: opacity 200ms ease-in-out;
+      transition: opacity 300ms ease-in-out;
       transition-delay: 0;
 
       &.active {

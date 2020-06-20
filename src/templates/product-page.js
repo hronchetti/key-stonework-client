@@ -32,7 +32,7 @@ const ProductPage = ({
       <TrackVisibility partialVisibility once className="product__features">
         {({ isVisible }) => (
           <div className={`inner animateFadeUp${isVisible ? ' active' : ''}`}>
-            <Carousel>
+            {/* <Carousel>
               <div>
                 <img
                   src={require('../assets/img/Surrey4_large.jpg')}
@@ -45,9 +45,9 @@ const ProductPage = ({
                   alt="test"
                 />
               </div>
-            </Carousel>
+            </Carousel> */}
             {openingText ? <OpeningText openingText={openingText} /> : null}
-            {productOptions.map(productOption => (
+            {productOptions.map((productOption) => (
               <ProductOption
                 key={productOption.optionId}
                 productOption={productOption}
