@@ -1,0 +1,65 @@
+[[redirects]]
+  from = "/pier-caps/"
+  to = "/products/pier-caps"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/balustrading/"
+  to = "/products/balustrading"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/heads-2/"
+  to = "/products/window-cills-and-heads"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/wall-copings/"
+  to = "/products/wall-copings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/porticos/"
+  to = "/products/porticos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/keystones-corbells/"
+  to = "/products/keystones"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/balls-collared-bases/"
+  to = "/products/balls-and-bases"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact-us/"
+  to = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/colours/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/useful-links/"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/technical-information/"
+  to = "/installation-info"
+  status = 301
+  force = true
