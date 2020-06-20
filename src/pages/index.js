@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import ImageSection from '../components/ImageSection'
 import ProductListFull from '../components/ProductListFull/ProductListFull'
 import SEO from '../components/SEO'
-import Textlink from '../components/Textlink'
+import TextLink from '../components/TextLink'
 
 import PencilRuleIllustration from '../assets/img/illustrations/pencil-rule.svg'
 import BalustradingIllustration from '../assets/img/illustrations/balustrading.svg'
@@ -41,7 +41,7 @@ const Home = ({ data }) => (
         technical drawings to see how Key Stonework products can be used on your
         project.
       </p>
-      <Textlink
+      <TextLink
         linkText="View our brochure"
         linkPath={require('../assets/pdfs/Brochure.pdf')}
       />
@@ -68,7 +68,7 @@ const Home = ({ data }) => (
         bespoke architectural stone that enhances your client’s project by
         adding character.
       </p>
-      <Textlink linkText="Tell us about your project" linkPath="/contact" />
+      <TextLink linkText="Tell us about your project" linkPath="/contact" />
     </ImageSection>
     <ImageSection
       backgroundImageName={
@@ -91,7 +91,7 @@ const Home = ({ data }) => (
         have. All our stone is made with precision moulds, is 1217:2008 British
         Standard compliant and can be manufactured dry or wet-cast.
       </p>
-      <Textlink linkText="More about our service" linkPath="/our-service" />
+      <TextLink linkText="More about our service" linkPath="/our-service" />
     </ImageSection>
     <ProductListFull />
   </Layout>

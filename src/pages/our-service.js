@@ -5,7 +5,7 @@ import ImageSection from '../components/ImageSection'
 import TableSection from '../components/TableSection'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
-import Textlink from '../components/Textlink'
+import TextLink from '../components/TextLink'
 
 const OurService = ({ data }) => (
   <Layout
@@ -56,7 +56,7 @@ const OurService = ({ data }) => (
         requirements. This includes dimension tolerances, flatness of plane
         surface, permeability, durability and compressive strength.
       </p>
-      <Textlink
+      <TextLink
         linkText="More about British Standard 1217:2008"
         linkPath="https://shop.bsigroup.com/ProductDetail/?pid=000000000030172628"
         external={true}
