@@ -23,7 +23,7 @@ const ProductPage = ({
     lightBackground={true}
     headerTitle={product}
     headerSupportingText={productDecription}
-    headerButtonText="Installation info"
+    headerButtonText="Technical sheet"
     headerButtonURL={technicalDrawingsPDF}
   >
     <SEO title={title} description={description} url={url} />
