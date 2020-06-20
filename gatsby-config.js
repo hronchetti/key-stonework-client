@@ -24,7 +24,7 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-tagmanager',
+      resolve: 'gatsby-plugin-google-tagmanager-delayed',
       options: {
         id: 'GTM-TR2T6FH',
         includeInDevelopment: false,
