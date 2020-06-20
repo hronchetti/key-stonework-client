@@ -62,7 +62,7 @@ const Nav = () => {
               className="nav__productsControl"
               onClick={toggleProducts}
               aria-label="Toggle product list drop down"
-              onKeyDown={e => e.keyCode === 13 && toggleProducts()}
+              onKeyDown={(e) => e.keyCode === 13 && toggleProducts()}
               tabIndex="0"
             >
               <span className="nav__itemLink">Products</span>
@@ -78,10 +78,10 @@ const Nav = () => {
                 <span style={{ order: 1 }}>
                   <Link
                     className="nav__itemLink"
-                    to="/products/architectural-pieces"
+                    to="/products/architectural-features"
                     tabIndex={productsShown ? 0 : -1}
                   >
-                    Architectural pieces
+                    Architectural features
                   </Link>
                 </span>
                 <span style={{ order: 5 }}>

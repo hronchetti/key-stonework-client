@@ -6,7 +6,9 @@ const ProductPageList = () => (
     <h3>Products</h3>
     <ul>
       <li>
-        <Link to="/products/architectural-pieces">Architectural pieces</Link>
+        <Link to="/products/architectural-features">
+          Architectural features
+        </Link>
       </li>
       <li>
         <Link to="/products/balls-and-bases">Balls &amp; bases</Link>

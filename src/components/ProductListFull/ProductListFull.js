@@ -12,13 +12,13 @@ const ProductListFull = () => (
         }`}
       >
         <section className="wrapper">
-          <h2 className="h2">Products</h2>
+          <h2 className="h2">Our products</h2>
           <section className="inner">
             <Product
               illustration="architectural.svg"
-              productName="Architectural pieces"
+              productName="Architectural features"
               productPageSummary="6 Date plaques<br>2 Gable vents<br>Bespoke design available"
-              productPagePath="/products/architectural-pieces"
+              productPagePath="/products/architectural-features"
             />
             <Product
               illustration="ball-collard-base.svg"
@@ -107,7 +107,7 @@ const Product = ({
     />
     <h3>{productName}</h3>
     <p dangerouslySetInnerHTML={{ __html: productPageSummary }} />
-    <span className="textLink productLink">View options</span>
+    <span className="textLink productLink">Product options</span>
   </Link>
 )
 

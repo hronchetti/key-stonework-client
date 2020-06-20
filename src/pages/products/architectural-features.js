@@ -75,7 +75,7 @@ export default function ArchitecturalPieces() {
     <ProductPage
       title="Dry/Wet Cast Stone Architectural Pieces and Bespoke Design"
       description="6 Date plaque and gabel vent products that add a unique touch to your building. For bespoke design call us on 01327 842585 or use the form on our contact page"
-      product="Architectural pieces"
+      product="Architectural features"
       productDecription="6 Standard products that add a unique touch to your building"
       productOptions={productOptions}
       openingText="Date plaque designs can also be used as house name plaques with bespoke sizes and typeface. All products available in Dry-Cast or Wet-Cast stone. Bespoke design available."
