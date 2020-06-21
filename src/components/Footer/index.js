@@ -27,22 +27,24 @@ export default function Footer() {
         </div>
         <section className="footer__phone">
           <h4>Call us on</h4>
-          <span className="footer__phoneNumber">01327 842585</span>
+          <a href="tel:01327 842585" className="footer__phoneNumber">
+            01327 842585
+          </a>
           <a
             rel="noopener noreferrer"
             target="_blank"
             className="footer__socialLink icon-facebook"
-            href="https://twitter.com/KeyStonework"
+            href="https://www.facebook.com/Key-Stonework-Ltd-231196030337640/"
           >
-            <span className="hiddenText">Key Stonework Twitter</span>
+            <span className="hiddenText">Key Stonework Facebook</span>
           </a>
           <a
             rel="noopener noreferrer"
             target="_blank"
             className="footer__socialLink icon-twitter"
-            href="https://www.facebook.com/Key-Stonework-Ltd-231196030337640/"
+            href="https://twitter.com/KeyStonework"
           >
-            <span className="hiddenText">Key Stonework Facebook</span>
+            <span className="hiddenText">Key Stonework Twitter</span>
           </a>
         </section>
         <small className="footer__copyright">

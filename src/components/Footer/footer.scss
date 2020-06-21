@@ -50,6 +50,12 @@
 .footer__phoneNumber {
   font: 600 2.5rem/3rem 'Tiempos Headline', 'Times New Roman', serif;
   display: block;
+  color: white;
+
+  &:visited,
+  &:active {
+    color: white;
+  }
 }
 
 .footer__socialLink {
