@@ -64,9 +64,9 @@ const Home = ({ data }) => (
       <h2>Bespoke design</h2>
       <p>
         Whether you have strict requirements or want to add a unique touch to an
-        installation; our dedicated team will work with you to produce bespoke
-        architectural stone that enhances your client’s project by adding
-        character.
+        installation our dedicated team is dedicated to satisfying your bespoke
+        architectural stone requirements. Tell us about your project today to
+        find out how we can help
       </p>
       <TextLink linkText="Tell us about your project" linkPath="/contact" />
     </ImageSection>
