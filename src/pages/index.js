@@ -63,10 +63,10 @@ const Home = ({ data }) => (
       />
       <h2>Bespoke design</h2>
       <p>
-        Whether you have strict requirements or want to add a unique aspect to
-        an installation. Our dedicated team will work with you to produce
-        bespoke architectural stone that enhances your client’s project by
-        adding character.
+        Whether you have strict requirements or want to add a unique touch to an
+        installation; our dedicated team will work with you to produce bespoke
+        architectural stone that enhances your client’s project by adding
+        character.
       </p>
       <TextLink linkText="Tell us about your project" linkPath="/contact" />
     </ImageSection>
@@ -89,7 +89,7 @@ const Home = ({ data }) => (
       <p>
         At Key Stonework we aim to satisfy any installation requirements you may
         have. All our stone is made with precision moulds, is 1217:2008 British
-        Standard compliant and can be manufactured dry or wet-cast.
+        Standard compliant, and can be manufactured dry or wet-cast.
       </p>
       <TextLink linkText="More about our service" linkPath="/our-service" />
     </ImageSection>
