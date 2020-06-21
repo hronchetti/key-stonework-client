@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-export default function NoMatch() {
+const NoMatch = () => {
   return (
     <Layout
       headerLanding={false}
@@ -14,3 +14,5 @@ export default function NoMatch() {
     ></Layout>
   )
 }
+
+export default NoMatch

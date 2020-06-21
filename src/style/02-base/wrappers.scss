@@ -3,7 +3,7 @@ main {
 }
 
 .wrapper {
-  width: calc(100% - 3rem);
+  width: calc(100% - 2.5rem);
   margin: 0 auto;
   max-width: 1232px;
   @include flexJustifyLeft;
