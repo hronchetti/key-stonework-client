@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="305px" viewBox="0 0 600 305" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>balustrading/SB1-baluster</title>
+    <defs>
+        <path d="M68.5,134 L78.5,139 L78.5,156 L0.5,156 L0.5,139 L10.5,134 L68.5,134 Z M68.5,0 L78.5,5 L78.5,22 L0.5,22 L0.5,5 L10.5,0 L68.5,0 Z" id="path-1"></path>
+    </defs>
+    <g id="balustrading/SB1-baluster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F9FF" x="0" y="0" width="600" height="305"></rect>
+        <path d="M322,73.9998479 C322,78.3859206 319.827879,82.2646672 316.500658,84.6190659 L316.5,84.9998479 L315.930468,85.0004188 C313.924387,86.2669254 311.547785,86.9998479 309,86.9998479 C306.452215,86.9998479 304.075613,86.2669254 302.069532,85.0004188 L298.430468,85.0004188 C296.424387,86.2669254 294.047785,86.9998479 291.5,86.9998479 C288.952215,86.9998479 286.575613,86.2669254 284.569532,85.0004188 L284.5,84.9998479 L284.500669,84.9566405 C280.891983,82.6465737 278.5,78.6025496 278.5,73.9998479 C278.5,73.6634276 278.512779,73.329992 278.537878,73 L321.962122,73 C321.987221,73.329992 322,73.6634276 322,73.9998479 Z" id="Combined-Shape" stroke="#CBD8F2" fill="#FFFFFF"></path>
+        <path d="M326,163.999848 C326,171.17955 320.179702,176.999848 313,176.999848 C310.452215,176.999848 308.075613,176.266925 306.069532,175.000419 L294.430468,175.000419 C292.424387,176.266925 290.047785,176.999848 287.5,176.999848 C280.320298,176.999848 274.5,171.17955 274.5,163.999848 C274.5,163.663428 274.512779,163.329992 274.537878,163 L325.962122,163 C325.987221,163.329992 326,163.663428 326,163.999848 Z" id="Combined-Shape" stroke="#CBD8F2" fill="#FFFFFF" transform="translate(300.250000, 169.999924) rotate(-180.000000) translate(-300.250000, -169.999924) "></path>
+        <path d="M317,85 C318.380712,85.0021223 319.5,86.1214104 319.5,87.5021223 C319.5,88.8828342 318.380712,90.0021223 317,90.0021223 C316.981591,90.0021223 316.963227,90.0019233 316.944913,90.0015274 L284.055,90 L284,90.0021223 C282.674517,90.0021223 281.589961,88.9705864 281.505318,87.666498 L281.5,87.5021223 C281.5,86.1214104 282.619288,85.0021223 284,85.0021223 L284,85.0021223 L284,85 L317,85 Z" id="Combined-Shape" stroke="#CBD8F2" fill="#FFFFFF"></path>
+        <path d="M300.5,165 C325.5,165 325.5,151.827814 325.5,139.984456 C325.5,130.16457 317,114 317,90 C315.666667,90 310.166667,90 300.5,90 C290.833333,90 285.333333,90 284,90 C284,114 275.5,130.162015 275.5,139.984456 C275.5,151.827814 275.5,165 300.5,165 Z" id="Combined-Shape" stroke="#CBD8F2" fill="#FFFFFF"></path>
+        <path d="M321,160 C322.380712,160.002122 323.5,161.12141 323.5,162.502122 C323.5,163.882834 322.380712,165.002122 321,165.002122 C320.981591,165.002122 320.963227,165.001923 320.944913,165.001527 L280.055,165 L280,165.002122 C278.674517,165.002122 277.589961,163.970586 277.505318,162.666498 L277.5,162.502122 C277.5,161.12141 278.619288,160.002122 280,160.002122 L280,160.002122 L280,160 L321,160 Z" id="Combined-Shape" stroke="#CBD8F2" fill="#FFFFFF"></path>
+        <polygon id="Rectangle" stroke="#CBD8F2" fill="#FFFFFF" points="261.5 186 271.5 181 329.5 181 339.5 186 339.5 203 261.5 203"></polygon>
+        <polygon id="Rectangle" stroke="#CBD8F2" fill="#FFFFFF" points="261.5 52 271.5 47 329.5 47 339.5 52 339.5 69 261.5 69"></polygon>
+        <g id="Slice-Pattern/1-Large" transform="translate(261.000000, 47.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" id="Group">
+                <g transform="translate(-136.000000, -9.000000)">
+                    <g>
+                        <g id="Group-10-Copy" stroke="#CBD8F2">
+                            <g id="Group-9">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-6" transform="translate(0.000000, 105.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy" transform="translate(0.000000, 17.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-7" transform="translate(0.000000, 122.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-2" transform="translate(0.000000, 35.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-8" transform="translate(0.000000, 140.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-3" transform="translate(0.000000, 52.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-9" transform="translate(0.000000, 157.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-4" transform="translate(0.000000, 70.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-5" transform="translate(0.000000, 87.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-10-Copy-2" transform="translate(175.000000, 0.000000)" stroke="#CBD8F2">
+                            <g id="Group-9">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-6" transform="translate(0.000000, 105.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy" transform="translate(0.000000, 17.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-7" transform="translate(0.000000, 122.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-2" transform="translate(0.000000, 35.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-8" transform="translate(0.000000, 140.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-3" transform="translate(0.000000, 52.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-9" transform="translate(0.000000, 157.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-4" transform="translate(0.000000, 70.000000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                            <g id="Group-9-Copy-5" transform="translate(0.000000, 87.500000)">
+                                <g id="Slice-Pattern/1">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(17.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(35.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(52.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(70.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(87.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(105.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(122.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(140.000000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                                <g id="Slice-Pattern/1" transform="translate(157.500000, 0.000000)">
+                                    <line x1="0" y1="17.5" x2="17.5" y2="0" id="Line-6" stroke-dasharray="6"></line>
+                                    <line x1="-8.75" y1="17.5" x2="8.75" y2="0" id="Line-6-Copy-2"></line>
+                                    <line x1="8.75" y1="17.5" x2="26.25" y2="0" id="Line-6-Copy-3"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <path d="M374.3355,64.204 C374.992833,64.204 375.582167,64.1105 376.1035,63.9235 C376.624833,63.7365 377.064,63.4871667 377.421,63.1755 C377.778,62.8638333 378.05,62.5011667 378.237,62.0875 C378.424,61.6738333 378.5175,61.2346667 378.5175,60.77 C378.5175,59.988 378.322,59.359 377.931,58.883 C377.54,58.407 377.0045,58.033 376.3245,57.761 L376.3245,57.761 L374.8965,57.183 C374.6585,57.081 374.4375,56.9875 374.2335,56.9025 C374.0295,56.8175 373.851,56.7268333 373.698,56.6305 C373.545,56.5341667 373.426,56.4265 373.341,56.3075 C373.256,56.1885 373.2135,56.044 373.2135,55.874 C373.2135,55.5566667 373.341,55.3101667 373.596,55.1345 C373.851,54.9588333 374.193833,54.871 374.6245,54.871 C375.0665,54.871 375.468833,54.9475 375.8315,55.1005 C376.194167,55.2535 376.556833,55.4716667 376.9195,55.755 L376.9195,55.755 L378.1945,54.174 C377.7185,53.698 377.166,53.3353333 376.537,53.086 C375.908,52.8366667 375.2705,52.712 374.6245,52.712 C374.0465,52.712 373.516667,52.797 373.035,52.967 C372.553333,53.137 372.136833,53.3721667 371.7855,53.6725 C371.434167,53.9728333 371.162167,54.3241667 370.9695,54.7265 C370.776833,55.1288333 370.6805,55.5566667 370.6805,56.01 C370.6805,56.418 370.742833,56.7835 370.8675,57.1065 C370.992167,57.4295 371.159333,57.7128333 371.369,57.9565 C371.578667,58.2001667 371.816667,58.4126667 372.083,58.594 C372.349333,58.7753333 372.624167,58.9226667 372.9075,59.036 L372.9075,59.036 L374.3525,59.648 C374.5905,59.75 374.808667,59.8435 375.007,59.9285 C375.205333,60.0135 375.375333,60.1041667 375.517,60.2005 C375.658667,60.2968333 375.766333,60.4073333 375.84,60.532 C375.913667,60.6566667 375.9505,60.804 375.9505,60.974 C375.9505,61.3026667 375.823,61.5633333 375.568,61.756 C375.313,61.9486667 374.924833,62.045 374.4035,62.045 C373.938833,62.045 373.465667,61.9373333 372.984,61.722 C372.502333,61.5066667 372.063167,61.229 371.6665,60.889 L371.6665,60.889 L370.2385,62.606 C370.805167,63.1386667 371.448333,63.5381667 372.168,63.8045 C372.887667,64.0708333 373.610167,64.204 374.3355,64.204 Z M384.5185,64 C385.119167,64 385.680167,63.9348333 386.2015,63.8045 C386.722833,63.6741667 387.179,63.4758333 387.57,63.2095 C387.961,62.9431667 388.267,62.606 388.488,62.198 C388.709,61.79 388.8195,61.3026667 388.8195,60.736 C388.8195,60.362 388.7685,60.0305 388.6665,59.7415 C388.5645,59.4525 388.422833,59.2003333 388.2415,58.985 C388.060167,58.7696667 387.8505,58.5911667 387.6125,58.4495 C387.3745,58.3078333 387.113833,58.203 386.8305,58.135 L386.8305,58.135 L386.8305,58.067 C387.057167,57.9876667 387.258333,57.863 387.434,57.693 C387.609667,57.523 387.759833,57.3303333 387.8845,57.115 C388.009167,56.8996667 388.1055,56.6673333 388.1735,56.418 C388.2415,56.1686667 388.2755,55.9193333 388.2755,55.67 C388.2755,55.1373333 388.170667,54.6953333 387.961,54.344 C387.751333,53.9926667 387.462333,53.7093333 387.094,53.494 C386.725667,53.2786667 386.295,53.1285 385.802,53.0435 C385.309,52.9585 384.7735,52.916 384.1955,52.916 L384.1955,52.916 L380.4045,52.916 L380.4045,64 L384.5185,64 Z M384.0765,57.353 L382.9035,57.353 L382.9035,54.854 L384.0935,54.854 C384.682833,54.854 385.119167,54.9446667 385.4025,55.126 C385.685833,55.3073333 385.8275,55.6133333 385.8275,56.044 C385.8275,56.4406667 385.688667,56.758 385.411,56.996 C385.133333,57.234 384.6885,57.353 384.0765,57.353 L384.0765,57.353 Z M384.3145,62.062 L382.9035,62.062 L382.9035,59.206 L384.3145,59.206 C385.005833,59.206 385.5215,59.3108333 385.8615,59.5205 C386.2015,59.7301667 386.3715,60.0786667 386.3715,60.566 C386.3715,61.5633333 385.685833,62.062 384.3145,62.062 L384.3145,62.062 Z M397.6085,64 L397.6085,61.892 L395.4325,61.892 C395.171833,61.892 394.874333,61.9061667 394.54,61.9345 C394.205667,61.9628333 393.9025,61.994 393.6305,62.028 C394.0725,61.5746667 394.500333,61.1128333 394.914,60.6425 C395.327667,60.1721667 395.696,59.7018333 396.019,59.2315 C396.342,58.7611667 396.599833,58.2908333 396.7925,57.8205 C396.985167,57.3501667 397.0815,56.8883333 397.0815,56.435 C397.0815,55.9136667 396.9965,55.4433333 396.8265,55.024 C396.6565,54.6046667 396.412833,54.2448333 396.0955,53.9445 C395.778167,53.6441667 395.401333,53.4118333 394.965,53.2475 C394.528667,53.0831667 394.044167,53.001 393.5115,53.001 C392.740833,53.001 392.077833,53.1455 391.5225,53.4345 C390.967167,53.7235 390.423167,54.1513333 389.8905,54.718 L389.8905,54.718 L391.2505,56.061 C391.5225,55.7663333 391.8115,55.5085 392.1175,55.2875 C392.4235,55.0665 392.774833,54.956 393.1715,54.956 C393.6475,54.956 394.0215,55.0948333 394.2935,55.3725 C394.5655,55.6501667 394.7015,56.0553333 394.7015,56.588 C394.7015,56.9733333 394.585333,57.3785 394.353,57.8035 C394.120667,58.2285 393.797667,58.6875 393.384,59.1805 C392.970333,59.6735 392.477333,60.2005 391.905,60.7615 C391.332667,61.3225 390.700833,61.926 390.0095,62.572 L390.0095,62.572 L390.0095,64 L397.6085,64 Z" id="SB2" fill="#093169" fill-rule="nonzero"></path>
+        <path d="M374.3355,131.204 C374.992833,131.204 375.582167,131.1105 376.1035,130.9235 C376.624833,130.7365 377.064,130.487167 377.421,130.1755 C377.778,129.863833 378.05,129.501167 378.237,129.0875 C378.424,128.673833 378.5175,128.234667 378.5175,127.77 C378.5175,126.988 378.322,126.359 377.931,125.883 C377.54,125.407 377.0045,125.033 376.3245,124.761 L376.3245,124.761 L374.8965,124.183 C374.6585,124.081 374.4375,123.9875 374.2335,123.9025 C374.0295,123.8175 373.851,123.726833 373.698,123.6305 C373.545,123.534167 373.426,123.4265 373.341,123.3075 C373.256,123.1885 373.2135,123.044 373.2135,122.874 C373.2135,122.556667 373.341,122.310167 373.596,122.1345 C373.851,121.958833 374.193833,121.871 374.6245,121.871 C375.0665,121.871 375.468833,121.9475 375.8315,122.1005 C376.194167,122.2535 376.556833,122.471667 376.9195,122.755 L376.9195,122.755 L378.1945,121.174 C377.7185,120.698 377.166,120.335333 376.537,120.086 C375.908,119.836667 375.2705,119.712 374.6245,119.712 C374.0465,119.712 373.516667,119.797 373.035,119.967 C372.553333,120.137 372.136833,120.372167 371.7855,120.6725 C371.434167,120.972833 371.162167,121.324167 370.9695,121.7265 C370.776833,122.128833 370.6805,122.556667 370.6805,123.01 C370.6805,123.418 370.742833,123.7835 370.8675,124.1065 C370.992167,124.4295 371.159333,124.712833 371.369,124.9565 C371.578667,125.200167 371.816667,125.412667 372.083,125.594 C372.349333,125.775333 372.624167,125.922667 372.9075,126.036 L372.9075,126.036 L374.3525,126.648 C374.5905,126.75 374.808667,126.8435 375.007,126.9285 C375.205333,127.0135 375.375333,127.104167 375.517,127.2005 C375.658667,127.296833 375.766333,127.407333 375.84,127.532 C375.913667,127.656667 375.9505,127.804 375.9505,127.974 C375.9505,128.302667 375.823,128.563333 375.568,128.756 C375.313,128.948667 374.924833,129.045 374.4035,129.045 C373.938833,129.045 373.465667,128.937333 372.984,128.722 C372.502333,128.506667 372.063167,128.229 371.6665,127.889 L371.6665,127.889 L370.2385,129.606 C370.805167,130.138667 371.448333,130.538167 372.168,130.8045 C372.887667,131.070833 373.610167,131.204 374.3355,131.204 Z M384.5185,131 C385.119167,131 385.680167,130.934833 386.2015,130.8045 C386.722833,130.674167 387.179,130.475833 387.57,130.2095 C387.961,129.943167 388.267,129.606 388.488,129.198 C388.709,128.79 388.8195,128.302667 388.8195,127.736 C388.8195,127.362 388.7685,127.0305 388.6665,126.7415 C388.5645,126.4525 388.422833,126.200333 388.2415,125.985 C388.060167,125.769667 387.8505,125.591167 387.6125,125.4495 C387.3745,125.307833 387.113833,125.203 386.8305,125.135 L386.8305,125.135 L386.8305,125.067 C387.057167,124.987667 387.258333,124.863 387.434,124.693 C387.609667,124.523 387.759833,124.330333 387.8845,124.115 C388.009167,123.899667 388.1055,123.667333 388.1735,123.418 C388.2415,123.168667 388.2755,122.919333 388.2755,122.67 C388.2755,122.137333 388.170667,121.695333 387.961,121.344 C387.751333,120.992667 387.462333,120.709333 387.094,120.494 C386.725667,120.278667 386.295,120.1285 385.802,120.0435 C385.309,119.9585 384.7735,119.916 384.1955,119.916 L384.1955,119.916 L380.4045,119.916 L380.4045,131 L384.5185,131 Z M384.0765,124.353 L382.9035,124.353 L382.9035,121.854 L384.0935,121.854 C384.682833,121.854 385.119167,121.944667 385.4025,122.126 C385.685833,122.307333 385.8275,122.613333 385.8275,123.044 C385.8275,123.440667 385.688667,123.758 385.411,123.996 C385.133333,124.234 384.6885,124.353 384.0765,124.353 L384.0765,124.353 Z M384.3145,129.062 L382.9035,129.062 L382.9035,126.206 L384.3145,126.206 C385.005833,126.206 385.5215,126.310833 385.8615,126.5205 C386.2015,126.730167 386.3715,127.078667 386.3715,127.566 C386.3715,128.563333 385.685833,129.062 384.3145,129.062 L384.3145,129.062 Z M397.4385,131 L397.4385,128.977 L395.4155,128.977 L395.4155,120.205 L393.5795,120.205 C393.194167,120.431667 392.7975,120.624333 392.3895,120.783 C391.9815,120.941667 391.482833,121.077667 390.8935,121.191 L390.8935,121.191 L390.8935,122.738 L392.9165,122.738 L392.9165,128.977 L390.5705,128.977 L390.5705,131 L397.4385,131 Z" id="SB1" fill="#093169" fill-rule="nonzero"></path>
+        <path d="M374.3355,198.204 C374.992833,198.204 375.582167,198.1105 376.1035,197.9235 C376.624833,197.7365 377.064,197.487167 377.421,197.1755 C377.778,196.863833 378.05,196.501167 378.237,196.0875 C378.424,195.673833 378.5175,195.234667 378.5175,194.77 C378.5175,193.988 378.322,193.359 377.931,192.883 C377.54,192.407 377.0045,192.033 376.3245,191.761 L376.3245,191.761 L374.8965,191.183 C374.6585,191.081 374.4375,190.9875 374.2335,190.9025 C374.0295,190.8175 373.851,190.726833 373.698,190.6305 C373.545,190.534167 373.426,190.4265 373.341,190.3075 C373.256,190.1885 373.2135,190.044 373.2135,189.874 C373.2135,189.556667 373.341,189.310167 373.596,189.1345 C373.851,188.958833 374.193833,188.871 374.6245,188.871 C375.0665,188.871 375.468833,188.9475 375.8315,189.1005 C376.194167,189.2535 376.556833,189.471667 376.9195,189.755 L376.9195,189.755 L378.1945,188.174 C377.7185,187.698 377.166,187.335333 376.537,187.086 C375.908,186.836667 375.2705,186.712 374.6245,186.712 C374.0465,186.712 373.516667,186.797 373.035,186.967 C372.553333,187.137 372.136833,187.372167 371.7855,187.6725 C371.434167,187.972833 371.162167,188.324167 370.9695,188.7265 C370.776833,189.128833 370.6805,189.556667 370.6805,190.01 C370.6805,190.418 370.742833,190.7835 370.8675,191.1065 C370.992167,191.4295 371.159333,191.712833 371.369,191.9565 C371.578667,192.200167 371.816667,192.412667 372.083,192.594 C372.349333,192.775333 372.624167,192.922667 372.9075,193.036 L372.9075,193.036 L374.3525,193.648 C374.5905,193.75 374.808667,193.8435 375.007,193.9285 C375.205333,194.0135 375.375333,194.104167 375.517,194.2005 C375.658667,194.296833 375.766333,194.407333 375.84,194.532 C375.913667,194.656667 375.9505,194.804 375.9505,194.974 C375.9505,195.302667 375.823,195.563333 375.568,195.756 C375.313,195.948667 374.924833,196.045 374.4035,196.045 C373.938833,196.045 373.465667,195.937333 372.984,195.722 C372.502333,195.506667 372.063167,195.229 371.6665,194.889 L371.6665,194.889 L370.2385,196.606 C370.805167,197.138667 371.448333,197.538167 372.168,197.8045 C372.887667,198.070833 373.610167,198.204 374.3355,198.204 Z M384.5185,198 C385.119167,198 385.680167,197.934833 386.2015,197.8045 C386.722833,197.674167 387.179,197.475833 387.57,197.2095 C387.961,196.943167 388.267,196.606 388.488,196.198 C388.709,195.79 388.8195,195.302667 388.8195,194.736 C388.8195,194.362 388.7685,194.0305 388.6665,193.7415 C388.5645,193.4525 388.422833,193.200333 388.2415,192.985 C388.060167,192.769667 387.8505,192.591167 387.6125,192.4495 C387.3745,192.307833 387.113833,192.203 386.8305,192.135 L386.8305,192.135 L386.8305,192.067 C387.057167,191.987667 387.258333,191.863 387.434,191.693 C387.609667,191.523 387.759833,191.330333 387.8845,191.115 C388.009167,190.899667 388.1055,190.667333 388.1735,190.418 C388.2415,190.168667 388.2755,189.919333 388.2755,189.67 C388.2755,189.137333 388.170667,188.695333 387.961,188.344 C387.751333,187.992667 387.462333,187.709333 387.094,187.494 C386.725667,187.278667 386.295,187.1285 385.802,187.0435 C385.309,186.9585 384.7735,186.916 384.1955,186.916 L384.1955,186.916 L380.4045,186.916 L380.4045,198 L384.5185,198 Z M384.0765,191.353 L382.9035,191.353 L382.9035,188.854 L384.0935,188.854 C384.682833,188.854 385.119167,188.944667 385.4025,189.126 C385.685833,189.307333 385.8275,189.613333 385.8275,190.044 C385.8275,190.440667 385.688667,190.758 385.411,190.996 C385.133333,191.234 384.6885,191.353 384.0765,191.353 L384.0765,191.353 Z M384.3145,196.062 L382.9035,196.062 L382.9035,193.206 L384.3145,193.206 C385.005833,193.206 385.5215,193.310833 385.8615,193.5205 C386.2015,193.730167 386.3715,194.078667 386.3715,194.566 C386.3715,195.563333 385.685833,196.062 384.3145,196.062 L384.3145,196.062 Z M397.6085,198 L397.6085,195.892 L395.4325,195.892 C395.171833,195.892 394.874333,195.906167 394.54,195.9345 C394.205667,195.962833 393.9025,195.994 393.6305,196.028 C394.0725,195.574667 394.500333,195.112833 394.914,194.6425 C395.327667,194.172167 395.696,193.701833 396.019,193.2315 C396.342,192.761167 396.599833,192.290833 396.7925,191.8205 C396.985167,191.350167 397.0815,190.888333 397.0815,190.435 C397.0815,189.913667 396.9965,189.443333 396.8265,189.024 C396.6565,188.604667 396.412833,188.244833 396.0955,187.9445 C395.778167,187.644167 395.401333,187.411833 394.965,187.2475 C394.528667,187.083167 394.044167,187.001 393.5115,187.001 C392.740833,187.001 392.077833,187.1455 391.5225,187.4345 C390.967167,187.7235 390.423167,188.151333 389.8905,188.718 L389.8905,188.718 L391.2505,190.061 C391.5225,189.766333 391.8115,189.5085 392.1175,189.2875 C392.4235,189.0665 392.774833,188.956 393.1715,188.956 C393.6475,188.956 394.0215,189.094833 394.2935,189.3725 C394.5655,189.650167 394.7015,190.055333 394.7015,190.588 C394.7015,190.973333 394.585333,191.3785 394.353,191.8035 C394.120667,192.2285 393.797667,192.6875 393.384,193.1805 C392.970333,193.6735 392.477333,194.2005 391.905,194.7615 C391.332667,195.3225 390.700833,195.926 390.0095,196.572 L390.0095,196.572 L390.0095,198 L397.6085,198 Z" id="SB2" fill="#093169" fill-rule="nonzero"></path>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(300.500000, 225.500000) rotate(-180.000000) translate(-300.500000, -225.500000) " points="261.63 233 261.5 218 339.5 218 339.5 233"></polyline>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(239.000000, 192.500000) rotate(-90.000000) translate(-239.000000, -192.500000) " points="228.036667 200 228 185 250 185 250 200"></polyline>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(239.000000, 125.500000) rotate(-90.000000) translate(-239.000000, -125.500000) " points="187.671667 133 187.5 118 290.5 118 290.5 133"></polyline>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(171.000000, 125.500000) rotate(-90.000000) translate(-171.000000, -125.500000) " points="93.26 133 93 118 249 118 249 133"></polyline>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(239.000000, 58.500000) rotate(-90.000000) translate(-239.000000, -58.500000) " points="228.036667 66 228 51 250 51 250 66"></polyline>
+        <path d="M281.195,265 L281.195,262.892 L279.019,262.892 C278.758333,262.892 278.460833,262.906167 278.1265,262.9345 C277.792167,262.962833 277.489,262.994 277.217,263.028 C277.659,262.574667 278.086833,262.112833 278.5005,261.6425 C278.914167,261.172167 279.2825,260.701833 279.6055,260.2315 C279.9285,259.761167 280.186333,259.290833 280.379,258.8205 C280.571667,258.350167 280.668,257.888333 280.668,257.435 C280.668,256.913667 280.583,256.443333 280.413,256.024 C280.243,255.604667 279.999333,255.244833 279.682,254.9445 C279.364667,254.644167 278.987833,254.411833 278.5515,254.2475 C278.115167,254.083167 277.630667,254.001 277.098,254.001 C276.327333,254.001 275.664333,254.1455 275.109,254.4345 C274.553667,254.7235 274.009667,255.151333 273.477,255.718 L273.477,255.718 L274.837,257.061 C275.109,256.766333 275.398,256.5085 275.704,256.2875 C276.01,256.0665 276.361333,255.956 276.758,255.956 C277.234,255.956 277.608,256.094833 277.88,256.3725 C278.152,256.650167 278.288,257.055333 278.288,257.588 C278.288,257.973333 278.171833,258.3785 277.9395,258.8035 C277.707167,259.2285 277.384167,259.6875 276.9705,260.1805 C276.556833,260.6735 276.063833,261.2005 275.4915,261.7615 C274.919167,262.3225 274.287333,262.926 273.596,263.572 L273.596,263.572 L273.596,265 L281.195,265 Z M290.171,265 L290.171,262.892 L287.995,262.892 C287.734333,262.892 287.436833,262.906167 287.1025,262.9345 C286.768167,262.962833 286.465,262.994 286.193,263.028 C286.635,262.574667 287.062833,262.112833 287.4765,261.6425 C287.890167,261.172167 288.2585,260.701833 288.5815,260.2315 C288.9045,259.761167 289.162333,259.290833 289.355,258.8205 C289.547667,258.350167 289.644,257.888333 289.644,257.435 C289.644,256.913667 289.559,256.443333 289.389,256.024 C289.219,255.604667 288.975333,255.244833 288.658,254.9445 C288.340667,254.644167 287.963833,254.411833 287.5275,254.2475 C287.091167,254.083167 286.606667,254.001 286.074,254.001 C285.303333,254.001 284.640333,254.1455 284.085,254.4345 C283.529667,254.7235 282.985667,255.151333 282.453,255.718 L282.453,255.718 L283.813,257.061 C284.085,256.766333 284.374,256.5085 284.68,256.2875 C284.986,256.0665 285.337333,255.956 285.734,255.956 C286.21,255.956 286.584,256.094833 286.856,256.3725 C287.128,256.650167 287.264,257.055333 287.264,257.588 C287.264,257.973333 287.147833,258.3785 286.9155,258.8035 C286.683167,259.2285 286.360167,259.6875 285.9465,260.1805 C285.532833,260.6735 285.039833,261.2005 284.4675,261.7615 C283.895167,262.3225 283.263333,262.926 282.572,263.572 L282.572,263.572 L282.572,265 L290.171,265 Z M295.118,265.204 C295.639333,265.204 296.140833,265.119 296.6225,264.949 C297.104167,264.779 297.526333,264.5325 297.889,264.2095 C298.251667,263.8865 298.540667,263.492667 298.756,263.028 C298.971333,262.563333 299.079,262.030667 299.079,261.43 C299.079,260.852 298.988333,260.353333 298.807,259.934 C298.625667,259.514667 298.376333,259.169 298.059,258.897 C297.741667,258.625 297.376167,258.421 296.9625,258.285 C296.548833,258.149 296.109667,258.081 295.645,258.081 C295.418333,258.081 295.2115,258.100833 295.0245,258.1405 C294.8375,258.180167 294.642,258.245333 294.438,258.336 L294.438,258.336 L294.625,256.313 L298.586,256.313 L298.586,254.205 L292.466,254.205 L292.16,259.662 L293.282,260.376 C293.440667,260.274 293.585167,260.189 293.7155,260.121 C293.845833,260.053 293.9705,259.996333 294.0895,259.951 C294.2085,259.905667 294.330333,259.8745 294.455,259.8575 C294.579667,259.8405 294.721333,259.832 294.88,259.832 C295.39,259.832 295.800833,259.973667 296.1125,260.257 C296.424167,260.540333 296.58,260.954 296.58,261.498 C296.58,262.053333 296.415667,262.472667 296.087,262.756 C295.758333,263.039333 295.316333,263.181 294.761,263.181 C294.296333,263.181 293.874167,263.076167 293.4945,262.8665 C293.114833,262.656833 292.760667,262.404667 292.432,262.11 L292.432,262.11 L291.31,263.691 C291.740667,264.121667 292.262,264.4815 292.874,264.7705 C293.486,265.0595 294.234,265.204 295.118,265.204 Z M303.499,265 L303.499,259.305 C304.020333,258.761 304.496333,258.489 304.927,258.489 C305.289667,258.489 305.553167,258.602333 305.7175,258.829 C305.881833,259.055667 305.964,259.475 305.964,260.087 L305.964,260.087 L305.964,265 L308.463,265 L308.463,259.305 C309.007,258.761 309.488667,258.489 309.908,258.489 C310.270667,258.489 310.534167,258.602333 310.6985,258.829 C310.862833,259.055667 310.945,259.475 310.945,260.087 L310.945,260.087 L310.945,265 L313.444,265 L313.444,259.764 C313.444,258.71 313.2315,257.879833 312.8065,257.2735 C312.3815,256.667167 311.715667,256.364 310.809,256.364 C310.242333,256.364 309.752167,256.502833 309.3385,256.7805 C308.924833,257.058167 308.531,257.389667 308.157,257.775 C307.941667,257.321667 307.649833,256.973167 307.2815,256.7295 C306.913167,256.485833 306.428667,256.364 305.828,256.364 C305.272667,256.364 304.796667,256.4915 304.4,256.7465 C304.003333,257.0015 303.629333,257.304667 303.278,257.656 L303.278,257.656 L303.21,257.656 L303.04,256.568 L301,256.568 L301,265 L303.499,265 Z M318.068,265 L318.068,259.305 C318.589333,258.761 319.065333,258.489 319.496,258.489 C319.858667,258.489 320.122167,258.602333 320.2865,258.829 C320.450833,259.055667 320.533,259.475 320.533,260.087 L320.533,260.087 L320.533,265 L323.032,265 L323.032,259.305 C323.576,258.761 324.057667,258.489 324.477,258.489 C324.839667,258.489 325.103167,258.602333 325.2675,258.829 C325.431833,259.055667 325.514,259.475 325.514,260.087 L325.514,260.087 L325.514,265 L328.013,265 L328.013,259.764 C328.013,258.71 327.8005,257.879833 327.3755,257.2735 C326.9505,256.667167 326.284667,256.364 325.378,256.364 C324.811333,256.364 324.321167,256.502833 323.9075,256.7805 C323.493833,257.058167 323.1,257.389667 322.726,257.775 C322.510667,257.321667 322.218833,256.973167 321.8505,256.7295 C321.482167,256.485833 320.997667,256.364 320.397,256.364 C319.841667,256.364 319.365667,256.4915 318.969,256.7465 C318.572333,257.0015 318.198333,257.304667 317.847,257.656 L317.847,257.656 L317.779,257.656 L317.609,256.568 L315.569,256.568 L315.569,265 L318.068,265 Z" id="225mm" fill="#093169" fill-rule="nonzero"></path>
+        <path d="M185.732,65.204 C186.219333,65.204 186.681167,65.1218333 187.1175,64.9575 C187.553833,64.7931667 187.9335,64.5523333 188.2565,64.235 C188.5795,63.9176667 188.837333,63.538 189.03,63.096 C189.222667,62.654 189.319,62.1496667 189.319,61.583 C189.319,61.0163333 189.239667,60.5233333 189.081,60.104 C188.922333,59.6846667 188.6985,59.339 188.4095,59.067 C188.1205,58.795 187.7805,58.591 187.3895,58.455 C186.9985,58.319 186.570667,58.251 186.106,58.251 C185.936,58.251 185.754667,58.2765 185.562,58.3275 C185.369333,58.3785 185.176667,58.4521667 184.984,58.5485 C184.791333,58.6448333 184.604333,58.7638333 184.423,58.9055 C184.241667,59.0471667 184.083,59.2086667 183.947,59.39 C183.969667,58.7666667 184.043333,58.2396667 184.168,57.809 C184.292667,57.3783333 184.454167,57.0298333 184.6525,56.7635 C184.850833,56.4971667 185.080333,56.3073333 185.341,56.194 C185.601667,56.0806667 185.879333,56.024 186.174,56.024 C186.491333,56.024 186.803,56.1005 187.109,56.2535 C187.415,56.4065 187.664333,56.585 187.857,56.789 L187.857,56.789 L189.166,55.293 C188.826,54.9416667 188.395333,54.6385 187.874,54.3835 C187.352667,54.1285 186.735,54.001 186.021,54.001 C185.454333,54.001 184.9075,54.1171667 184.3805,54.3495 C183.8535,54.5818333 183.388833,54.936 182.9865,55.412 C182.584167,55.888 182.261167,56.4943333 182.0175,57.231 C181.773833,57.9676667 181.652,58.8403333 181.652,59.849 C181.652,60.801 181.765333,61.6141667 181.992,62.2885 C182.218667,62.9628333 182.521833,63.5153333 182.9015,63.946 C183.281167,64.3766667 183.7175,64.694 184.2105,64.898 C184.7035,65.102 185.210667,65.204 185.732,65.204 Z M185.681,63.334 C185.488333,63.334 185.304167,63.2971667 185.1285,63.2235 C184.952833,63.1498333 184.791333,63.0251667 184.644,62.8495 C184.496667,62.6738333 184.366333,62.4443333 184.253,62.161 C184.139667,61.8776667 184.054667,61.5206667 183.998,61.09 C184.224667,60.7046667 184.4825,60.4298333 184.7715,60.2655 C185.0605,60.1011667 185.346667,60.019 185.63,60.019 C186.038,60.019 186.375167,60.1351667 186.6415,60.3675 C186.907833,60.5998333 187.041,61.005 187.041,61.583 C187.041,62.195 186.907833,62.6398333 186.6415,62.9175 C186.375167,63.1951667 186.055,63.334 185.681,63.334 Z M194.13,65.204 C194.651333,65.204 195.152833,65.119 195.6345,64.949 C196.116167,64.779 196.538333,64.5325 196.901,64.2095 C197.263667,63.8865 197.552667,63.4926667 197.768,63.028 C197.983333,62.5633333 198.091,62.0306667 198.091,61.43 C198.091,60.852 198.000333,60.3533333 197.819,59.934 C197.637667,59.5146667 197.388333,59.169 197.071,58.897 C196.753667,58.625 196.388167,58.421 195.9745,58.285 C195.560833,58.149 195.121667,58.081 194.657,58.081 C194.430333,58.081 194.2235,58.1008333 194.0365,58.1405 C193.8495,58.1801667 193.654,58.2453333 193.45,58.336 L193.45,58.336 L193.637,56.313 L197.598,56.313 L197.598,54.205 L191.478,54.205 L191.172,59.662 L192.294,60.376 C192.452667,60.274 192.597167,60.189 192.7275,60.121 C192.857833,60.053 192.9825,59.9963333 193.1015,59.951 C193.2205,59.9056667 193.342333,59.8745 193.467,59.8575 C193.591667,59.8405 193.733333,59.832 193.892,59.832 C194.402,59.832 194.812833,59.9736667 195.1245,60.257 C195.436167,60.5403333 195.592,60.954 195.592,61.498 C195.592,62.0533333 195.427667,62.4726667 195.099,62.756 C194.770333,63.0393333 194.328333,63.181 193.773,63.181 C193.308333,63.181 192.886167,63.0761667 192.5065,62.8665 C192.126833,62.6568333 191.772667,62.4046667 191.444,62.11 L191.444,62.11 L190.322,63.691 C190.752667,64.1216667 191.274,64.4815 191.886,64.7705 C192.498,65.0595 193.246,65.204 194.13,65.204 Z M202.511,65 L202.511,59.305 C203.032333,58.761 203.508333,58.489 203.939,58.489 C204.301667,58.489 204.565167,58.6023333 204.7295,58.829 C204.893833,59.0556667 204.976,59.475 204.976,60.087 L204.976,60.087 L204.976,65 L207.475,65 L207.475,59.305 C208.019,58.761 208.500667,58.489 208.92,58.489 C209.282667,58.489 209.546167,58.6023333 209.7105,58.829 C209.874833,59.0556667 209.957,59.475 209.957,60.087 L209.957,60.087 L209.957,65 L212.456,65 L212.456,59.764 C212.456,58.71 212.2435,57.8798333 211.8185,57.2735 C211.3935,56.6671667 210.727667,56.364 209.821,56.364 C209.254333,56.364 208.764167,56.5028333 208.3505,56.7805 C207.936833,57.0581667 207.543,57.3896667 207.169,57.775 C206.953667,57.3216667 206.661833,56.9731667 206.2935,56.7295 C205.925167,56.4858333 205.440667,56.364 204.84,56.364 C204.284667,56.364 203.808667,56.4915 203.412,56.7465 C203.015333,57.0015 202.641333,57.3046667 202.29,57.656 L202.29,57.656 L202.222,57.656 L202.052,56.568 L200.012,56.568 L200.012,65 L202.511,65 Z M217.08,65 L217.08,59.305 C217.601333,58.761 218.077333,58.489 218.508,58.489 C218.870667,58.489 219.134167,58.6023333 219.2985,58.829 C219.462833,59.0556667 219.545,59.475 219.545,60.087 L219.545,60.087 L219.545,65 L222.044,65 L222.044,59.305 C222.588,58.761 223.069667,58.489 223.489,58.489 C223.851667,58.489 224.115167,58.6023333 224.2795,58.829 C224.443833,59.0556667 224.526,59.475 224.526,60.087 L224.526,60.087 L224.526,65 L227.025,65 L227.025,59.764 C227.025,58.71 226.8125,57.8798333 226.3875,57.2735 C225.9625,56.6671667 225.296667,56.364 224.39,56.364 C223.823333,56.364 223.333167,56.5028333 222.9195,56.7805 C222.505833,57.0581667 222.112,57.3896667 221.738,57.775 C221.522667,57.3216667 221.230833,56.9731667 220.8625,56.7295 C220.494167,56.4858333 220.009667,56.364 219.409,56.364 C218.853667,56.364 218.377667,56.4915 217.981,56.7465 C217.584333,57.0015 217.210333,57.3046667 216.859,57.656 L216.859,57.656 L216.791,57.656 L216.621,56.568 L214.581,56.568 L214.581,65 L217.08,65 Z" id="65mm" fill="#093169" fill-rule="nonzero" transform="translate(204.338500, 59.602500) rotate(-90.000000) translate(-204.338500, -59.602500) "></path>
+        <path d="M185.732,199.204 C186.219333,199.204 186.681167,199.121833 187.1175,198.9575 C187.553833,198.793167 187.9335,198.552333 188.2565,198.235 C188.5795,197.917667 188.837333,197.538 189.03,197.096 C189.222667,196.654 189.319,196.149667 189.319,195.583 C189.319,195.016333 189.239667,194.523333 189.081,194.104 C188.922333,193.684667 188.6985,193.339 188.4095,193.067 C188.1205,192.795 187.7805,192.591 187.3895,192.455 C186.9985,192.319 186.570667,192.251 186.106,192.251 C185.936,192.251 185.754667,192.2765 185.562,192.3275 C185.369333,192.3785 185.176667,192.452167 184.984,192.5485 C184.791333,192.644833 184.604333,192.763833 184.423,192.9055 C184.241667,193.047167 184.083,193.208667 183.947,193.39 C183.969667,192.766667 184.043333,192.239667 184.168,191.809 C184.292667,191.378333 184.454167,191.029833 184.6525,190.7635 C184.850833,190.497167 185.080333,190.307333 185.341,190.194 C185.601667,190.080667 185.879333,190.024 186.174,190.024 C186.491333,190.024 186.803,190.1005 187.109,190.2535 C187.415,190.4065 187.664333,190.585 187.857,190.789 L187.857,190.789 L189.166,189.293 C188.826,188.941667 188.395333,188.6385 187.874,188.3835 C187.352667,188.1285 186.735,188.001 186.021,188.001 C185.454333,188.001 184.9075,188.117167 184.3805,188.3495 C183.8535,188.581833 183.388833,188.936 182.9865,189.412 C182.584167,189.888 182.261167,190.494333 182.0175,191.231 C181.773833,191.967667 181.652,192.840333 181.652,193.849 C181.652,194.801 181.765333,195.614167 181.992,196.2885 C182.218667,196.962833 182.521833,197.515333 182.9015,197.946 C183.281167,198.376667 183.7175,198.694 184.2105,198.898 C184.7035,199.102 185.210667,199.204 185.732,199.204 Z M185.681,197.334 C185.488333,197.334 185.304167,197.297167 185.1285,197.2235 C184.952833,197.149833 184.791333,197.025167 184.644,196.8495 C184.496667,196.673833 184.366333,196.444333 184.253,196.161 C184.139667,195.877667 184.054667,195.520667 183.998,195.09 C184.224667,194.704667 184.4825,194.429833 184.7715,194.2655 C185.0605,194.101167 185.346667,194.019 185.63,194.019 C186.038,194.019 186.375167,194.135167 186.6415,194.3675 C186.907833,194.599833 187.041,195.005 187.041,195.583 C187.041,196.195 186.907833,196.639833 186.6415,196.9175 C186.375167,197.195167 186.055,197.334 185.681,197.334 Z M194.13,199.204 C194.651333,199.204 195.152833,199.119 195.6345,198.949 C196.116167,198.779 196.538333,198.5325 196.901,198.2095 C197.263667,197.8865 197.552667,197.492667 197.768,197.028 C197.983333,196.563333 198.091,196.030667 198.091,195.43 C198.091,194.852 198.000333,194.353333 197.819,193.934 C197.637667,193.514667 197.388333,193.169 197.071,192.897 C196.753667,192.625 196.388167,192.421 195.9745,192.285 C195.560833,192.149 195.121667,192.081 194.657,192.081 C194.430333,192.081 194.2235,192.100833 194.0365,192.1405 C193.8495,192.180167 193.654,192.245333 193.45,192.336 L193.45,192.336 L193.637,190.313 L197.598,190.313 L197.598,188.205 L191.478,188.205 L191.172,193.662 L192.294,194.376 C192.452667,194.274 192.597167,194.189 192.7275,194.121 C192.857833,194.053 192.9825,193.996333 193.1015,193.951 C193.2205,193.905667 193.342333,193.8745 193.467,193.8575 C193.591667,193.8405 193.733333,193.832 193.892,193.832 C194.402,193.832 194.812833,193.973667 195.1245,194.257 C195.436167,194.540333 195.592,194.954 195.592,195.498 C195.592,196.053333 195.427667,196.472667 195.099,196.756 C194.770333,197.039333 194.328333,197.181 193.773,197.181 C193.308333,197.181 192.886167,197.076167 192.5065,196.8665 C192.126833,196.656833 191.772667,196.404667 191.444,196.11 L191.444,196.11 L190.322,197.691 C190.752667,198.121667 191.274,198.4815 191.886,198.7705 C192.498,199.0595 193.246,199.204 194.13,199.204 Z M202.511,199 L202.511,193.305 C203.032333,192.761 203.508333,192.489 203.939,192.489 C204.301667,192.489 204.565167,192.602333 204.7295,192.829 C204.893833,193.055667 204.976,193.475 204.976,194.087 L204.976,194.087 L204.976,199 L207.475,199 L207.475,193.305 C208.019,192.761 208.500667,192.489 208.92,192.489 C209.282667,192.489 209.546167,192.602333 209.7105,192.829 C209.874833,193.055667 209.957,193.475 209.957,194.087 L209.957,194.087 L209.957,199 L212.456,199 L212.456,193.764 C212.456,192.71 212.2435,191.879833 211.8185,191.2735 C211.3935,190.667167 210.727667,190.364 209.821,190.364 C209.254333,190.364 208.764167,190.502833 208.3505,190.7805 C207.936833,191.058167 207.543,191.389667 207.169,191.775 C206.953667,191.321667 206.661833,190.973167 206.2935,190.7295 C205.925167,190.485833 205.440667,190.364 204.84,190.364 C204.284667,190.364 203.808667,190.4915 203.412,190.7465 C203.015333,191.0015 202.641333,191.304667 202.29,191.656 L202.29,191.656 L202.222,191.656 L202.052,190.568 L200.012,190.568 L200.012,199 L202.511,199 Z M217.08,199 L217.08,193.305 C217.601333,192.761 218.077333,192.489 218.508,192.489 C218.870667,192.489 219.134167,192.602333 219.2985,192.829 C219.462833,193.055667 219.545,193.475 219.545,194.087 L219.545,194.087 L219.545,199 L222.044,199 L222.044,193.305 C222.588,192.761 223.069667,192.489 223.489,192.489 C223.851667,192.489 224.115167,192.602333 224.2795,192.829 C224.443833,193.055667 224.526,193.475 224.526,194.087 L224.526,194.087 L224.526,199 L227.025,199 L227.025,193.764 C227.025,192.71 226.8125,191.879833 226.3875,191.2735 C225.9625,190.667167 225.296667,190.364 224.39,190.364 C223.823333,190.364 223.333167,190.502833 222.9195,190.7805 C222.505833,191.058167 222.112,191.389667 221.738,191.775 C221.522667,191.321667 221.230833,190.973167 220.8625,190.7295 C220.494167,190.485833 220.009667,190.364 219.409,190.364 C218.853667,190.364 218.377667,190.4915 217.981,190.7465 C217.584333,191.0015 217.210333,191.304667 216.859,191.656 L216.859,191.656 L216.791,191.656 L216.621,190.568 L214.581,190.568 L214.581,199 L217.08,199 Z" id="65mm" fill="#093169" fill-rule="nonzero" transform="translate(204.338500, 193.602500) rotate(-90.000000) translate(-204.338500, -193.602500) "></path>
+        <path d="M181.098,132.204 C181.642,132.204 182.157667,132.133167 182.645,131.9915 C183.132333,131.849833 183.557333,131.645833 183.92,131.3795 C184.282667,131.113167 184.571667,130.7845 184.787,130.3935 C185.002333,130.0025 185.11,129.557667 185.11,129.059 C185.11,128.356333 184.908833,127.786833 184.5065,127.3505 C184.104167,126.914167 183.591333,126.605333 182.968,126.424 L182.968,126.424 L182.968,126.356 C183.546,126.106667 183.990833,125.7865 184.3025,125.3955 C184.614167,125.0045 184.77,124.525667 184.77,123.959 C184.77,123.483 184.679333,123.063667 184.498,122.701 C184.316667,122.338333 184.0645,122.0295 183.7415,121.7745 C183.4185,121.5195 183.0275,121.326833 182.5685,121.1965 C182.1095,121.066167 181.602333,121.001 181.047,121.001 C180.378333,121.001 179.769167,121.122833 179.2195,121.3665 C178.669833,121.610167 178.145667,121.947333 177.647,122.378 L177.647,122.378 L178.905,123.908 C179.245,123.613333 179.570833,123.381 179.8825,123.211 C180.194167,123.041 180.542667,122.956 180.928,122.956 C181.358667,122.956 181.687333,123.060833 181.914,123.2705 C182.140667,123.480167 182.254,123.772 182.254,124.146 C182.254,124.361333 182.2115,124.556833 182.1265,124.7325 C182.0415,124.908167 181.899833,125.061167 181.7015,125.1915 C181.503167,125.321833 181.2425,125.421 180.9195,125.489 C180.5965,125.557 180.191333,125.591 179.704,125.591 L179.704,125.591 L179.704,127.359 C180.293333,127.359 180.775,127.395833 181.149,127.4695 C181.523,127.543167 181.817667,127.645167 182.033,127.7755 C182.248333,127.905833 182.3985,128.067333 182.4835,128.26 C182.5685,128.452667 182.611,128.668 182.611,128.906 C182.611,129.314 182.452333,129.6285 182.135,129.8495 C181.817667,130.0705 181.392667,130.181 180.86,130.181 C180.395333,130.181 179.9675,130.079 179.5765,129.875 C179.1855,129.671 178.825667,129.410333 178.497,129.093 L178.497,129.093 L177.341,130.674 C177.737667,131.138667 178.242,131.509833 178.854,131.7875 C179.466,132.065167 180.214,132.204 181.098,132.204 Z M190.431,132.204 C191.009,132.204 191.536,132.082167 192.012,131.8385 C192.488,131.594833 192.893167,131.235 193.2275,130.759 C193.561833,130.283 193.8225,129.693667 194.0095,128.991 C194.1965,128.288333 194.29,127.478 194.29,126.56 C194.29,125.642 194.1965,124.837333 194.0095,124.146 C193.8225,123.454667 193.561833,122.873833 193.2275,122.4035 C192.893167,121.933167 192.488,121.581833 192.012,121.3495 C191.536,121.117167 191.009,121.001 190.431,121.001 C189.853,121.001 189.326,121.117167 188.85,121.3495 C188.374,121.581833 187.968833,121.933167 187.6345,122.4035 C187.300167,122.873833 187.0395,123.454667 186.8525,124.146 C186.6655,124.837333 186.572,125.642 186.572,126.56 C186.572,127.478 186.6655,128.288333 186.8525,128.991 C187.0395,129.693667 187.300167,130.283 187.6345,130.759 C187.968833,131.235 188.374,131.594833 188.85,131.8385 C189.326,132.082167 189.853,132.204 190.431,132.204 Z M190.431,130.266 C190.227,130.266 190.034333,130.212167 189.853,130.1045 C189.671667,129.996833 189.513,129.801333 189.377,129.518 C189.241,129.234667 189.133333,128.855 189.054,128.379 C188.974667,127.903 188.935,127.296667 188.935,126.56 C188.935,125.823333 188.974667,125.219833 189.054,124.7495 C189.133333,124.279167 189.241,123.910833 189.377,123.6445 C189.513,123.378167 189.671667,123.194 189.853,123.092 C190.034333,122.99 190.227,122.939 190.431,122.939 C190.646333,122.939 190.844667,122.99 191.026,123.092 C191.207333,123.194 191.366,123.378167 191.502,123.6445 C191.638,123.910833 191.742833,124.279167 191.8165,124.7495 C191.890167,125.219833 191.927,125.823333 191.927,126.56 C191.927,127.296667 191.890167,127.903 191.8165,128.379 C191.742833,128.855 191.638,129.234667 191.502,129.518 C191.366,129.801333 191.207333,129.996833 191.026,130.1045 C190.844667,130.212167 190.646333,130.266 190.431,130.266 Z M199.407,132.204 C199.985,132.204 200.512,132.082167 200.988,131.8385 C201.464,131.594833 201.869167,131.235 202.2035,130.759 C202.537833,130.283 202.7985,129.693667 202.9855,128.991 C203.1725,128.288333 203.266,127.478 203.266,126.56 C203.266,125.642 203.1725,124.837333 202.9855,124.146 C202.7985,123.454667 202.537833,122.873833 202.2035,122.4035 C201.869167,121.933167 201.464,121.581833 200.988,121.3495 C200.512,121.117167 199.985,121.001 199.407,121.001 C198.829,121.001 198.302,121.117167 197.826,121.3495 C197.35,121.581833 196.944833,121.933167 196.6105,122.4035 C196.276167,122.873833 196.0155,123.454667 195.8285,124.146 C195.6415,124.837333 195.548,125.642 195.548,126.56 C195.548,127.478 195.6415,128.288333 195.8285,128.991 C196.0155,129.693667 196.276167,130.283 196.6105,130.759 C196.944833,131.235 197.35,131.594833 197.826,131.8385 C198.302,132.082167 198.829,132.204 199.407,132.204 Z M199.407,130.266 C199.203,130.266 199.010333,130.212167 198.829,130.1045 C198.647667,129.996833 198.489,129.801333 198.353,129.518 C198.217,129.234667 198.109333,128.855 198.03,128.379 C197.950667,127.903 197.911,127.296667 197.911,126.56 C197.911,125.823333 197.950667,125.219833 198.03,124.7495 C198.109333,124.279167 198.217,123.910833 198.353,123.6445 C198.489,123.378167 198.647667,123.194 198.829,123.092 C199.010333,122.99 199.203,122.939 199.407,122.939 C199.622333,122.939 199.820667,122.99 200.002,123.092 C200.183333,123.194 200.342,123.378167 200.478,123.6445 C200.614,123.910833 200.718833,124.279167 200.7925,124.7495 C200.866167,125.219833 200.903,125.823333 200.903,126.56 C200.903,127.296667 200.866167,127.903 200.7925,128.379 C200.718833,128.855 200.614,129.234667 200.478,129.518 C200.342,129.801333 200.183333,129.996833 200.002,130.1045 C199.820667,130.212167 199.622333,130.266 199.407,130.266 Z M207.499,132 L207.499,126.305 C208.020333,125.761 208.496333,125.489 208.927,125.489 C209.289667,125.489 209.553167,125.602333 209.7175,125.829 C209.881833,126.055667 209.964,126.475 209.964,127.087 L209.964,127.087 L209.964,132 L212.463,132 L212.463,126.305 C213.007,125.761 213.488667,125.489 213.908,125.489 C214.270667,125.489 214.534167,125.602333 214.6985,125.829 C214.862833,126.055667 214.945,126.475 214.945,127.087 L214.945,127.087 L214.945,132 L217.444,132 L217.444,126.764 C217.444,125.71 217.2315,124.879833 216.8065,124.2735 C216.3815,123.667167 215.715667,123.364 214.809,123.364 C214.242333,123.364 213.752167,123.502833 213.3385,123.7805 C212.924833,124.058167 212.531,124.389667 212.157,124.775 C211.941667,124.321667 211.649833,123.973167 211.2815,123.7295 C210.913167,123.485833 210.428667,123.364 209.828,123.364 C209.272667,123.364 208.796667,123.4915 208.4,123.7465 C208.003333,124.0015 207.629333,124.304667 207.278,124.656 L207.278,124.656 L207.21,124.656 L207.04,123.568 L205,123.568 L205,132 L207.499,132 Z M222.068,132 L222.068,126.305 C222.589333,125.761 223.065333,125.489 223.496,125.489 C223.858667,125.489 224.122167,125.602333 224.2865,125.829 C224.450833,126.055667 224.533,126.475 224.533,127.087 L224.533,127.087 L224.533,132 L227.032,132 L227.032,126.305 C227.576,125.761 228.057667,125.489 228.477,125.489 C228.839667,125.489 229.103167,125.602333 229.2675,125.829 C229.431833,126.055667 229.514,126.475 229.514,127.087 L229.514,127.087 L229.514,132 L232.013,132 L232.013,126.764 C232.013,125.71 231.8005,124.879833 231.3755,124.2735 C230.9505,123.667167 230.284667,123.364 229.378,123.364 C228.811333,123.364 228.321167,123.502833 227.9075,123.7805 C227.493833,124.058167 227.1,124.389667 226.726,124.775 C226.510667,124.321667 226.218833,123.973167 225.8505,123.7295 C225.482167,123.485833 224.997667,123.364 224.397,123.364 C223.841667,123.364 223.365667,123.4915 222.969,123.7465 C222.572333,124.0015 222.198333,124.304667 221.847,124.656 L221.847,124.656 L221.779,124.656 L221.609,123.568 L219.569,123.568 L219.569,132 L222.068,132 Z" id="300mm" fill="#093169" fill-rule="nonzero" transform="translate(204.677000, 126.602500) rotate(-90.000000) translate(-204.677000, -126.602500) "></path>
+        <path d="M117.294,132 L117.294,129.416 L118.535,129.416 L118.535,127.512 L117.294,127.512 L117.294,121.205 L114.234,121.205 L110.29,127.699 L110.29,129.416 L114.965,129.416 L114.965,132 L117.294,132 Z M114.965,127.512 L112.687,127.512 L114.115,125.166 C114.273667,124.86 114.426667,124.554 114.574,124.248 C114.721333,123.942 114.863,123.641667 114.999,123.347 L114.999,123.347 L115.067,123.347 C115.044333,123.687 115.021667,124.0865 114.999,124.5455 C114.976333,125.0045 114.965,125.409667 114.965,125.761 L114.965,125.761 L114.965,127.512 Z M123.142,132.204 C123.663333,132.204 124.164833,132.119 124.6465,131.949 C125.128167,131.779 125.550333,131.5325 125.913,131.2095 C126.275667,130.8865 126.564667,130.492667 126.78,130.028 C126.995333,129.563333 127.103,129.030667 127.103,128.43 C127.103,127.852 127.012333,127.353333 126.831,126.934 C126.649667,126.514667 126.400333,126.169 126.083,125.897 C125.765667,125.625 125.400167,125.421 124.9865,125.285 C124.572833,125.149 124.133667,125.081 123.669,125.081 C123.442333,125.081 123.2355,125.100833 123.0485,125.1405 C122.8615,125.180167 122.666,125.245333 122.462,125.336 L122.462,125.336 L122.649,123.313 L126.61,123.313 L126.61,121.205 L120.49,121.205 L120.184,126.662 L121.306,127.376 C121.464667,127.274 121.609167,127.189 121.7395,127.121 C121.869833,127.053 121.9945,126.996333 122.1135,126.951 C122.2325,126.905667 122.354333,126.8745 122.479,126.8575 C122.603667,126.8405 122.745333,126.832 122.904,126.832 C123.414,126.832 123.824833,126.973667 124.1365,127.257 C124.448167,127.540333 124.604,127.954 124.604,128.498 C124.604,129.053333 124.439667,129.472667 124.111,129.756 C123.782333,130.039333 123.340333,130.181 122.785,130.181 C122.320333,130.181 121.898167,130.076167 121.5185,129.8665 C121.138833,129.656833 120.784667,129.404667 120.456,129.11 L120.456,129.11 L119.334,130.691 C119.764667,131.121667 120.286,131.4815 120.898,131.7705 C121.51,132.0595 122.258,132.204 123.142,132.204 Z M132.407,132.204 C132.985,132.204 133.512,132.082167 133.988,131.8385 C134.464,131.594833 134.869167,131.235 135.2035,130.759 C135.537833,130.283 135.7985,129.693667 135.9855,128.991 C136.1725,128.288333 136.266,127.478 136.266,126.56 C136.266,125.642 136.1725,124.837333 135.9855,124.146 C135.7985,123.454667 135.537833,122.873833 135.2035,122.4035 C134.869167,121.933167 134.464,121.581833 133.988,121.3495 C133.512,121.117167 132.985,121.001 132.407,121.001 C131.829,121.001 131.302,121.117167 130.826,121.3495 C130.35,121.581833 129.944833,121.933167 129.6105,122.4035 C129.276167,122.873833 129.0155,123.454667 128.8285,124.146 C128.6415,124.837333 128.548,125.642 128.548,126.56 C128.548,127.478 128.6415,128.288333 128.8285,128.991 C129.0155,129.693667 129.276167,130.283 129.6105,130.759 C129.944833,131.235 130.35,131.594833 130.826,131.8385 C131.302,132.082167 131.829,132.204 132.407,132.204 Z M132.407,130.266 C132.203,130.266 132.010333,130.212167 131.829,130.1045 C131.647667,129.996833 131.489,129.801333 131.353,129.518 C131.217,129.234667 131.109333,128.855 131.03,128.379 C130.950667,127.903 130.911,127.296667 130.911,126.56 C130.911,125.823333 130.950667,125.219833 131.03,124.7495 C131.109333,124.279167 131.217,123.910833 131.353,123.6445 C131.489,123.378167 131.647667,123.194 131.829,123.092 C132.010333,122.99 132.203,122.939 132.407,122.939 C132.622333,122.939 132.820667,122.99 133.002,123.092 C133.183333,123.194 133.342,123.378167 133.478,123.6445 C133.614,123.910833 133.718833,124.279167 133.7925,124.7495 C133.866167,125.219833 133.903,125.823333 133.903,126.56 C133.903,127.296667 133.866167,127.903 133.7925,128.379 C133.718833,128.855 133.614,129.234667 133.478,129.518 C133.342,129.801333 133.183333,129.996833 133.002,130.1045 C132.820667,130.212167 132.622333,130.266 132.407,130.266 Z M140.499,132 L140.499,126.305 C141.020333,125.761 141.496333,125.489 141.927,125.489 C142.289667,125.489 142.553167,125.602333 142.7175,125.829 C142.881833,126.055667 142.964,126.475 142.964,127.087 L142.964,127.087 L142.964,132 L145.463,132 L145.463,126.305 C146.007,125.761 146.488667,125.489 146.908,125.489 C147.270667,125.489 147.534167,125.602333 147.6985,125.829 C147.862833,126.055667 147.945,126.475 147.945,127.087 L147.945,127.087 L147.945,132 L150.444,132 L150.444,126.764 C150.444,125.71 150.2315,124.879833 149.8065,124.2735 C149.3815,123.667167 148.715667,123.364 147.809,123.364 C147.242333,123.364 146.752167,123.502833 146.3385,123.7805 C145.924833,124.058167 145.531,124.389667 145.157,124.775 C144.941667,124.321667 144.649833,123.973167 144.2815,123.7295 C143.913167,123.485833 143.428667,123.364 142.828,123.364 C142.272667,123.364 141.796667,123.4915 141.4,123.7465 C141.003333,124.0015 140.629333,124.304667 140.278,124.656 L140.278,124.656 L140.21,124.656 L140.04,123.568 L138,123.568 L138,132 L140.499,132 Z M155.068,132 L155.068,126.305 C155.589333,125.761 156.065333,125.489 156.496,125.489 C156.858667,125.489 157.122167,125.602333 157.2865,125.829 C157.450833,126.055667 157.533,126.475 157.533,127.087 L157.533,127.087 L157.533,132 L160.032,132 L160.032,126.305 C160.576,125.761 161.057667,125.489 161.477,125.489 C161.839667,125.489 162.103167,125.602333 162.2675,125.829 C162.431833,126.055667 162.514,126.475 162.514,127.087 L162.514,127.087 L162.514,132 L165.013,132 L165.013,126.764 C165.013,125.71 164.8005,124.879833 164.3755,124.2735 C163.9505,123.667167 163.284667,123.364 162.378,123.364 C161.811333,123.364 161.321167,123.502833 160.9075,123.7805 C160.493833,124.058167 160.1,124.389667 159.726,124.775 C159.510667,124.321667 159.218833,123.973167 158.8505,123.7295 C158.482167,123.485833 157.997667,123.364 157.397,123.364 C156.841667,123.364 156.365667,123.4915 155.969,123.7465 C155.572333,124.0015 155.198333,124.304667 154.847,124.656 L154.847,124.656 L154.779,124.656 L154.609,123.568 L152.569,123.568 L152.569,132 L155.068,132 Z" id="450mm" fill="#093169" fill-rule="nonzero" transform="translate(137.651500, 126.602500) rotate(-90.000000) translate(-137.651500, -126.602500) "></path>
+    </g>
+</svg>

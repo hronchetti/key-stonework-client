@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="567px" viewBox="0 0 600 567" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>balustrading/B740-baluster</title>
+    <g id="balustrading/B740-baluster" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F5F9FF" x="0" y="0" width="600" height="567"></rect>
+        <g id="Group-3" transform="translate(274.000000, 141.000000)" fill="#FFFFFF" stroke="#CBD8F2">
+            <path d="M26,67 C34.6666667,62.3818986 39,63.0917432 39,69.1295337 C39,73.0179751 37.5,88.5 41,113 C41.4678594,116.275016 42.2724677,119.478556 43.1049446,122.57121 C47.9645765,136.068198 51,152.247503 51,161 C51,177.807119 39.8071187,196.5 26,196.5 C12.1928813,196.5 1,177.807119 1,161 C1,152.335618 3.97461332,136.393213 8.74853229,122.979337 C9.62319998,119.734418 10.4954051,116.387994 11,113 C14.5,89.5 13,73.017926 13,69.1295337 C13,63.0917432 17.3333333,62.3818986 26,67 Z" id="Combined-Shape"></path>
+            <rect id="Rectangle" x="0" y="0" width="52" height="26"></rect>
+            <polygon id="Rectangle" points="0 23.5 24 26 0 26"></polygon>
+            <polygon id="Rectangle" transform="translate(40.000000, 24.750000) scale(-1, 1) translate(-40.000000, -24.750000) " points="28 23.5 52 26 28 26"></polygon>
+            <rect id="Rectangle" x="11" y="63" width="30" height="5"></rect>
+            <rect id="Rectangle" x="12" y="40" width="28" height="4"></rect>
+            <path d="M50,27 C50,33.8430361 44.712747,39.4511681 38.0005699,39.962067 L38,40 L14,40 L14.0004329,39.9621433 C7.2877796,39.4517266 2,33.8433768 2,27 C2,26.6636751 2.01277175,26.3303332 2.03785671,26.0004329 L49.9621433,26.0004329 C49.9872282,26.3303332 50,26.6636751 50,27 Z" id="Combined-Shape"></path>
+            <rect id="Rectangle" x="8" y="211" width="36" height="5"></rect>
+            <path d="M44.0005334,210.218052 L44,211 L8,211 L8.00010473,210.217054 C10.4484835,206.387439 11.9017239,201.860214 11.9951957,197.000009 L40.0048043,197.000009 C40.0982842,201.860636 41.551769,206.388225 44.0005334,210.218052 Z" id="Combined-Shape"></path>
+            <path d="M13.8748949,231.000617 C12.7269041,231.637397 11.4057972,232 10,232 C5.581722,232 2,228.418278 2,224 C2,219.581722 5.581722,216 10,216 L10,216 L42,216 C46.418278,216 50,219.581722 50,224 C50,228.418278 46.418278,232 42,232 C40.5942028,232 39.2730959,231.637397 38.1251051,231.000617 Z" id="Combined-Shape"></path>
+            <rect id="Rectangle" x="0" y="231" width="52" height="26"></rect>
+            <polygon id="Rectangle" points="0 231 22 231 0 233.5"></polygon>
+            <polygon id="Rectangle" transform="translate(41.000000, 232.250000) scale(-1, 1) translate(-41.000000, -232.250000) " points="30 231 52 231 30 233.5"></polygon>
+            <path d="M13.5,197 C11.5670034,197 10,195.432997 10,193.5 C10,191.567003 11.5670034,190 13.5,190 L13.5,190 L38.5,190 C40.4329966,190 42,191.567003 42,193.5 C42,195.432997 40.4329966,197 38.5,197 L38.5,197 Z" id="Combined-Shape"></path>
+            <path d="M40,44 L39.9993003,44.6373153 C39.3590803,45.9557155 39,47.4359239 39,49 C39,50.5605214 39.3574499,52.0375559 39.9949395,53.3536931 C41.3373519,54.6547082 42.1573424,56.4858585 42.1221668,58.5010661 C42.0920292,60.2276518 41.4392387,61.7973008 40.3815689,62.9997117 L11.6184311,62.9997117 C10.5607613,61.7973008 9.90797082,60.2276518 9.87783315,58.5010661 C9.84264033,56.4848704 10.6634524,54.6529126 12.0053993,53.3519607 C12.6429118,52.0360605 13,50.5597314 13,49 C13,47.4359239 12.6409197,45.9557155 12.0006997,44.6373153 L12,44 L40,44 Z" id="Combined-Shape"></path>
+        </g>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(300.000000, 420.500000) rotate(-180.000000) translate(-300.000000, -420.500000) " points="274.086667 428 274 413 326 413 326 428"></polyline>
+        <text id="150mm" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" fill="#093169">
+            <tspan x="273.467" y="460">150mm</tspan>
+        </text>
+        <polyline id="Rectangle-Copy-2" stroke="#CBD8F2" transform="translate(300.000000, 118.500000) rotate(-360.000000) translate(-300.000000, -118.500000) " points="274.086667 126 274 111 326 111 326 126"></polyline>
+        <text id="150mm" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" fill="#093169">
+            <tspan x="273.467" y="91">150mm</tspan>
+        </text>
+        <g id="Group-2" transform="translate(341.000000, 141.000000)">
+            <text id="740mm" transform="translate(41.000000, 125.000000) rotate(-270.000000) translate(-41.000000, -125.000000) " font-family="SourceSansPro-Bold, Source Sans Pro" font-size="17" font-weight="bold" fill="#093169">
+                <tspan x="12.967" y="131">740mm</tspan>
+            </text>
+            <polyline id="Rectangle-Copy-3" stroke="#CBD8F2" transform="translate(7.500000, 128.500000) rotate(-270.000000) translate(-7.500000, -128.500000) " points="-120.571667 136 -121 121 136 121 136 136"></polyline>
+        </g>
+    </g>
+</svg>
