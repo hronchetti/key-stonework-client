@@ -20,13 +20,14 @@ const Home = ({ data }) => (
       url=""
     />
     <ImageSection
-      backgroundImageName={
+      backgroundImage={
         data.allImageSharp.edges.filter((image) =>
           image.node.fluid.originalName === 'Key-Stonework-project-1.jpg'
             ? image
             : ''
         )[0].node.fluid
       }
+      backgroundImageAlt="Key Stonework balustrading, quions and string/plinth bath stone installation"
       rightToLeft={false}
     >
       <img
@@ -37,9 +38,9 @@ const Home = ({ data }) => (
       <h2>96 Standard products</h2>
       <p>
         Over the last 15 years our team have developed a range of high-quality
-        products that consistently produce outstanding results. Browse our
-        technical drawings to see how Key Stonework products can be used on your
-        project.
+        products that consistently produce outstanding results. Download our
+        brochure today to see how Key Stonework products can be used on your
+        project
       </p>
       <TextLink
         linkText="View our brochure"
@@ -47,13 +48,14 @@ const Home = ({ data }) => (
       />
     </ImageSection>
     <ImageSection
-      backgroundImageName={
+      backgroundImage={
         data.allImageSharp.edges.filter((image) =>
           image.node.fluid.originalName === 'Key-Stonework-project-2.jpg'
             ? image
             : ''
         )[0].node.fluid
       }
+      backgroundImageAlt="Key Stonework portcio, balustrading, window head, and window cill portland stone installation"
       rightToLeft={true}
     >
       <img
@@ -71,13 +73,14 @@ const Home = ({ data }) => (
       <TextLink linkText="Tell us about your project" linkPath="/contact" />
     </ImageSection>
     <ImageSection
-      backgroundImageName={
+      backgroundImage={
         data.allImageSharp.edges.filter((image) =>
           image.node.fluid.originalName === 'Key-Stonework-project-3.jpg'
             ? image
             : ''
         )[0].node.fluid
       }
+      backgroundImageAlt="Key Stonework portico and window cill bath stone installation"
       rightToLeft={false}
     >
       <img
@@ -89,7 +92,7 @@ const Home = ({ data }) => (
       <p>
         At Key Stonework we aim to satisfy any installation requirements you may
         have. All our stone is made with precision moulds, is 1217:2008 British
-        Standard compliant, and can be manufactured dry or wet-cast.
+        Standard compliant, and can be manufactured dry or wet-cast
       </p>
       <TextLink linkText="More about our service" linkPath="/our-service" />
     </ImageSection>

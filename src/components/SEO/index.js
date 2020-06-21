@@ -17,7 +17,7 @@ const SEO = ({ title, description, url }) => (
     render={({ site }) => (
       <Helmet defer={false}>
         <html lang="en" />
-        <title>{title} | Key Stonework</title>
+        <title>{title} | Key Stonework Ltd</title>
         <meta property="og:title" content={title} />
         <meta name="twitter:title" content={title} />
         <meta name="description" content={description} />

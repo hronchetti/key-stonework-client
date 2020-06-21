@@ -3,7 +3,12 @@ import PropTypes from 'prop-types'
 import TrackVisibility from 'react-on-screen'
 import Img from 'gatsby-image'
 
-const ImageSection = ({ backgroundImageName, children, rightToLeft }) => (
+const ImageSection = ({
+  backgroundImage,
+  backgroundImageAlt,
+  children,
+  rightToLeft,
+}) => (
   <TrackVisibility partialVisibility once className="wrapper--noPadding">
     {({ isVisible }) => (
       <>
@@ -11,8 +16,9 @@ const ImageSection = ({ backgroundImageName, children, rightToLeft }) => (
           className={`imageSection__image ${
             rightToLeft ? 'imageSection__image--imageRight' : ''
           }`}
-          fluid={backgroundImageName}
-          alt="Test"
+          fluid={backgroundImage}
+          alt={backgroundImageAlt}
+          title={backgroundImageAlt}
         />
         <article
           className={`imageSection__content animateFadeUp${
@@ -27,7 +33,8 @@ const ImageSection = ({ backgroundImageName, children, rightToLeft }) => (
 )
 
 ImageSection.propTypes = {
-  backgroundImageName: PropTypes.object.isRequired,
+  backgroundImage: PropTypes.object.isRequired,
+  backgroundImageAlt: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
   rightToLeft: PropTypes.bool.isRequired,
 }

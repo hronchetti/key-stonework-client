@@ -19,11 +19,12 @@ const InstallationInfo = ({ data }) => (
     />
     <ImageSection
       rightToLeft={false}
-      backgroundImageName={
+      backgroundImage={
         data.allImageSharp.edges.filter((image) =>
           image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
         )[0].node.fluid
       }
+      backgroundImageAlt=""
     >
       <h2>Handling &amp; storage</h2>
       <p>
@@ -45,11 +46,12 @@ const InstallationInfo = ({ data }) => (
     </ImageSection>
     <ImageSection
       rightToLeft={true}
-      backgroundImageName={
+      backgroundImage={
         data.allImageSharp.edges.filter((image) =>
           image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
         )[0].node.fluid
       }
+      backgroundImageAlt=""
     >
       <h2>Mortar recommendations</h2>
       <p>

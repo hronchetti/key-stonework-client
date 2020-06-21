@@ -98,6 +98,10 @@
 .nav__itemLink {
   font: 700 1.5rem / 2rem 'Source Sans Pro', Arial, sans-serif;
   color: $core--dark;
+
+  &:active {
+    outline: none;
+  }
 }
 
 .nav__itemSocialLink {

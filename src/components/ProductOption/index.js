@@ -34,6 +34,7 @@ const ProductOption = ({ productOption }) => {
           }
           role="presentation"
           alt={currentImage.name}
+          title={currentImage.name}
           onClick={() =>
             setModal({
               isVisible: true,
@@ -42,7 +43,7 @@ const ProductOption = ({ productOption }) => {
             })
           }
           tabIndex="0" // eslint-disable-line
-          onKeyDown={e =>
+          onKeyDown={(e) =>
             e.keyCode === 13 &&
             setModal({
               isVisible: true,

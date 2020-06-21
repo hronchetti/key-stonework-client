@@ -49,8 +49,8 @@ const headerLanding = () => (
                 <Img
                   className={`image${isVisible && ' active'}`}
                   fluid={data.imageSharp.fluid}
-                  alt=""
-                  title=""
+                  alt="Key Stonework portico and quions bath stone installation"
+                  title="Key Stonework portico and quions bath stone installation"
                 />
                 <img
                   className="pattern"

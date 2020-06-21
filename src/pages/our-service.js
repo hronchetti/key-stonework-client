@@ -20,11 +20,12 @@ const OurService = ({ data }) => (
     />
     <ImageSection
       rightToLeft={false}
-      backgroundImageName={
+      backgroundImage={
         data.allImageSharp.edges.filter((image) =>
           image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
         )[0].node.fluid
       }
+      backgroundImageAlt=""
     >
       <h2>Our stone</h2>
       <p>
@@ -42,11 +43,12 @@ const OurService = ({ data }) => (
     </ImageSection>
     <ImageSection
       rightToLeft={true}
-      backgroundImageName={
+      backgroundImage={
         data.allImageSharp.edges.filter((image) =>
           image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
         )[0].node.fluid
       }
+      backgroundImageAlt=""
     >
       <h2>Standards</h2>
       <p>
