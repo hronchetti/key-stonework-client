@@ -9,13 +9,8 @@ export default function Corbels() {
       optionTechnicalDrawings: [
         {
           drawingId: 1,
-          technicalDrawingName: 'Side view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
-        },
-        {
-          drawingId: 2,
-          technicalDrawingName: 'Top view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
+          technicalDrawingName: 'Default',
+          technicalDrawingSVG: 'corbels/A100.svg',
         },
       ],
     },
@@ -25,13 +20,8 @@ export default function Corbels() {
       optionTechnicalDrawings: [
         {
           drawingId: 1,
-          technicalDrawingName: 'Side view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
-        },
-        {
-          drawingId: 2,
-          technicalDrawingName: 'Top view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
+          technicalDrawingName: 'Default',
+          technicalDrawingSVG: 'corbels/A120.svg',
         },
       ],
     },
@@ -42,17 +32,12 @@ export default function Corbels() {
         {
           drawingId: 1,
           technicalDrawingName: 'Side view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
+          technicalDrawingSVG: 'corbels/A130L-side.svg',
         },
         {
           drawingId: 2,
           technicalDrawingName: 'Top view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
-        },
-        {
-          drawingId: 3,
-          technicalDrawingName: 'Plan view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
+          technicalDrawingSVG: 'corbels/A130L-top.svg',
         },
       ],
     },
@@ -63,17 +48,12 @@ export default function Corbels() {
         {
           drawingId: 1,
           technicalDrawingName: 'Side view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
+          technicalDrawingSVG: 'corbels/A130R-side.svg',
         },
         {
           drawingId: 2,
           technicalDrawingName: 'Top view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
-        },
-        {
-          drawingId: 3,
-          technicalDrawingName: 'Plan view',
-          technicalDrawingSVG: 'porticos/portico-type-a.svg',
+          technicalDrawingSVG: 'corbels/A130R-top.svg',
         },
       ],
     },

@@ -69,6 +69,17 @@ export default function ArchitecturalPieces() {
         },
       ],
     },
+    {
+      optionId: 7,
+      optionName: 'Step & Tread Riser',
+      optionTechnicalDrawings: [
+        {
+          drawingId: 1,
+          technicalDrawingName: 'Default',
+          technicalDrawingSVG: 'architecturalPieces/step-and-tread-riser.svg',
+        },
+      ],
+    },
   ]
 
   return (
