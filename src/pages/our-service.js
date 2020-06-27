@@ -22,7 +22,7 @@ const OurService = ({ data }) => (
       rightToLeft={false}
       backgroundImage={
         data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
+          image.node.fluid.originalName === 'PC1.jpeg' ? image : ''
         )[0].node.fluid
       }
       backgroundImageAlt=""
@@ -45,7 +45,7 @@ const OurService = ({ data }) => (
       rightToLeft={true}
       backgroundImage={
         data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
+          image.node.fluid.originalName === 'B1.jpeg' ? image : ''
         )[0].node.fluid
       }
       backgroundImageAlt=""

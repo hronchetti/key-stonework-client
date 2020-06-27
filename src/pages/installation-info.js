@@ -21,7 +21,7 @@ const InstallationInfo = ({ data }) => (
       rightToLeft={false}
       backgroundImage={
         data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
+          image.node.fluid.originalName === 'cement.jpg' ? image : ''
         )[0].node.fluid
       }
       backgroundImageAlt=""
@@ -48,7 +48,9 @@ const InstallationInfo = ({ data }) => (
       rightToLeft={true}
       backgroundImage={
         data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'Placeholder.jpg' ? image : ''
+          image.node.fluid.originalName === 'mortar-recommendations.jpg'
+            ? image
+            : ''
         )[0].node.fluid
       }
       backgroundImageAlt=""
