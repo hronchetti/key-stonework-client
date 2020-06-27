@@ -55,7 +55,7 @@ export default function Porticos() {
 
   return (
     <ProductPage
-      title="Dry/Wet Cast Stone Porticos and Bespoke Design"
+      title="Portico Products by Key Stonework Ltd | Bespoke Design Available"
       description="3 Portico products that make an entrance. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Porticos"
       productDecription="3 Standard products that make an entrance"

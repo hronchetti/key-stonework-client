@@ -84,7 +84,7 @@ export default function StringsAndPlinths() {
 
   return (
     <ProductPage
-      title="Dry/Wet Cast Stone Strings/Plinths and Bespoke Design"
+      title="String and Plinth Products by Key Stonework Ltd | Bespoke Design Available"
       description="7 String and plinth products that present to roofing and brickwork. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Strings &amp; plinths"
       productDecription="7 Standard products that present to roofing and brickwork"

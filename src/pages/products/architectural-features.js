@@ -84,10 +84,10 @@ export default function ArchitecturalPieces() {
 
   return (
     <ProductPage
-      title="Dry/Wet Cast Stone Architectural Pieces and Bespoke Design"
-      description="6 Date plaque and gabel vent products that add a unique touch to your building. For bespoke design call us on 01327 842585 or use the form on our contact page"
+      title="Architectural Feature Products by Key Stonework Ltd | Bespoke Design Available"
+      description="7 Date plaque, gabel vent products and step and tread products that add a unique touch to your building. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Architectural features"
-      productDecription="6 Standard products that add a unique touch to your building"
+      productDecription="7 Standard products that add a unique touch to your building"
       productOptions={productOptions}
       productPhotos={[
         'architecturalPieces/AF_1.jpeg',

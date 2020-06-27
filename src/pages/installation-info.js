@@ -13,8 +13,8 @@ const InstallationInfo = ({ data }) => (
     headerSupportingText="How to work with and store our products"
   >
     <SEO
-      title="Installation Info | Cast Stone | Architectural Stone"
-      description="Read our expert advice on how to store and use dry/wet cast stone products. For further questions or product enquiries get in contact on 01327 842585 or by emailing gary@keystonework.co.uk"
+      title="Using and Storing Key Stonework Ltd Products"
+      description="Read our expert advice on how to store and use dry/wet cast stone products for the best results. For further questions or product enquiries get in contact on 01327 842585 or by emailing info@keystonework.co.uk"
       url="/installation-info"
     />
     <ImageSection

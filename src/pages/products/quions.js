@@ -73,7 +73,7 @@ export default function Quions() {
 
   return (
     <ProductPage
-      title="Dry/Wet Cast Stone Quions and Bespoke Design"
+      title="Quion Products by Key Stonework Ltd | Bespoke Design Available"
       description="6 Quion products that accentuate brickwork corners and edges. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Quions"
       productDecription="6 Standard products that accentuate brickwork corners and edges"

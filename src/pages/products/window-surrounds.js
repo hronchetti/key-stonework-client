@@ -62,7 +62,7 @@ export default function WindowSurrounds() {
 
   return (
     <ProductPage
-      title="Dry/Wet Cast Stone Window Surrounds and Bespoke Design"
+      title="Window Surround Products by Key Stonework Ltd | Bespoke Design Available"
       description="5 Window Surrounds that frame your vision. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Window surrounds"
       productDecription="5 Standard products that frame your vision"

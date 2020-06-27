@@ -207,7 +207,7 @@ export default function WindowCillsHeads() {
 
   return (
     <ProductPage
-      title="Dry/Wet Cast Stone Window Cills/Heads and Bespoke Design"
+      title="Window Cill and Head Products by Key Stonework Ltd | Bespoke Design Available"
       description="15 Window Cills/Heads that frame your vision. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Window cills &amp; heads"
       productDecription="15 Standard products that frame your vision"

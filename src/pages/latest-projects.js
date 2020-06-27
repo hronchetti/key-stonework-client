@@ -12,8 +12,8 @@ const LatestProjects = () => (
     headerSupportingText="Browse photos from some of our latest installations"
   >
     <SEO
-      title="Latest Projects | Cast Stone | Architectural Stone"
-      description="Browse photos from some of our latest installations and the products used in each project before getting in contact. Call us now on 01327 842585"
+      title="Our Latest Installations"
+      description="Browse photos from some of our latest installations and the products used in each project. Do you want more information about our architectural cast stone products? Do you have complicated bespoke installation requirements you'd like to discuss? Get in contact now by calling 01327 842585 or using our online form"
       url="/latest-projects"
     />
     <section className="wrapper product">

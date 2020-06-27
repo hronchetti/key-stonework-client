@@ -17,6 +17,7 @@ body {
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   // Base fontsize for rem
   font: 400 16px/29px 'Source Sans Pro', Arial, sans-serif;

@@ -14,8 +14,8 @@ const Contact = () => (
     headerSupportingText="Call us on 01327 842585<br>Email us at info@keystonework.co.uk"
   >
     <SEO
-      title="Tell us about your project | Contact us"
-      description="Looking to use dry/wet cast stone in an upcoming build? Hoping to compare prices for different products? Have complicated bespoke installation requirements you'd like to discuss? Get in contact now by emailing gary@keystonework.co.uk or calling 01327 842585"
+      title="Looking to Use Cast Stone in an Upcoming Build? Contact Us Now"
+      description="Do you want more information about our architectural cast stone products? Do you have complicated bespoke installation requirements you'd like to discuss? Get in contact now by calling 01327 842585 or using our online form"
       url="/contact"
     />
     <section className="wrapper product">

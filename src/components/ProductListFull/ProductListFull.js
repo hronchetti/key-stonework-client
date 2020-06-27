@@ -17,73 +17,73 @@ const ProductListFull = () => (
             <Product
               illustration="architectural.svg"
               productName="Architectural features"
-              productPageSummary="6 Date plaques<br>2 Gable vents<br>Bespoke design available"
+              productPageSummary="7 Standard products<br/>Bespoke design available"
               productPagePath="/products/architectural-features"
             />
             <Product
               illustration="ball-collard-base.svg"
               productName="Balls &amp; bases"
-              productPageSummary="6 Standard products<br>Bespoke design available"
+              productPageSummary="6 Standard products<br/>Bespoke design available"
               productPagePath="/products/balls-and-bases"
             />
             <Product
               illustration="balustrading.svg"
               productName="Balustrading"
-              productPageSummary="3 Standard products<br>Bespoke design available"
+              productPageSummary="4 Standard products<br/>Bespoke design available"
               productPagePath="/products/balustrading"
             />
             <Product
               illustration="corbels.svg"
               productName="Corbels"
-              productPageSummary="4 Standard products<br>Bespoke design available"
+              productPageSummary="4 Standard products<br/>Bespoke design available"
               productPagePath="/products/corbels"
             />
             <Product
               illustration="keystones.svg"
               productName="Keystones"
-              productPageSummary="8 Standard products<br>Bespoke design available"
+              productPageSummary="8 Standard products<br/>Bespoke design available"
               productPagePath="/products/keystones"
             />
             <Product
               illustration="pier-caps.svg"
               productName="Pier caps"
-              productPageSummary="19 Standard products<br>Bespoke design available"
+              productPageSummary="19 Standard products<br/>Bespoke design available"
               productPagePath="/products/pier-caps"
             />
             <Product
               illustration="portico.svg"
               productName="Porticos"
-              productPageSummary="3 Standard products<br>Bespoke design available"
+              productPageSummary="3 Standard products<br/>Bespoke design available"
               productPagePath="/products/porticos"
             />
             <Product
               illustration="quoins.svg"
               productName="Quoins"
-              productPageSummary="6 Standard products<br>Bespoke design available"
+              productPageSummary="6 Standard products<br/>Bespoke design available"
               productPagePath="/products/quions"
             />
             <Product
               illustration="string-plinth.svg"
               productName="Strings &amp; plinths"
-              productPageSummary="7 Standard products<br>Bespoke design available"
+              productPageSummary="7 Standard products<br/>Bespoke design available"
               productPagePath="/products/strings-and-plinths"
             />
             <Product
               illustration="wall-coping.svg"
               productName="Wall coping"
-              productPageSummary="12 Standard products<br>Bespoke design available"
+              productPageSummary="12 Standard products<br/>Bespoke design available"
               productPagePath="/products/wall-coping"
             />
             <Product
               illustration="windows.svg"
               productName="Window cills &amp; heads"
-              productPageSummary="15 Standard products<br>Bespoke design available"
+              productPageSummary="15 Standard products<br/>Bespoke design available"
               productPagePath="/products/window-cills-and-heads"
             />
             <Product
               illustration="windows-surrounds.svg"
               productName="Window surrounds"
-              productPageSummary="5 Standard products<br>Bespoke design available"
+              productPageSummary="5 Standard products<br/>Bespoke design available"
               productPagePath="/products/window-surrounds"
             />
           </section>
@@ -107,7 +107,7 @@ const Product = ({
     />
     <h3>{productName}</h3>
     <p dangerouslySetInnerHTML={{ __html: productPageSummary }} />
-    <span className="textLink productLink">Product options</span>
+    <span className="textLink productLink">View product options</span>
   </Link>
 )
 

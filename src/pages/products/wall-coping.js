@@ -139,7 +139,7 @@ export default function WallCoping() {
 
   return (
     <ProductPage
-      title="Dry/Wet Cast Stone Wall Coping and Bespoke Design"
+      title="Wall Coping Products by Key Stonework Ltd | Bespoke Design Available"
       description="12 Wall coping that gracefully protects walls from weather damage. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Wall coping"
       productDecription="12 Standard products that gracefully protects walls from weather damage"

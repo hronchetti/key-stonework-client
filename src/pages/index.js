@@ -15,8 +15,8 @@ import CementMixerIllustration from '../assets/img/illustrations/cement-mixer.sv
 const Home = ({ data }) => (
   <Layout headerLanding={true} lightBackground={false}>
     <SEO
-      title="Architectural Stonework Solutions for Dry and Wet Cast Stone"
-      description="We deliver to anywhere in the UK. Call 01327 842585 now for bespoke and standard Balls and Collard Bases, Balustrading, Corbels, Keystones, Pier Caps, Porticos, Quoins, Strings, Plinths, Wall Coping, Window Cills, Window Heads, Window Surrounds solutions"
+      title="Premium Architectural Stonework Solutions Specialising in Dry and Wet Cast Stone"
+      description="96 Standard Products with bespoke design available for all installations and delivery to anywhere in the UK. All products available in dry or wet cast. Call 01327 842585 today to tell us about your project to find out how we can help"
       url=""
     />
     <ImageSection

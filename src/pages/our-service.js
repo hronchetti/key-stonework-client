@@ -14,8 +14,8 @@ const OurService = ({ data }) => (
     headerSupportingText="Quality you can count on before and after installation"
   >
     <SEO
-      title="Our Service | Cast Stone | Architectural Stone"
-      description="Manufactured in Northamptonshire, our stone is made with expert precision moulds, is British Standard 1217:2008 compliant, is available in bath or portland stone and dry or wet cast"
+      title="Quality You Can Count on Before and After Installation"
+      description="Our architectural cast stone is manufactured in Northamptonshire with expert precision moulds and is British Standard 1217:2008 compliant. All our products are available in bath or portland stone and dry or wet cast"
       url="/our-service"
     />
     <ImageSection
