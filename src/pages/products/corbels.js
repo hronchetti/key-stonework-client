@@ -62,10 +62,11 @@ export default function Corbels() {
   return (
     <ProductPage
       title="Corbel Products by Key Stonework Ltd | Bespoke Design Available"
-      description="For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="4 Corbel products that support roofs and balconies. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Corbels"
       productDecription="4 Standard products that support roofs and balconies"
       productOptions={productOptions}
+      technicalDrawingsPDF="/Corbels.pdf"
       url="/products/corbels"
     />
   )

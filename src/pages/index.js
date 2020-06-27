@@ -42,10 +42,7 @@ const Home = ({ data }) => (
         brochure today to see how Key Stonework products can be used on your
         project
       </p>
-      <TextLink
-        linkText="View our brochure"
-        linkPath={require('../assets/pdfs/Brochure.pdf')}
-      />
+      <TextLink linkText="View our brochure" linkPath="/Brochure.pdf" />
     </ImageSection>
     <ImageSection
       backgroundImage={

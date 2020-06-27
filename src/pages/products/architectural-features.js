@@ -85,10 +85,11 @@ export default function ArchitecturalPieces() {
   return (
     <ProductPage
       title="Architectural Feature Products by Key Stonework Ltd | Bespoke Design Available"
-      description="7 Date plaque, gabel vent products and step and tread products that add a unique touch to your building. For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="7 Date plaque, gabel vent, and step and tread products that add a unique touch to your building. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Architectural features"
       productDecription="7 Standard products that add a unique touch to your building"
       productOptions={productOptions}
+      technicalDrawingsPDF="/Gable-Vents.pdf"
       productPhotos={[
         'architecturalPieces/AF_1.jpeg',
         'architecturalPieces/AF_2.jpeg',

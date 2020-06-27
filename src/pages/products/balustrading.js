@@ -83,7 +83,7 @@ export default function Balustrading() {
   return (
     <ProductPage
       title="Balustrading Products by Key Stonework Ltd | Bespoke Design Available"
-      description="For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="4 Balustrading products perfect for lining staircases, terraces and balconies. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Balustrading"
       productDecription="4 Standard products perfect for lining staircases, terraces and balconies"
       productOptions={productOptions}
