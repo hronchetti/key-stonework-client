@@ -96,7 +96,8 @@
 .carousel .thumb {
   transition: border 0.15s ease-in;
   display: inline-block;
-  width: 80px;
+  width: 5rem;
+  height: 4rem;
   margin-right: 6px;
   white-space: nowrap;
   overflow: hidden;
@@ -134,6 +135,7 @@
   margin: auto;
   width: 100%;
   transition: height 0.15s ease-in;
+  max-height: 30rem;
 }
 
 .carousel .slider-wrapper.axis-horizontal .slider {
@@ -144,6 +146,14 @@
 .carousel .slider-wrapper.axis-horizontal .slider .slide {
   flex-direction: column;
   flex-flow: column;
+
+  div {
+    img {
+      height: 30rem;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
 }
 
 .carousel .slider-wrapper.axis-vertical {
