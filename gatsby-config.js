@@ -30,6 +30,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-170175764-1',
+        head: false,
+      },
+    },
+    {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         policy: [{ userAgent: `*`, allow: `/` }],
