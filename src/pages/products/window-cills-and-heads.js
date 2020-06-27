@@ -216,6 +216,24 @@ export default function WindowCillsHeads() {
       Cills over 1400mm long will be made in more than one piece. Window cills are non-structural, handling reinforcement is allowed for. All cills are produced with a drip to the underside.<br><br>      
       These cills can also be made in both Dry-Cast and Wet-Cast materials. Bespoke cills to suit existing or an individual design can also be catered for."
       productOptions={productOptions}
+      productPhotos={[
+        'windowCillsHeads/C1.jpeg',
+        'windowCillsHeads/C2.jpeg',
+        'windowCillsHeads/C3_Bullnosed_Cills_2.jpeg',
+        'windowCillsHeads/C3_Bullnosed_Cills_3.jpeg',
+        'windowCillsHeads/C5.jpeg',
+        'windowCillsHeads/C6.jpeg',
+        'windowCillsHeads/C7.jpeg',
+        'windowCillsHeads/C8.jpeg',
+        'windowCillsHeads/C9.jpeg',
+        'windowCillsHeads/IMG_0431.jpeg',
+        'windowCillsHeads/IMG_0432.jpeg',
+        'windowCillsHeads/IMG_0433.jpeg',
+        'windowCillsHeads/IMG_0437.jpeg',
+        'windowCillsHeads/IMG_0459.jpeg',
+        'windowCillsHeads/IMG_0460.jpeg',
+        'windowCillsHeads/IMG_0461.jpeg',
+      ]}
       url="/products/window-cills-and-heads"
     />
   )

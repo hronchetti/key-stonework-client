@@ -79,6 +79,14 @@ export default function Quions() {
       productDecription="6 Standard products that accentuate brickwork corners and edges"
       openingText="Six standard designs, other strings and plinths can be manufactured to individual requirements. Strings are manufactured in 600mm long lengths, plinths are manufactured in 440mm long lengths."
       productOptions={productOptions}
+      productPhotos={[
+        'quions/IMG_0474.jpeg',
+        'quions/IMG_0480.jpeg',
+        'quions/IMG_0482.jpeg',
+        'quions/IMG_0491.jpeg',
+        'quions/IMG_0493.jpeg',
+        'quions/IMG_1139.jpeg',
+      ]}
       url="/products/quions"
     />
   )

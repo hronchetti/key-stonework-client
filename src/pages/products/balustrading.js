@@ -5,7 +5,7 @@ export default function Balustrading() {
   const productOptions = [
     {
       optionId: 1,
-      optionName: 'B740 Baluster',
+      optionName: 'Classic Baluster',
       optionTechnicalDrawings: [
         {
           drawingId: 1,
@@ -87,6 +87,15 @@ export default function Balustrading() {
       product="Balustrading"
       productDecription="4 Standard products"
       productOptions={productOptions}
+      productPhotos={[
+        'balustrading/B1.jpeg',
+        'balustrading/B2.jpeg',
+        'balustrading/B3.jpeg',
+        'balustrading/B5.jpeg',
+        'balustrading/B6.jpeg',
+        'balustrading/B7.jpeg',
+        'balustrading/B8.jpeg',
+      ]}
       url="/products/balustrading"
     />
   )

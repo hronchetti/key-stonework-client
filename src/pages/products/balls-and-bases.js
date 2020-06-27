@@ -78,6 +78,11 @@ export default function BallsAndBases() {
       product="Balls &amp; bases"
       productDecription="6 Standard products that give gateways and entrances character"
       productOptions={productOptions}
+      productPhotos={[
+        'ballsBases/B300.jpeg',
+        'ballsBases/IMG_0504.jpeg',
+        'ballsBases/IMG_0507.jpeg',
+      ]}
       url="/products/balls-and-bases"
     />
   )

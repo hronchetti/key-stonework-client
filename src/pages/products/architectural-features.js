@@ -89,7 +89,22 @@ export default function ArchitecturalPieces() {
       product="Architectural features"
       productDecription="6 Standard products that add a unique touch to your building"
       productOptions={productOptions}
-      openingText="Date plaque designs can also be used as house name plaques with bespoke sizes and typeface. All products available in Dry-Cast or Wet-Cast stone. Bespoke design available."
+      productPhotos={[
+        'architecturalPieces/AF_1.jpeg',
+        'architecturalPieces/AF_2.jpeg',
+        'architecturalPieces/AF_3.jpeg',
+        'architecturalPieces/AF_4.jpeg',
+        'architecturalPieces/AF_5.jpeg',
+        'architecturalPieces/AF_6.jpeg',
+        'architecturalPieces/AF_7.jpeg',
+        'architecturalPieces/AF_8.jpeg',
+        'architecturalPieces/AF_9.jpeg',
+        'architecturalPieces/AF_10.jpeg',
+        'architecturalPieces/AF_11.jpeg',
+        'architecturalPieces/AF_12.jpeg',
+      ]}
+      openingText="Date Plaque designs can also be used as house name plaques with bespoke sizes and typeface. 
+      Our Step Treads are manufactured to suit your individual requirements, and are suitable for commercial and residential projects. All products available in Dry-Cast or Wet-Cast stone (please specify when enquiring)  Bespoke design available."
       url="/products/architectural-pieces"
     />
   )

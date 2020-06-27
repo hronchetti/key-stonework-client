@@ -60,7 +60,19 @@ export default function Porticos() {
       product="Porticos"
       productDecription="3 Standard products that make an entrance"
       technicalDrawingsPDF={require('../../assets/pdfs/Porticos.pdf')}
+      openingText="A Portico can greatly enhance the look of a building, and possibly even the value. With three standard Porticos that are manufactured to specifically  suit your properties requirements, plus our ability to manufacture bespoke structures, Key Stonework Ltd can make your vision actually happen."
       productOptions={productOptions}
+      productPhotos={[
+        'porticos/P1.jpeg',
+        'porticos/P2.jpeg',
+        'porticos/P3.jpeg',
+        'porticos/P5.jpeg',
+        'porticos/P6.jpeg',
+        'porticos/P7.jpeg',
+        'porticos/P8.jpeg',
+        'porticos/P9.jpeg',
+        'porticos/P10.jpeg',
+      ]}
       url="/products/porticos"
     />
   )

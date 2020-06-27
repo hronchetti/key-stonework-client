@@ -10,13 +10,14 @@ import ProductPageList from '../components/ProductPageList'
 import SEO from '../components/SEO'
 
 const ProductPage = ({
-  product,
-  productDecription,
-  technicalDrawingsPDF,
-  title,
   description,
   openingText,
+  product,
+  productDecription,
   productOptions,
+  productPhotos,
+  technicalDrawingsPDF,
+  title,
   url,
 }) => (
   <Layout
@@ -32,20 +33,20 @@ const ProductPage = ({
       <TrackVisibility partialVisibility once className="product__features">
         {({ isVisible }) => (
           <div className={`inner animateFadeUp${isVisible ? ' active' : ''}`}>
-            {/* <Carousel>
-              <div>
-                <img
-                  src={require('../assets/img/Surrey4_large.jpg')}
-                  alt="test"
-                />
-              </div>
-              <div>
-                <img
-                  src={require('../assets/img/Surrey3_large.jpg')}
-                  alt="test"
-                />
-              </div>
-            </Carousel> */}
+            {productPhotos && productPhotos.length > 0 ? (
+              <Carousel>
+                {productPhotos.map((photo, index) => (
+                  <div key={index}>
+                    <img
+                      src={require(`../assets/img/productPhotos/${photo}`)}
+                      alt="test"
+                    />
+                  </div>
+                ))}
+              </Carousel>
+            ) : (
+              ''
+            )}
             {openingText ? <OpeningText openingText={openingText} /> : null}
             {productOptions.map((productOption) => (
               <ProductOption
@@ -60,11 +61,17 @@ const ProductPage = ({
   </Layout>
 )
 
+ProductPage.defaultProps = {
+  productPhotos: [],
+  technicalDrawingsPDF: '',
+}
+
 ProductPage.propTypes = {
   openingText: PropTypes.string,
   product: PropTypes.string.isRequired,
   productDecription: PropTypes.string.isRequired,
   productOptions: PropTypes.array.isRequired,
+  productPhotos: PropTypes.array,
   technicalDrawingsPDF: PropTypes.string,
   url: PropTypes.string.isRequired,
 }
