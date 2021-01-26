@@ -15,6 +15,10 @@
       opacity: 0;
       @include softShadow;
 
+      p {
+        margin: 0.75rem 0 1.25rem 0;
+      }
+
       .illustration {
         margin: 0 0 1.125rem 0;
         width: 4.5rem;
