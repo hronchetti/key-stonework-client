@@ -89,7 +89,7 @@ export default function ArchitecturalPieces() {
       product="Architectural features"
       productDecription="7 Standard products that add a unique touch to your building"
       productOptions={productOptions}
-      technicalDrawingsPDF="/Gable-Vents.pdf"
+      technicalDrawingsPDF="/gable-vents-cast-stonework-technical-sheet.pdf"
       productPhotos={[
         'architecturalPieces/AF_1.jpeg',
         'architecturalPieces/AF_2.jpeg',

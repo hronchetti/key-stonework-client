@@ -59,7 +59,7 @@ export default function Porticos() {
       description="3 Portico products that make an entrance. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Porticos"
       productDecription="3 Standard products that make an entrance"
-      technicalDrawingsPDF="/Porticos.pdf"
+      technicalDrawingsPDF="/porticos-cast-stonework-technical-sheet.pdf"
       openingText="A Portico can greatly enhance the look of a building, and possibly even the value. With three standard Porticos that are manufactured to specifically  suit your properties requirements, plus our ability to manufacture bespoke structures, Key Stonework Ltd can make your vision actually happen."
       productOptions={productOptions}
       productPhotos={[

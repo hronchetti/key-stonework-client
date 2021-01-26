@@ -43,6 +43,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true,
+        id: 2215365,
+        sv: 6,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `key-stonework`,

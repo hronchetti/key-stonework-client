@@ -84,6 +84,8 @@ export default function BallsAndBases() {
         'ballsBases/IMG_0507.jpeg',
       ]}
       url="/products/balls-and-bases"
+      openingText="Our traditionally designed Ball and Tapered Bases are suitable for adorning pier caps, gate piers, walls and steps. The Balls are available in 3 sizes with Plain and Collard Base options. All components are pre-drilled and come with a steel dowel for fixing.
+      Bespoke designs can be made to order."
     />
   )
 }

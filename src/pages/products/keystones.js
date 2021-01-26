@@ -101,6 +101,8 @@ export default function Keystones() {
       productDecription="8 Standard products that elevate arches"
       productOptions={productOptions}
       url="/products/keystones"
+      openingText="We can offer range of eight Keystone designs to suit most applications. 
+      Bespoke designs can be made to order."
     />
   )
 }

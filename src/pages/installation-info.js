@@ -19,12 +19,8 @@ const InstallationInfo = ({ data }) => (
     />
     <ImageSection
       rightToLeft={false}
-      backgroundImage={
-        data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'cement.jpg' ? image : ''
-        )[0].node.fluid
-      }
-      backgroundImageAlt=""
+      backgroundImage={data.handlingAndStorage.fluid}
+      backgroundImageAlt="Handling Cast Stone"
     >
       <h2>Handling &amp; storage</h2>
       <p>
@@ -46,14 +42,8 @@ const InstallationInfo = ({ data }) => (
     </ImageSection>
     <ImageSection
       rightToLeft={true}
-      backgroundImage={
-        data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'mortar-recommendations.jpg'
-            ? image
-            : ''
-        )[0].node.fluid
-      }
-      backgroundImageAlt=""
+      backgroundImage={data.mortarRecommendation.fluid}
+      backgroundImageAlt="Cast Stone Mortar Recommendations"
     >
       <h2>Mortar recommendations</h2>
       <p>
@@ -75,18 +65,20 @@ export default InstallationInfo
 
 export const pageQuery = graphql`
   query InstallationInfoImages {
-    allImageSharp {
-      edges {
-        node {
-          fluid(maxWidth: 1280) {
-            aspectRatio
-            base64
-            sizes
-            src
-            srcSet
-            originalName
-          }
-        }
+    mortarRecommendation: imageSharp(
+      fluid: {
+        originalName: { eq: "mortar-recommendations-for-cast-stone.jpeg" }
+      }
+    ) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+    handlingAndStorage: imageSharp(
+      fluid: { originalName: { eq: "handling-and-storage-of-cast-stone.jpeg" } }
+    ) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
       }
     }
   }

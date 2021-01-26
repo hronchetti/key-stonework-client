@@ -211,10 +211,10 @@ export default function WindowCillsHeads() {
       description="15 Window cill and window head products that frame your vision. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Window cills &amp; heads"
       productDecription="15 Standard products that frame your vision"
-      openingText="These attractive standard stone window cills can be made to suit any window opening. Four standard styles of window cill to choose from, the C1, C2, C3 and C4.  
-      Bay cills are manufactured to suit 45° &amp; 90° angles.<br><br>
-      Cills over 1400mm long will be made in more than one piece. Window cills are non-structural, handling reinforcement is allowed for. All cills are produced with a drip to the underside.<br><br>      
-      These cills can also be made in both Dry-Cast and Wet-Cast materials. Bespoke cills to suit existing or an individual design can also be catered for."
+      openingText="Our stone window cills and heads are non-structural and can be made to suit any window opening.<br><br>
+      Bay window cills and heads are manufactured to suit 45° &amp; 90° angles, and, 
+      any cills over 1400mm long will be made in more than one piece. All cills are produced with a drip to the underside.<br><br>      
+      These cills can also be made in both Dry-Cast and Wet-Cast materials. Bespoke design available."
       productOptions={productOptions}
       productPhotos={[
         'windowCillsHeads/C1.jpeg',
@@ -235,6 +235,7 @@ export default function WindowCillsHeads() {
         'windowCillsHeads/IMG_0461.jpeg',
       ]}
       url="/products/window-cills-and-heads"
+      technicalDrawingsPDF="/window-cills-cast-stonework-technical-sheet.pdf"
     />
   )
 }

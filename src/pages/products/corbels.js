@@ -66,8 +66,10 @@ export default function Corbels() {
       product="Corbels"
       productDecription="4 Standard products that support roofs and balconies"
       productOptions={productOptions}
-      technicalDrawingsPDF="/Corbels.pdf"
+      technicalDrawingsPDF="/corbels-cast-stonework-technical-sheet.pdf"
       url="/products/corbels"
+      openingText="We can offer range of four Corbel designs to suit most applications. 
+      Bespoke designs can be made to order."
     />
   )
 }

@@ -56,7 +56,7 @@ export default function Footer() {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="http://harryronchetti.com/"
+          href="https://www.linkedin.com/in/harry-ronchetti/"
         >
           Harry Ronchetti
         </a>

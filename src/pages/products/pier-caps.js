@@ -221,7 +221,7 @@ export default function PierCaps() {
       product="Pier Caps"
       productDecription="19 Standard products that enhance wall piers"
       openingText="Our Pier Caps are ideal to enhance an entrance or boundary wall. With a variety of standard designs there is plenty of choice. Bespoke Pier Caps can be manufactured to suit your individual requirements. Products are available in Dry-Cast or Wet-Cast stone (please specify when enquiring)."
-      technicalDrawingsPDF="/PierCaps.pdf"
+      technicalDrawingsPDF="/pier-caps-cast-stonework-technical-sheet.pdf"
       productOptions={productOptions}
       productPhotos={[
         'pierCaps/PC1.jpeg',

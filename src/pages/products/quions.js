@@ -77,7 +77,6 @@ export default function Quions() {
       description="6 Quion products that accentuate brickwork corners and edges. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Quions"
       productDecription="6 Standard products that accentuate brickwork corners and edges"
-      openingText="Six standard designs, other strings and plinths can be manufactured to individual requirements. Strings are manufactured in 600mm long lengths, plinths are manufactured in 440mm long lengths."
       productOptions={productOptions}
       productPhotos={[
         'quions/IMG_0474.jpeg',
@@ -88,6 +87,8 @@ export default function Quions() {
         'quions/IMG_1139.jpeg',
       ]}
       url="/products/quions"
+      openingText="We have six standard designs of build-in Quoins, including plain and chamfered to suit 3 or 4 course application. 
+      Bespoke designs can be made to order."
     />
   )
 }

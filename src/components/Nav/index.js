@@ -52,7 +52,7 @@ const Nav = () => {
             </Link>
           </li>
           <li className="nav__item">
-            <Link className="nav__itemLink" to="/latest-projects">
+            <Link className="nav__itemLink" to="/project-gallery">
               Latest projects
             </Link>
           </li>

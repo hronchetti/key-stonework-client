@@ -20,13 +20,7 @@ const Home = ({ data }) => (
       url=""
     />
     <ImageSection
-      backgroundImage={
-        data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'Key-Stonework-project-1.jpg'
-            ? image
-            : ''
-        )[0].node.fluid
-      }
+      backgroundImage={data.project1.fluid}
       backgroundImageAlt="Key Stonework balustrading, quions and string/plinth bath stone installation"
       rightToLeft={false}
     >
@@ -45,13 +39,7 @@ const Home = ({ data }) => (
       <TextLink linkText="View our brochure" linkPath="/Brochure.pdf" />
     </ImageSection>
     <ImageSection
-      backgroundImage={
-        data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'Key-Stonework-project-2.jpg'
-            ? image
-            : ''
-        )[0].node.fluid
-      }
+      backgroundImage={data.project2.fluid}
       backgroundImageAlt="Key Stonework portcio, balustrading, window head, and window cill portland stone installation"
       rightToLeft={true}
     >
@@ -70,13 +58,7 @@ const Home = ({ data }) => (
       <TextLink linkText="Tell us about your project" linkPath="/contact" />
     </ImageSection>
     <ImageSection
-      backgroundImage={
-        data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'Key-Stonework-project-3.jpg'
-            ? image
-            : ''
-        )[0].node.fluid
-      }
+      backgroundImage={data.project3.fluid}
       backgroundImageAlt="Key Stonework portico and window cill bath stone installation"
       rightToLeft={false}
     >
@@ -101,18 +83,25 @@ export default Home
 
 export const pageQuery = graphql`
   query HomepageImages {
-    allImageSharp {
-      edges {
-        node {
-          fluid(maxWidth: 1280) {
-            aspectRatio
-            base64
-            sizes
-            src
-            srcSet
-            originalName
-          }
-        }
+    project1: imageSharp(
+      fluid: { originalName: { eq: "Key-Stonework-project-1.jpg" } }
+    ) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+    project2: imageSharp(
+      fluid: { originalName: { eq: "Key-Stonework-project-2.jpg" } }
+    ) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+    project3: imageSharp(
+      fluid: { originalName: { eq: "Key-Stonework-project-3.jpg" } }
+    ) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
       }
     }
   }
