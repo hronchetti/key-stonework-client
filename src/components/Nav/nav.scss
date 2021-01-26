@@ -93,6 +93,20 @@
   &:last-of-type {
     padding-bottom: 0.5rem;
   }
+
+  &.nav__item--contact {
+    background-color: $blue;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1.75rem;
+    width: auto;
+
+    .nav__itemLink {
+      display: block;
+      color: white;
+      font: 700 1.25rem/1.25rem 'Source Sans Pro', Arial, sans-serif;
+    }
+  }
 }
 
 .nav__itemLink {
@@ -161,9 +175,10 @@
   .nav__itemLink {
     color: $core;
     font-weight: 400;
+    font-size: 1.25rem;
     opacity: 0;
     transition: opacity 500ms ease-in-out;
-    padding: 1.5rem 0 0 1.5rem;
+    padding: 1.125rem 0 0 1.5rem;
   }
 
   div {
@@ -232,7 +247,7 @@
   }
 
   .background {
-    height: 26.5rem;
+    height: 27.5rem;
     transition: height cubic-bezier(0.4, 0.1, 0.1, 1) 300ms,
       background-color 300ms ease-in;
   }
@@ -307,8 +322,6 @@
 
 @media screen and (min-width: 1024px) {
   .nav {
-    padding: 2rem;
-
     .background {
       height: 6rem;
       transition: height cubic-bezier(0.4, 0.1, 0.1, 1) 300ms,
@@ -342,6 +355,11 @@
     order: 2;
     opacity: 1;
     pointer-events: all;
+
+    ul {
+      @include flexJustifyLeft;
+      align-items: center;
+    }
 
     .nav__productsControl__icon {
       font-size: 1rem;
@@ -416,6 +434,15 @@
     &:first-of-type,
     &:last-of-type {
       padding: 0;
+    }
+
+    &.nav__item--contact {
+      margin-bottom: 0;
+      padding: 0.75rem 1.25rem;
+
+      .nav__itemLink {
+        font: 600 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+      }
     }
   }
 

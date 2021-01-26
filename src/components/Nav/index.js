@@ -53,7 +53,7 @@ const Nav = () => {
           </li>
           <li className="nav__item">
             <Link className="nav__itemLink" to="/project-gallery">
-              Latest projects
+              Project gallery
             </Link>
           </li>
           <li className="nav__item">
@@ -191,9 +191,9 @@ const Nav = () => {
               Installation info
             </Link>
           </li>
-          <li className="nav__item">
+          <li className="nav__item nav__item--contact">
             <Link className="nav__itemLink" to="/contact">
-              Contact
+              Contact us
             </Link>
           </li>
           <li className="nav__item">
