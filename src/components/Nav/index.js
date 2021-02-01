@@ -193,7 +193,7 @@ const Nav = () => {
           </li>
           <li className="nav__item nav__item--contact">
             <Link className="nav__itemLink" to="/contact">
-              Contact us
+              Get a quote
             </Link>
           </li>
           <li className="nav__item">

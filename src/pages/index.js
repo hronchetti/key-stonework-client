@@ -75,6 +75,20 @@ const Home = ({ data }) => (
       </p>
       <TextLink linkText="More about our service" linkPath="/our-service" />
     </ImageSection>
+    <ImageSection
+      backgroundImage={data.project2.fluid}
+      backgroundImageAlt="Key Stonework portcio, balustrading, window head, and window cill portland stone installation"
+      rightToLeft={true}
+    >
+      <img
+        className="illustration"
+        src={PencilRuleIllustration}
+        alt="Pencil and ruler"
+      />
+      <h2>Colours</h2>
+      <p>Test</p>
+      <TextLink linkText="Tell us about your project" linkPath="/contact" />
+    </ImageSection>
     <ProductListFull />
   </Layout>
 )
