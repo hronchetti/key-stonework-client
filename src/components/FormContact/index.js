@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState } from 'react'
 import { Formik, Field } from 'formik'
 import axios from 'axios'
 import * as Yup from 'yup'
@@ -12,41 +12,32 @@ import ButtonWithLoader from '../ButtonWithLoader'
 import { phoneRegex } from '../../constants'
 
 const FormContact = () => {
-  const [files, setFiles] = useState([])
+  const [file, setFile] = useState(null)
   const [toast, setToast] = useState({
     type: true,
     message: '',
     visible: false,
   })
 
-  const onDrop = useCallback(
-    (acceptedFiles) => {
-      setFiles([...files, ...acceptedFiles])
-    },
-    [files]
-  )
+  const onDrop = (acceptedFiles) => {
+    setFile(acceptedFiles[0])
+  }
 
   const { getRootProps, getInputProps } = useDropzone({ onDrop })
-
-  const removeFile = (file) => {
-    const newFiles = [...files]
-    newFiles.splice(newFiles.indexOf(file), 1)
-    setFiles(newFiles)
-  }
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     let formData = new FormData()
     formData.append('answers', JSON.stringify(values))
-    files.forEach((file) => {
-      formData.append('files', file.file)
-    })
+
+    if (file) {
+      formData.append('file', file)
+    }
 
     try {
       await axios({
         method: 'POST',
-        data: formData,
-        headers: { 'Content-Type': 'multipart/form-data; boundary=random' },
         url: '/',
+        data: formData,
       })
       // Success
       setToast({
@@ -174,28 +165,28 @@ const FormContact = () => {
               <TextArea name="message" label="Message" />
               <div className="input">
                 <label htmlFor="file">
-                  Attach files <span className="labelOptional">(Optional)</span>
+                  Attach file <span className="labelOptional">(Optional)</span>
                 </label>
                 <p>
-                  Send us any files that may help explain your requirements
-                  (e.g. drawings)
+                  Send us a file that may help explain your requirements (e.g.
+                  drawings)
                 </p>
                 <div {...getRootProps({ className: 'dropzone' })}>
                   <input {...getInputProps()} />
                   <button type="button" className="button button--secondary">
-                    Choose files
+                    Choose file
                   </button>
                 </div>
                 <aside>
-                  <h4>Files</h4>
+                  <h4>File</h4>
                   <ul className="uploadedFileContainer">
-                    {files.map((file) => (
+                    {file && (
                       <UploadedFile
                         key={file.path}
                         filename={file.path}
-                        removeFn={() => removeFile(file)}
+                        removeFn={() => setFile(null)}
                       />
-                    ))}
+                    )}
                   </ul>
                 </aside>
               </div>
