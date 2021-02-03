@@ -29,7 +29,6 @@ const FormContact = () => {
   const { getRootProps, getInputProps } = useDropzone({ onDrop })
 
   const removeFile = (file) => {
-    console.log(file)
     const newFiles = [...files]
     newFiles.splice(newFiles.indexOf(file), 1)
     setFiles(newFiles)
@@ -46,6 +45,7 @@ const FormContact = () => {
       await axios({
         method: 'POST',
         data: formData,
+        url: '/',
       })
       // Success
       setToast({
