@@ -45,6 +45,7 @@ const FormContact = () => {
       await axios({
         method: 'POST',
         data: formData,
+        headers: { 'Content-Type': 'multipart/form-data; boundary=random' },
         url: '/',
       })
       // Success
