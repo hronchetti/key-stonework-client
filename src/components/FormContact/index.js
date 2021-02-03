@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import { Formik, Field } from 'formik'
+import { Formik, Field, Form } from 'formik'
 import axios from 'axios'
 import * as Yup from 'yup'
 import { useDropzone } from 'react-dropzone'
 
-import { Input, Select, TextArea, Checkbox, Form } from '../Form'
+import { Input, Select, TextArea, Checkbox } from '../Form'
 import Toast from '../Toast'
 import UploadedFile from '../UploadedFile'
 import ButtonWithLoader from '../ButtonWithLoader'

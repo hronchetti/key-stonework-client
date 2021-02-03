@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Form, useFormikContext } from 'formik'
 
-const FormScrollIfError = (props) => {
+const FormScrollIfError = ({ children, ...props }) => {
   const { isValidating, isValid } = useFormikContext()
 
   React.useEffect(() => {
@@ -19,7 +19,7 @@ const FormScrollIfError = (props) => {
     }
   }, [isValidating, isValid])
 
-  return <Form {...props}>{props.children}</Form>
+  return <Form {...props}>{children}</Form>
 }
 
 FormScrollIfError.propTypes = {
