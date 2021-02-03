@@ -6,7 +6,11 @@ export const Input = ({ name, label, type, optionalText }) => {
   const [field, meta] = useField(name)
 
   return (
-    <div className="inputWrapper">
+    <div
+      className={`inputWrapper${
+        meta.touched && meta.error ? ' inputWrapper--error' : ''
+      }`}
+    >
       <div className="input">
         <label htmlFor={name}>
           {label}

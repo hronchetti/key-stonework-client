@@ -11,7 +11,7 @@ const Contact = () => (
   <Layout
     lightBackground={true}
     headerTitle="Get a quote"
-    headerSupportingText={`Call us on <a href="tel:01327 842585">01327 842585</a><br>Email us at <a href="mailto:info@keystonework.co.uk">info@keystonework.co.uk</a>`}
+    headerSupportingText={`Call us on <a class="header__contactOption" href="tel:01327 842585">01327 842585</a><br>Email us at <a href="mailto:info@keystonework.co.uk" class="header__contactOption">info@keystonework.co.uk</a>`}
   >
     <SEO
       title="Get a Quote for Bespoke Cast Stone in Your Project | Key Stonework Ltd"

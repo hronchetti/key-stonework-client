@@ -95,13 +95,15 @@
   }
 
   &.nav__item--contact {
-    background-color: $blue;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1.5rem;
-    border-radius: 1.75rem;
     width: auto;
+    margin-bottom: 1.5rem;
+    padding: 0;
 
     .nav__itemLink {
+      background-color: $blue;
+      padding: 1rem 1.25rem;
+
+      border-radius: 1.75rem;
       display: block;
       color: white;
       font: 700 1.25rem/1.25rem 'Source Sans Pro', Arial, sans-serif;
@@ -439,9 +441,9 @@
 
     &.nav__item--contact {
       margin-bottom: 0;
-      padding: 0.75rem 1.25rem;
 
       .nav__itemLink {
+        padding: 0.75rem 1.25rem;
         font: 600 1.125rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
       }
     }

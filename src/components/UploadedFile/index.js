@@ -1,10 +1,10 @@
 import React from 'react'
 
 const UploadedFile = ({ filename, removeFn }) => (
-  <section className="uploadedFile">
+  <li className="uploadedFile">
     <span>{filename}</span>
-    <button onClick={removeFn} aria-label="Remove photo"></button>
-  </section>
+    <button onClick={removeFn} aria-label="Remove file" type="button" />
+  </li>
 )
 
 export default UploadedFile

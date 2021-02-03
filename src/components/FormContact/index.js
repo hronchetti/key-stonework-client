@@ -1,30 +1,52 @@
-import React, { useState } from 'react'
-import { Formik, Field, Form } from 'formik'
+import React, { useState, useCallback } from 'react'
+import { Formik, Field } from 'formik'
 import axios from 'axios'
 import * as Yup from 'yup'
-import qs from 'qs'
+import { useDropzone } from 'react-dropzone'
 
-import { Input, Select, TextArea, Checkbox } from '../Form'
+import { Input, Select, TextArea, Checkbox, Form } from '../Form'
 import Toast from '../Toast'
+import UploadedFile from '../UploadedFile'
+import ButtonWithLoader from '../ButtonWithLoader'
 
 import { phoneRegex } from '../../constants'
 
 const FormContact = () => {
+  const [files, setFiles] = useState([])
   const [toast, setToast] = useState({
     type: true,
     message: '',
     visible: false,
   })
 
+  const onDrop = useCallback(
+    (acceptedFiles) => {
+      setFiles([...files, ...acceptedFiles])
+    },
+    [files]
+  )
+
+  const { getRootProps, getInputProps } = useDropzone({ onDrop })
+
+  const removeFile = (file) => {
+    console.log(file)
+    const newFiles = [...files]
+    newFiles.splice(newFiles.indexOf(file), 1)
+    setFiles(newFiles)
+  }
+
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
-    const options = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      data: qs.stringify(values),
-      url: '/',
-    }
+    let formData = new FormData()
+    formData.append('answers', JSON.stringify(values))
+    files.forEach((file) => {
+      formData.append('files', file.file)
+    })
+
     try {
-      await axios(options)
+      await axios({
+        method: 'POST',
+        data: formData,
+      })
       // Success
       setToast({
         type: true,
@@ -34,6 +56,7 @@ const FormContact = () => {
       resetForm({})
     } catch (e) {
       // Failed
+      console.log(e, e.response)
       setToast({
         type: false,
         visible: true,
@@ -69,13 +92,13 @@ const FormContact = () => {
           'form-name': 'Tell us about your project',
         }}
         validationSchema={Yup.object().shape({
-          name: Yup.string().required('Required'),
+          name: Yup.string().required('Please enter your name'),
           phone: Yup.string()
-            .matches(phoneRegex, 'Must be a valid phone number')
-            .required('Required'),
+            .matches(phoneRegex, 'Please enter a valid phone number')
+            .required('Please enter your phone number'),
           email: Yup.string()
-            .email('Must be a valid email address')
-            .required('Required'),
+            .email('Please enter a valid email address')
+            .required('Please enter your email'),
           architecturalStone: Yup.boolean(),
           architecturalPieces: Yup.boolean(),
           ballsCollardBases: Yup.boolean(),
@@ -90,11 +113,13 @@ const FormContact = () => {
           windowCillsHeads: Yup.boolean(),
           windowSurrounds: Yup.boolean(),
           stoneColour: Yup.string(),
-          message: Yup.string().required('Required'),
+          message: Yup.string().required(
+            'Please give us some details about your project'
+          ),
         })}
         onSubmit={handleSubmit}
       >
-        {() => (
+        {({ isSubmitting }) => (
           <Form
             className="formContact"
             autoComplete="off"
@@ -146,9 +171,36 @@ const FormContact = () => {
             />
             <div>
               <TextArea name="message" label="Message" />
-              <button className="button" type="submit">
+              <div className="input">
+                <label htmlFor="file">
+                  Attach files <span className="labelOptional">(Optional)</span>
+                </label>
+                <p>
+                  Send us any files that may help explain your requirements
+                  (e.g. drawings)
+                </p>
+                <div {...getRootProps({ className: 'dropzone' })}>
+                  <input {...getInputProps()} />
+                  <button type="button" className="button button--secondary">
+                    Choose files
+                  </button>
+                </div>
+                <aside>
+                  <h4>Files</h4>
+                  <ul className="uploadedFileContainer">
+                    {files.map((file) => (
+                      <UploadedFile
+                        key={file.path}
+                        filename={file.path}
+                        removeFn={() => removeFile(file)}
+                      />
+                    ))}
+                  </ul>
+                </aside>
+              </div>
+              <ButtonWithLoader type="submit" disabled={isSubmitting}>
                 Send
-              </button>
+              </ButtonWithLoader>
             </div>
           </Form>
         )}
