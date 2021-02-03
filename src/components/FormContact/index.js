@@ -1,43 +1,29 @@
 import React, { useState } from 'react'
-import { Formik, Field, Form } from 'formik'
+import { Formik, Field } from 'formik'
 import axios from 'axios'
 import * as Yup from 'yup'
-import { useDropzone } from 'react-dropzone'
+import qs from 'qs'
 
-import { Input, Select, TextArea, Checkbox } from '../Form'
+import { Input, Select, TextArea, Checkbox, Form } from '../Form'
 import Toast from '../Toast'
-import UploadedFile from '../UploadedFile'
 import ButtonWithLoader from '../ButtonWithLoader'
 
 import { phoneRegex } from '../../constants'
 
 const FormContact = () => {
-  const [file, setFile] = useState(null)
   const [toast, setToast] = useState({
     type: true,
     message: '',
     visible: false,
   })
 
-  const onDrop = (acceptedFiles) => {
-    setFile(acceptedFiles[0])
-  }
-
-  const { getRootProps, getInputProps } = useDropzone({ onDrop })
-
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
-    let formData = new FormData()
-    formData.append('answers', JSON.stringify(values))
-
-    if (file) {
-      formData.append('file', file)
-    }
-
     try {
       await axios({
         method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         url: '/',
-        data: formData,
+        data: qs.stringify(values),
       })
       // Success
       setToast({
@@ -163,33 +149,6 @@ const FormContact = () => {
             />
             <div>
               <TextArea name="message" label="Message" />
-              <div className="input">
-                <label htmlFor="file">
-                  Attach file <span className="labelOptional">(Optional)</span>
-                </label>
-                <p>
-                  Send us a file that may help explain your requirements (e.g.
-                  drawings)
-                </p>
-                <div {...getRootProps({ className: 'dropzone' })}>
-                  <input {...getInputProps()} />
-                  <button type="button" className="button button--secondary">
-                    Choose file
-                  </button>
-                </div>
-                <aside>
-                  <h4>File</h4>
-                  <ul className="uploadedFileContainer">
-                    {file && (
-                      <UploadedFile
-                        key={file.path}
-                        filename={file.path}
-                        removeFn={() => setFile(null)}
-                      />
-                    )}
-                  </ul>
-                </aside>
-              </div>
               <ButtonWithLoader type="submit" disabled={isSubmitting}>
                 Send
               </ButtonWithLoader>

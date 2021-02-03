@@ -24,6 +24,7 @@
     "node-sass": "^4.14.1",
     "plugin": "^0.3.3",
     "prop-types": "^15.7.2",
+    "qs": "^6.9.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-dropzone": "^11.3.0",
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "gatsby-plugin-remove-trailing-slashes": "^2.10.0",
     "prettier": "^2.0.5"
   },
   "keywords": [
