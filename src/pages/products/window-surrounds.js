@@ -66,11 +66,7 @@ export default function WindowSurrounds() {
       description="5 Window surrounds that frame your vision. For bespoke design call us on 01327 842585 or use the form on our contact page"
       product="Window surrounds"
       productDecription="5 Standard products that frame your vision"
-      openingText="Nine standard designs to choose from.  
-      All window heads can be manufactured to suit any window opening.<br><br>
-      Window heads over 1400mm long will be made in more than one piece.
-      Supporting lintols must be used as these window heads are non-structural members, handling reinforcement is allowed for.<br><br>
-      These window heads can be produced in both Dry-Cast and Wet-Cast materials. Bespoke heads to suit existing or an individual design can also be catered for."
+      openingText="A popular option in new build houses, our standard chamfered surround can be manufactured to suit most window openings."
       productOptions={productOptions}
       productPhotos={[
         'windowSurrounds/window-surround-portland-cast-stonework-by-key-stonework-1.jpg',

@@ -48,8 +48,8 @@ const LatestProjectItem = ({
         {products.architecturalPieces ? (
           <Button
             additionalClasses="button--small button--secondary"
-            buttonText="Architectural Pieces"
-            buttonURL="/products/architectural-pieces"
+            buttonText="Architectural Features"
+            buttonURL="/products/architectural-features"
           />
         ) : null}
         {products.ballsCollardBases ? (
