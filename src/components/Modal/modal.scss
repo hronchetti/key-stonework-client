@@ -6,14 +6,24 @@
   height: 100%;
   background: rgba(255, 255, 255, 0.8);
   z-index: 1002;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .modal {
-  margin: 1rem auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
   background: $white;
   @include hardShadow;
   border-radius: 0.5rem;
+  z-index: 1003;
 
   .header {
     width: 100%;
@@ -36,6 +46,7 @@
       width: 100%;
     }
   }
+
   .footer {
     width: 100%;
     @include flexJustifyRight;
@@ -50,7 +61,7 @@
 
 @media screen and (min-width: 600px) {
   .modal {
-    margin: 1.5rem auto;
+    height: calc(100% - 3rem);
     width: calc(100% - 3rem);
 
     .header,

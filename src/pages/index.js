@@ -87,8 +87,13 @@ const Home = ({ data }) => (
         alt="Paint bucket with droplet"
       />
       <h2>Colours</h2>
-      <p>Test</p>
-      <TextLink linkText="Tell us about your project" linkPath="/contact" />
+      <p>All products available in two standard colours:</p>
+      <ul className="listBulleted">
+        <li>Bath (Brown)</li>
+        <li>Portland (Grey)</li>
+      </ul>
+      <p>For Bespoke colours, please contact us for more information.</p>
+      <TextLink linkText="Contact us" linkPath="/contact" />
     </ImageSection>
     <ProductListFull />
   </Layout>
