@@ -11,6 +11,7 @@ import TextLink from '../components/TextLink'
 import PencilRuleIllustration from '../assets/img/illustrations/pencil-rule.svg'
 import BalustradingIllustration from '../assets/img/illustrations/balustrading.svg'
 import CementMixerIllustration from '../assets/img/illustrations/cement-mixer.svg'
+import ColoursIllustration from '../assets/img/illustrations/colours.svg'
 
 const Home = ({ data }) => (
   <Layout headerLanding={true} lightBackground={false}>
@@ -75,6 +76,25 @@ const Home = ({ data }) => (
       </p>
       <TextLink linkText="More about our service" linkPath="/our-service" />
     </ImageSection>
+    <ImageSection
+      backgroundImage={data.colours.fluid}
+      backgroundImageAlt="Key Stonework portcio, balustrading, window head, and window cill portland stone installation"
+      rightToLeft={true}
+    >
+      <img
+        className="illustration"
+        src={ColoursIllustration}
+        alt="Paint bucket with droplet"
+      />
+      <h2>Colours</h2>
+      <p>All products available in two standard colours:</p>
+      <ul className="listBulleted">
+        <li>Bath (Brown)</li>
+        <li>Portland (Grey)</li>
+      </ul>
+      <p>For Bespoke colours, please contact us for more information.</p>
+      <TextLink linkText="Contact us" linkPath="/contact" />
+    </ImageSection>
     <ProductListFull />
   </Layout>
 )
@@ -100,6 +120,11 @@ export const pageQuery = graphql`
     project3: imageSharp(
       fluid: { originalName: { eq: "Key-Stonework-project-3.jpg" } }
     ) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+    colours: imageSharp(fluid: { originalName: { eq: "colours.jpg" } }) {
       fluid(maxWidth: 1280) {
         ...GatsbyImageSharpFluid
       }

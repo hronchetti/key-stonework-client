@@ -25,6 +25,9 @@ const ProductOption = ({ productOption }) => {
         }`}
       >
         <h2>{productOption.optionName}</h2>
+        <p className="productOption__note">
+          Available dry/wet cast, in Bath and Portland stone (colours)
+        </p>
         <img
           className={multiAngle ? 'multiAngle' : ''}
           src={

@@ -10,17 +10,13 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-remove-serviceworker`,
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/assets`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-htaccess`,
-      options: {
-        redirect: [`RewriteRule ^(.*)/$ /$1 [L,R=301]`],
       },
     },
     {
@@ -62,6 +58,5 @@ module.exports = {
         icon: `src/assets/img/favicon.png`,
       },
     },
-    `gatsby-plugin-offline`,
   ],
 }

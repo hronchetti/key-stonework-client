@@ -8,8 +8,8 @@ import SEO from '../components/SEO'
 const LatestProjects = () => (
   <Layout
     lightBackground={true}
-    headerTitle="Latest projects"
-    headerSupportingText="Browse photos from some of our latest installations"
+    headerTitle="Project gallery"
+    headerSupportingText="Browse photos of our installations"
   >
     <SEO
       title="Our Latest Installations"

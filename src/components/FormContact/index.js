@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import { Formik, Field, Form } from 'formik'
+import { Formik, Field } from 'formik'
 import axios from 'axios'
 import * as Yup from 'yup'
 import qs from 'qs'
 
-import { Input, Select, TextArea, Checkbox } from '../Form'
+import { Input, Select, TextArea, Checkbox, Form } from '../Form'
 import Toast from '../Toast'
+import ButtonWithLoader from '../ButtonWithLoader'
 
 import { phoneRegex } from '../../constants'
 
@@ -17,14 +18,13 @@ const FormContact = () => {
   })
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
-    const options = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      data: qs.stringify(values),
-      url: '/',
-    }
     try {
-      await axios(options)
+      await axios({
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        url: '/',
+        data: qs.stringify(values),
+      })
       // Success
       setToast({
         type: true,
@@ -34,6 +34,7 @@ const FormContact = () => {
       resetForm({})
     } catch (e) {
       // Failed
+      console.log(e, e.response)
       setToast({
         type: false,
         visible: true,
@@ -69,13 +70,13 @@ const FormContact = () => {
           'form-name': 'Tell us about your project',
         }}
         validationSchema={Yup.object().shape({
-          name: Yup.string().required('Required'),
+          name: Yup.string().required('Please enter your name'),
           phone: Yup.string()
-            .matches(phoneRegex, 'Must be a valid phone number')
-            .required('Required'),
+            .matches(phoneRegex, 'Please enter a valid phone number')
+            .required('Please enter your phone number'),
           email: Yup.string()
-            .email('Must be a valid email address')
-            .required('Required'),
+            .email('Please enter a valid email address')
+            .required('Please enter your email'),
           architecturalStone: Yup.boolean(),
           architecturalPieces: Yup.boolean(),
           ballsCollardBases: Yup.boolean(),
@@ -90,11 +91,13 @@ const FormContact = () => {
           windowCillsHeads: Yup.boolean(),
           windowSurrounds: Yup.boolean(),
           stoneColour: Yup.string(),
-          message: Yup.string().required('Required'),
+          message: Yup.string().required(
+            'Please give us some details about your project'
+          ),
         })}
         onSubmit={handleSubmit}
       >
-        {() => (
+        {({ isSubmitting }) => (
           <Form
             className="formContact"
             autoComplete="off"
@@ -146,9 +149,9 @@ const FormContact = () => {
             />
             <div>
               <TextArea name="message" label="Message" />
-              <button className="button" type="submit">
+              <ButtonWithLoader type="submit" disabled={isSubmitting}>
                 Send
-              </button>
+              </ButtonWithLoader>
             </div>
           </Form>
         )}

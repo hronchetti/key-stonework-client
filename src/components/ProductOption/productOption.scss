@@ -9,6 +9,11 @@
     margin: 0 0 0.5rem 0;
   }
 
+  .productOption__note {
+    font: 400 1rem/1.5rem 'Source Sans Pro', Arial, sans-serif;
+    margin-bottom: 1rem;
+  }
+
   img {
     order: 1;
     width: 100%;
@@ -52,8 +57,9 @@
   .productOption__container {
     padding: 2rem 2.5rem 2.5rem 2.5rem;
 
-    h2 {
-      margin: 0 0 1.5rem 0;
+    .productOption__note {
+      font-size: 1.125rem;
+      margin-bottom: 2rem;
     }
   }
 }

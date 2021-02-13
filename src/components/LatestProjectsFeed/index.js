@@ -7,27 +7,33 @@ import LatestProjectItem from '../LatestProjectItem'
 
 const LatestProjectsFeed = () => {
   const [projects, setProjects] = useState([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    axios({
-      method: 'get',
-      url: `${apiURL}latestProjects.json`,
-    })
-      .then(response => {
+    const getProjects = async () => {
+      try {
+        const response = await axios({
+          method: 'get',
+          url: `${apiURL}latestProjects.json`,
+        })
         setProjects(response.data)
-      })
-      .catch(error => {
+      } catch (error) {
         console.log(error)
         setProjects([])
-      })
+      }
+      setLoading(false)
+    }
+    getProjects()
   }, [])
 
   return (
     <TrackVisibility partialVisibility once className="product__features">
       {({ isVisible }) => (
         <div className={`inner animateFadeUp${isVisible && ' active'}`}>
-          {projects.length > 0 ? (
-            projects.map(project => (
+          {loading ? (
+            <span className="placeholder">Loading ...</span>
+          ) : projects && projects.length > 0 ? (
+            projects.map((project) => (
               <LatestProjectItem
                 key={project.projectId}
                 projectName={project.projectName}
@@ -37,7 +43,7 @@ const LatestProjectsFeed = () => {
               />
             ))
           ) : (
-            <span className="placeholder">Latest projects coming soon</span>
+            <span className="placeholder">Projects coming soon</span>
           )}
         </div>
       )}

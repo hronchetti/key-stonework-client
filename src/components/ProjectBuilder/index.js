@@ -8,7 +8,7 @@ import * as Yup from 'yup'
 
 import Logo from '../../assets/img/Key-Stonework-logo-x32.svg'
 import LatestProjectItem from '../LatestProjectItem'
-import Button from '../Button'
+import ButtonWithLoader from '../ButtonWithLoader'
 import UploadedFile from '../UploadedFile'
 import Toast from '../Toast'
 import { AdminLogin } from './AdminLogin'
@@ -19,7 +19,8 @@ import { dateRegex } from '../../constants'
 const ProjectBuilder = () => {
   const [loggedIn, setLoggedIn] = useState(false)
   const [productPhotos, setProductPhotos] = useState([])
-
+  const [uploadingPhotos, setUploadingPhotos] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
   const [toast, setToast] = useState({
     type: true,
     message: '',
@@ -44,7 +45,8 @@ const ProjectBuilder = () => {
     }
   }
 
-  const addPhotoToList = (e) => {
+  const addPhotoToList = async (e) => {
+    setUploadingPhotos(true)
     e.persist()
     const formData = new FormData()
 
@@ -52,24 +54,97 @@ const ProjectBuilder = () => {
       formData.append('photos', photo, photo.name)
     })
 
-    axios({
-      method: 'post',
-      url: `${apiURL}savePhotos`,
-      data: formData,
-      config: { headers: { 'Content-Type': 'multipart/form-data' } },
-    })
-      .then((response) => {
+    try {
+      const response = await axios({
+        method: 'post',
+        url: `${apiURL}savePhotos`,
+        data: formData,
+        config: { headers: { 'Content-Type': 'multipart/form-data' } },
+      })
+      if (response.data.message === 'Success') {
+        response.data.files.map((file) =>
+          setProductPhotos([
+            ...productPhotos,
+            {
+              nameClean: file.originalname,
+              path: apiURL + file.path,
+              name: file.filename,
+            },
+          ])
+        )
+      } else {
+        setToast((toast) => ({
+          ...toast,
+          visible: true,
+          message: response.data.message,
+          type: false,
+        }))
+      }
+    } catch (error) {
+      console.log(error, error.response)
+      setToast((toast) => ({
+        ...toast,
+        visible: true,
+        message: 'Network error, contact site administrator',
+        type: false,
+      }))
+    }
+    setUploadingPhotos(false)
+  }
+
+  const removePhotoFromList = async (photo) => {
+    try {
+      const photoToRemove = photo.name
+      const response = await axios({
+        method: 'post',
+        url: `${apiURL}removePhoto`,
+        data: { photo: photoToRemove },
+        config: { headers: { 'Content-Type': 'application/json' } },
+      })
+      if (response.data.message === 'Success') {
+        setProductPhotos((productPhotos) =>
+          productPhotos.filter((removedPhoto) => removedPhoto !== photo)
+        )
+      } else {
+        setToast((toast) => ({
+          ...toast,
+          visible: true,
+          message: 'Error removing file',
+          type: false,
+        }))
+      }
+    } catch (error) {
+      setToast((toast) => ({
+        ...toast,
+        visible: true,
+        message: 'Network error, contact site administrator',
+        type: false,
+      }))
+      console.log(error)
+    }
+  }
+
+  const saveNewProject = async (values, { setSubmitting, resetForm }) => {
+    if (productPhotos.length > 0) {
+      setIsSubmitting(true)
+      try {
+        values.productPhotos = productPhotos
+        const response = await axios({
+          method: 'post',
+          url: `${apiURL}saveProject`,
+          data: values,
+          config: { headers: { 'Content-Type': 'application/json' } },
+        })
         if (response.data.message === 'Success') {
-          response.data.files.map((file) =>
-            setProductPhotos([
-              ...productPhotos,
-              {
-                nameClean: file.originalname,
-                path: apiURL + file.path,
-                name: file.filename,
-              },
-            ])
-          )
+          setToast((toast) => ({
+            ...toast,
+            visible: true,
+            message: 'New project add to latest projects page',
+            type: true,
+          }))
+          resetForm({})
+          setSubmitting(false)
+          setProductPhotos([])
         } else {
           setToast((toast) => ({
             ...toast,
@@ -78,42 +153,8 @@ const ProjectBuilder = () => {
             type: false,
           }))
         }
-      })
-      .catch((error) => {
-        console.log(error)
-        setToast((toast) => ({
-          ...toast,
-          visible: true,
-          message: 'Network error, contact site administrator',
-          type: false,
-        }))
-      })
-  }
-
-  const removePhotoFromList = (photo, index) => (e) => {
-    e.preventDefault()
-    const photoToRemove = photo.name
-    axios({
-      method: 'post',
-      url: `${apiURL}removePhoto`,
-      data: { photo: photoToRemove },
-      config: { headers: { 'Content-Type': 'application/json' } },
-    })
-      .then((response) => {
-        if (response.data.message === 'Success') {
-          setProductPhotos((productPhotos) =>
-            productPhotos.filter((removedPhoto) => removedPhoto !== photo)
-          )
-        } else {
-          setToast((toast) => ({
-            ...toast,
-            visible: true,
-            message: 'Error removing file',
-            type: false,
-          }))
-        }
-      })
-      .catch((error) => {
+        setIsSubmitting(false)
+      } catch (error) {
         setToast((toast) => ({
           ...toast,
           visible: true,
@@ -121,47 +162,7 @@ const ProjectBuilder = () => {
           type: false,
         }))
         console.log(error)
-      })
-  }
-
-  const saveNewProject = (values, { setSubmitting, resetForm }) => {
-    if (productPhotos.length > 0) {
-      values.productPhotos = productPhotos
-      axios({
-        method: 'post',
-        url: `${apiURL}saveProject`,
-        data: values,
-        config: { headers: { 'Content-Type': 'application/json' } },
-      })
-        .then((response) => {
-          if (response.data.message === 'Success') {
-            setToast((toast) => ({
-              ...toast,
-              visible: true,
-              message: 'New project add to latest projects page',
-              type: true,
-            }))
-            resetForm({})
-            setSubmitting(false)
-            setProductPhotos([])
-          } else {
-            setToast((toast) => ({
-              ...toast,
-              visible: true,
-              message: response.data.message,
-              type: false,
-            }))
-          }
-        })
-        .catch((error) => {
-          setToast((toast) => ({
-            ...toast,
-            visible: true,
-            message: 'Network error, contact site administrator',
-            type: false,
-          }))
-          console.log(error)
-        })
+      }
     } else {
       setToast((toast) => ({
         ...toast,
@@ -254,11 +255,11 @@ const ProjectBuilder = () => {
                           Photos <span className="labelOptional">(Max 4)</span>
                         </label>
                         {productPhotos.length > 0 &&
-                          productPhotos.map((photo, index) => (
+                          productPhotos.map((photo) => (
                             <UploadedFile
                               key={photo.path}
                               filename={photo.nameClean}
-                              removeFn={removePhotoFromList(photo, index)}
+                              removeFn={() => removePhotoFromList(photo)}
                             />
                           ))}
                         {productPhotos.length < 4 && (
@@ -272,10 +273,13 @@ const ProjectBuilder = () => {
                                 e.preventDefault()
                                 openFileInput(e)
                               }}
-                              className="button button--secondary"
+                              className="button button--secondary buttonWithLoader__loader"
                               ref={fileInputTrigger}
+                              disabled={uploadingPhotos}
                             >
-                              Choose photos
+                              <span className="buttonWithLoader__text">
+                                Choose photos
+                              </span>
                             </button>
                             <input // eslint-disable-line
                               id="photos"
@@ -328,10 +332,9 @@ const ProjectBuilder = () => {
                           label="Window surrounds"
                         />
                       </div>
-                      <Button
-                        buttonText="Add to latest projects page"
-                        type="submit"
-                      />
+                      <ButtonWithLoader type="submit" disabled={isSubmitting}>
+                        Add to latest projects page
+                      </ButtonWithLoader>
                     </Form>
                     <section className="product__features">
                       <LatestProjectItem

@@ -10,11 +10,11 @@ import SEO from '../components/SEO'
 const Contact = () => (
   <Layout
     lightBackground={true}
-    headerTitle="Contact us"
-    headerSupportingText="Call us on 01327 842585<br>Email us at info@keystonework.co.uk"
+    headerTitle="Get a quote"
+    headerSupportingText={`Call us on <a class="header__contactOption" href="tel:01327 842585">01327 842585</a><br>Email us at <a href="mailto:info@keystonework.co.uk" class="header__contactOption">info@keystonework.co.uk</a>`}
   >
     <SEO
-      title="Looking to Use Cast Stone in an Upcoming Build? Contact Us Now"
+      title="Get a Quote for Bespoke Cast Stone in Your Project | Key Stonework Ltd"
       description="Do you want more information about our architectural cast stone products? Do you have complicated bespoke installation requirements you'd like to discuss? Get in contact now by calling 01327 842585 or using our online form"
       url="/contact"
     />

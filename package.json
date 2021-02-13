@@ -11,10 +11,9 @@
     "gatsby-plugin-express": "^1.1.6",
     "gatsby-plugin-google-analytics": "^2.3.6",
     "gatsby-plugin-hotjar": "^1.1.1",
-    "gatsby-plugin-htaccess": "^1.4.0",
     "gatsby-plugin-manifest": "^2.4.10",
-    "gatsby-plugin-offline": "^3.2.9",
     "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.3.3",
     "gatsby-plugin-sharp": "^2.6.11",
@@ -25,10 +24,12 @@
     "node-sass": "^4.14.1",
     "plugin": "^0.3.3",
     "prop-types": "^15.7.2",
-    "qs": "^6.9.4",
+    "qs": "^6.9.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dropzone": "^11.3.0",
     "react-helmet": "^5.2.1",
+    "react-images-uploading": "^3.1.2",
     "react-on-screen": "^2.1.1",
     "react-responsive-carousel": "^3.2.7",
     "react-scrolllock": "^4.0.1",
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "gatsby-plugin-remove-trailing-slashes": "^2.10.0",
     "prettier": "^2.0.5"
   },
   "keywords": [

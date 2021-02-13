@@ -99,7 +99,7 @@ export default function Balustrading() {
       url="/products/balustrading"
       openingText="Balustrade is an traditional decorative barrier without obscuring the view behind.
       Our Stone Balustrading can be used to enhance any property, whether used for finishing off a patio, lining a balcony, or, in the back garden as a feature.
-      Bespoke Bespoke designs can be made to order."
+      Bespoke designs can be made to order."
     />
   )
 }
