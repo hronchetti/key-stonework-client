@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="footer__contact">
           <h4>Contact info</h4>
           <ul className="footer__contactInfo">
-            <li>28 The Leys, Long Buckby, Northamptonshire, NN6 7YD</li>
+            <li>47 Park Corner, Northampton, Northamptonshire, NN5 5FL</li>
             <li>
               <a
                 rel="noopener noreferrer"
