@@ -20,11 +20,7 @@ const OurService = ({ data }) => (
     />
     <ImageSection
       rightToLeft={false}
-      backgroundImage={
-        data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'PC1.jpeg' ? image : ''
-        )[0].node.fluid
-      }
+      backgroundImage={data.PC1.fluid}
       backgroundImageAlt=""
     >
       <h2>Our stone</h2>
@@ -43,11 +39,7 @@ const OurService = ({ data }) => (
     </ImageSection>
     <ImageSection
       rightToLeft={true}
-      backgroundImage={
-        data.allImageSharp.edges.filter((image) =>
-          image.node.fluid.originalName === 'B1.jpeg' ? image : ''
-        )[0].node.fluid
-      }
+      backgroundImage={data.B1.fluid}
       backgroundImageAlt=""
     >
       <h2>Standards</h2>
@@ -72,18 +64,14 @@ export default OurService
 
 export const pageQuery = graphql`
   query OurServiceImages {
-    allImageSharp {
-      edges {
-        node {
-          fluid(maxWidth: 1280) {
-            aspectRatio
-            base64
-            sizes
-            src
-            srcSet
-            originalName
-          }
-        }
+    B1: imageSharp(fluid: { originalName: { eq: "B1.jpeg" } }) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+    PC1: imageSharp(fluid: { originalName: { eq: "PC1.jpeg" } }) {
+      fluid(maxWidth: 1280) {
+        ...GatsbyImageSharpFluid
       }
     }
   }
