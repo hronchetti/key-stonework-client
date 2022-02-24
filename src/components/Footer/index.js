@@ -27,8 +27,8 @@ export default function Footer() {
         </div>
         <section className="footer__phone">
           <h4>Call us on</h4>
-          <a href="tel:01327 842585" className="footer__phoneNumber">
-            01327 842585
+          <a href="tel:01604 592 949" className="footer__phoneNumber">
+            01604 592 949
           </a>
           <a
             rel="noopener noreferrer"

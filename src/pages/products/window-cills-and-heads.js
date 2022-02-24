@@ -208,7 +208,7 @@ export default function WindowCillsHeads() {
   return (
     <ProductPage
       title="Window Cill and Head Products by Key Stonework Ltd | Bespoke Design Available"
-      description="15 Window cill and window head products that frame your vision. For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="15 Window cill and window head products that frame your vision. For bespoke design call us on 01604 592 949 or use the form on our contact page"
       product="Window cills &amp; heads"
       productDecription="15 Standard products that frame your vision"
       openingText="Our stone window cills and heads are non-structural and can be made to suit any window opening.<br><br>
