@@ -17,7 +17,7 @@ const Home = ({ data }) => (
   <Layout headerLanding={true} lightBackground={false}>
     <SEO
       title="Premium Architectural Stonework Solutions Specialising in Dry and Wet Cast Stone"
-      description="96 Standard Products with bespoke design available for all installations and delivery to anywhere in the UK. All products available in dry or wet cast. Call 01327 842585 today to tell us about your project to find out how we can help"
+      description="96 Standard Products with bespoke design available for all installations and delivery to anywhere in the UK. All products available in dry or wet cast. Call 01604 592 949 today to tell us about your project to find out how we can help"
       url=""
     />
     <ImageSection

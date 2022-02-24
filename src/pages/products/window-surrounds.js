@@ -63,7 +63,7 @@ export default function WindowSurrounds() {
   return (
     <ProductPage
       title="Window Surround Products by Key Stonework Ltd | Bespoke Design Available"
-      description="5 Window surrounds that frame your vision. For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="5 Window surrounds that frame your vision. For bespoke design call us on 01604 592 949 or use the form on our contact page"
       product="Window surrounds"
       productDecription="5 Standard products that frame your vision"
       openingText="A popular option in new build houses, our standard chamfered surround can be manufactured to suit most window openings."

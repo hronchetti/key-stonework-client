@@ -74,7 +74,7 @@ export default function BallsAndBases() {
   return (
     <ProductPage
       title="Ball and Base Products by Key Stonework Ltd | Bespoke Design Available"
-      description="6 Ball and Base products that give gateways and entrances character. For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="6 Ball and Base products that give gateways and entrances character. For bespoke design call us on 01604 592 949 or use the form on our contact page"
       product="Balls &amp; bases"
       productDecription="6 Standard products that give gateways and entrances character"
       productOptions={productOptions}

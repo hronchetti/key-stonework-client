@@ -140,7 +140,7 @@ export default function WallCoping() {
   return (
     <ProductPage
       title="Wall Coping Products by Key Stonework Ltd | Bespoke Design Available"
-      description="12 Wall coping that gracefully protects walls from weather damage. For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="12 Wall coping that gracefully protects walls from weather damage. For bespoke design call us on 01604 592 949 or use the form on our contact page"
       product="Wall coping"
       productDecription="12 Standard products that gracefully protects walls from weather damage"
       openingText="Three standard styles of coping, the C1 a plain twice weathered coping. The C2 a plain once weathered coping and the C4 a moulded twice weathered coping. Our standard copings are manufactured in a range of sizes to suit most wall widths. All copings are supplied in a maximum length of 600mm. Copings can be manufactured to individual requirements."

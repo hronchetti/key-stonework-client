@@ -11,11 +11,11 @@ const Contact = () => (
   <Layout
     lightBackground={true}
     headerTitle="Get a quote"
-    headerSupportingText={`Call us on <a class="header__contactOption" href="tel:01327 842585">01327 842585</a><br>Email us at <a href="mailto:info@keystonework.co.uk" class="header__contactOption">info@keystonework.co.uk</a>`}
+    headerSupportingText={`Call us on <a class="header__contactOption" href="tel:01604 592 949">01604 592 949</a><br>Email us at <a href="mailto:info@keystonework.co.uk" class="header__contactOption">info@keystonework.co.uk</a>`}
   >
     <SEO
       title="Get a Quote for Bespoke Cast Stone in Your Project | Key Stonework Ltd"
-      description="Do you want more information about our architectural cast stone products? Do you have complicated bespoke installation requirements you'd like to discuss? Get in contact now by calling 01327 842585 or using our online form"
+      description="Do you want more information about our architectural cast stone products? Do you have complicated bespoke installation requirements you'd like to discuss? Get in contact now by calling 01604 592 949 or using our online form"
       url="/contact"
     />
     <section className="wrapper product">

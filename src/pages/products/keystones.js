@@ -96,7 +96,7 @@ export default function Keystones() {
   return (
     <ProductPage
       title="Keystone Products by Key Stonework Ltd | Bespoke Design Available"
-      description="8 Keystone products that elevate arches. For bespoke design call us on 01327 842585 or use the form on our contact page"
+      description="8 Keystone products that elevate arches. For bespoke design call us on 01604 592 949 or use the form on our contact page"
       product="Keystones"
       productDecription="8 Standard products that elevate arches"
       productOptions={productOptions}
