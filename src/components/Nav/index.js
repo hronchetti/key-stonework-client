@@ -52,11 +52,6 @@ const Nav = () => {
             </Link>
           </li>
           <li className="nav__item">
-            <Link className="nav__itemLink" to="/project-gallery">
-              Project gallery
-            </Link>
-          </li>
-          <li className="nav__item">
             <span
               role="button"
               className="nav__productsControl"
